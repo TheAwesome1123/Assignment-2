@@ -12,7 +12,7 @@ public class Bird extends DomesticatedOrWild{
         this.owner = owner;
 
         if(!this.isDomesticated) {
-            this.name = "Unknown";
+            this.name = "N/A";
             this.owner = "N/A";
         }
     }
