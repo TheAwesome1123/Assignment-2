@@ -24,7 +24,7 @@ public class Main {
         germanShepherd.adopt();
         rabbit.adopt();
         System.out.println();
-        System.out.println("Is Cat cat the same as Cat cat2? " + cat.equals(cat2) + "\n");
+        System.out.println("Is \"" + cat.toString() + "\" the same as \"" + cat2.toString() + "\" ? " + cat.equals(cat2) + "\n");
         System.out.println("Dog hash code: " + germanShepherd.hashCode() + "\n");
         System.out.println(rabbit.toString() + "\n");
 
@@ -35,7 +35,7 @@ public class Main {
         System.out.println("ELephant hash code: " + elephant.hashCode());
         elephant.eat();
         System.out.println();
-        System.out.println("Is Rhino rhino the same as Rhino rhino2? " + rhino.equals(rhino2) + "\n");
+        System.out.println("Is \"" + rhino.toString() + "\" the same as \"" + rhino2.toString() + "\" ? " + rhino.equals(rhino2) + "\n");
         System.out.println(squirrel.toString() + "\n");
         wolf.eat();
         System.out.println();

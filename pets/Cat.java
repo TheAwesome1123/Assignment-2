@@ -50,7 +50,7 @@ public class Cat extends Pet{
     }
 
     public String toString() {
-        return " Cat Name: " + this.name + ", Breed: " + this.breed + ", Age: " + this.age + ", Owner: " + this.owner;
+        return "Cat Name: " + this.name + ", Breed: " + this.breed + ", Age: " + this.age + ", Owner: " + this.owner;
     }
 
     public boolean equals(Cat catToCompareWith) {
