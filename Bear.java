@@ -1,6 +1,4 @@
-package wildAnimals;
-
-public class Bear extends WildAnimal{
+public class Bear extends WildAnimal implements AnimalActions, WildAnimalBehaviors{
     // Properties.
     private String type;
     private int numOfCubs;
@@ -47,10 +45,6 @@ public class Bear extends WildAnimal{
     }
 
     // Other methods.
-    public void eat() {
-        System.out.println("A " + this.type + " bear is eating with " + this.numOfCubs + " cubs.");
-    }
-
     public String toString() {
         return "Bear Home Continent: " + this.homeContinent + ", Color: " + this.color + ", Type: " + this.type + ", Number of Cubs: " + 
             this.numOfCubs;
@@ -61,5 +55,21 @@ public class Bear extends WildAnimal{
         result *= this.color.hashCode();
         result += this.numOfCubs;
         return result;
+    }
+
+    public void eat() {
+        System.out.println("A " + this.type + " bear is eating with " + this.numOfCubs + " cubs.");
+    }
+
+    public void makeNoise() {
+        System.out.println("A " + this.type + " bear is growling.");
+    }
+
+    public void hunt() {
+        System.out.println("A " + this.type + " bear is hunting for fish.");
+    }
+
+    public void mate() {
+        System.out.println("A " + this.type + " bear found a mate and will have cubs.");
     }
 }

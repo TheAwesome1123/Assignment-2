@@ -1,6 +1,4 @@
-package wildAnimals;
-
-public class Wolf extends WildAnimal{
+public class Wolf extends WildAnimal implements AnimalActions, WildAnimalBehaviors {
     // Properties.
     private int packSize;
 
@@ -37,10 +35,6 @@ public class Wolf extends WildAnimal{
     }
 
     // Other methods.
-    public void eat() {
-        System.out.println("A " + this.color + " wolf is eating with other wolves in its pack of " + this.packSize + ".");
-    }
-
     public String toString() {
         return "Wolf Home Continent: " + this.homeContinent + ", Color: " + this.color + ", Pack Size: " + this.packSize;
     }
@@ -50,5 +44,21 @@ public class Wolf extends WildAnimal{
         result *= this.color.hashCode();
         result += this.packSize;
         return result;
+    }
+
+    public void eat() {
+        System.out.println("A " + this.color + " wolf is eating with other wolves in its pack of " + this.packSize + ".");
+    }
+
+    public void makeNoise() {
+        System.out.println("A " + this.color + " wolf is howling.");
+    }
+
+    public void hunt() {
+        System.out.println("A " + this.color + " wolf is hunting with its pack.");
+    }
+
+    public void mate() {
+        System.out.println("A " + this.color + " wolf is mating.");
     }
 }

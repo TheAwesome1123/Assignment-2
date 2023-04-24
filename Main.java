@@ -1,8 +1,12 @@
-import domesticatedOrWild.*;
-import pets.*;
-import wildAnimals.*;
-
 public class Main {
+    static {
+        System.out.println("Order of operations:");
+        System.out.println("1. Create animal objects (not shown here).");
+        System.out.println("2. Use methods in animal classes.");
+        System.out.println("3. Use interface methods.");
+        System.out.println("-----------------");
+    }
+
     public static void main(String[] args) {
         // New objects.
         Bear bear = new Bear("North America", "brown", "Brown", 2);
@@ -20,15 +24,34 @@ public class Main {
         Wolf wolf = new Wolf("North America", "light gray", 5);
 
         // Pets.
-        cat.adopt();
-        germanShepherd.adopt();
-        rabbit.adopt();
-        System.out.println();
-        System.out.println("Is \"" + cat.toString() + "\" the same as \"" + cat2.toString() + "\" ? " + cat.equals(cat2) + "\n");
-        System.out.println("Dog hash code: " + germanShepherd.hashCode() + "\n");
-        System.out.println(rabbit.toString() + "\n");
+        doPetStuff(cat, cat2, germanShepherd, rabbit);
+        System.out.println("-----------------");
+
 
         // Wild animals.
+        doWildAnimalStuff(bear, elephant, rhino, rhino2, squirrel, wolf);
+        System.out.println("-----------------");
+
+
+        // Domestic or wild animals.
+        doDomesticOrWildAnimalStuff(bird, eagle, horse);
+        System.out.println("-----------------");
+
+        // Interface methods.
+        interfaceMethods(cat2, germanShepherd, bird, horse, elephant, wolf);
+    }
+
+    public static void doPetStuff(Cat cat, Cat cat2, Dog dog, Rabbit rabbit) {
+        cat.adopt();
+        dog.adopt();
+        rabbit.adopt();
+        System.out.println();
+        System.out.println("Is \"" + cat.toString() + "\" the same as \"" + cat.toString() + "\" ? " + cat.equals(cat2) + "\n");
+        System.out.println("Dog hash code: " + dog.hashCode() + "\n");
+        System.out.println(rabbit.toString() + "\n");
+    }
+
+    public static void doWildAnimalStuff(Bear bear, Elephant elephant, Rhino rhino, Rhino rhino2, Squirrel squirrel, Wolf wolf) {
         System.out.println(bear.toString());
         bear.setNumCubs(6);
         System.out.println(bear.toString() + "\n");
@@ -39,15 +62,25 @@ public class Main {
         System.out.println(squirrel.toString() + "\n");
         wolf.eat();
         System.out.println();
+    }
 
-        // Domestic or wild animals.
+    public static void doDomesticOrWildAnimalStuff(Bird bird, Bird bird2, Horse horse) {
         System.out.println(bird.toString());
         System.out.println("Bird hash code: " + bird.hashCode());
         bird.setOwner("N/A");
         System.out.println(bird.toString());
-        System.out.println(eagle.toString()+ "\n");
+        System.out.println(bird2.toString()+ "\n");
         System.out.println(horse.toString());
         horse.setisDomesticated(false, "Robert");
         System.out.println(horse.toString());
+    }
+
+    public static void interfaceMethods(Cat cat, Dog dog, Bird bird, Horse horse, Elephant elephant, Wolf wolf) {
+        cat.eat();
+        dog.teach("fetch");
+        bird.fly();
+        horse.jump();
+        elephant.makeNoise();
+        wolf.hunt();
     }
 }

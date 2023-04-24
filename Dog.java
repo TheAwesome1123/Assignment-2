@@ -1,8 +1,7 @@
-package pets;
-
-public class Dog extends Pet{
+public class Dog extends Pet implements AnimalActions, PetInteractions {
     // Properties.
     private boolean fightsWithCats;
+    private static int numOfLegs = 4;
 
     // Constructor.
     public Dog(String name, String breed, int age, String owner, boolean fightsWithCats) {
@@ -54,6 +53,10 @@ public class Dog extends Pet{
         this.fightsWithCats = habit;
     }
 
+    public static int getNumOfLegs() {
+        return numOfLegs;
+    }
+
     // Other methods.
     public void adopt() {
         System.out.println("A " + this.breed + " dog named " + this.name + " was adopted by " + this.owner + ".");
@@ -80,5 +83,21 @@ public class Dog extends Pet{
         result *= this.name.hashCode();
         result += this.age;
         return result;
+    }
+
+    public void eat() {
+        System.out.println("A " + this.breed + " dog named " + this.name + " is eating.");
+    }
+
+    public void makeNoise() {
+        System.out.println("A " + this.breed + " dog named " + this.name + " is barking.");
+    }
+
+    public void pet() {
+        System.out.println(this.owner + " is petting a " + this.breed + " dog named " + this.name + ".");
+    }
+
+    public void teach(String action) {
+        System.out.println(this.owner + " is teaching a " + this.breed + " dog named " + this.name + " how to " + action + ".");
     }
 }

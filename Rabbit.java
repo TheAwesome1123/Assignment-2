@@ -1,7 +1,6 @@
-package pets;
-
-public class Rabbit extends Pet{
+public class Rabbit extends Pet implements AnimalActions{
     // Properties.
+    private final boolean needsCage = true;
 
     // Constructor.
     public Rabbit(String name, String breed, int age, String owner) {
@@ -44,6 +43,10 @@ public class Rabbit extends Pet{
         this.owner = newOwner;
     }
 
+    public boolean getNeedsCage() {
+        return this.needsCage;
+    }
+    
     // Other methods.
     public void adopt() {
         System.out.println("A " + this.breed + " rabbit named " + this.name + " was adopted by " + this.owner + ".");
@@ -68,5 +71,21 @@ public class Rabbit extends Pet{
         result *= this.name.hashCode();
         result += this.age;
         return result;
+    }
+
+    public void eat() {
+        System.out.println("A " + this.breed + " rabbit named " + this.name + " is eating.");
+    }
+
+    public void makeNoise() {
+        System.out.println("A " + this.breed + " rabbit named " + this.name + " is making rabbit sounds.");
+    }
+
+    public void pet() {
+        System.out.println(this.owner + " is petting a " + this.breed + " rabbit named " + this.name + ".");
+    }
+
+    public void teach(String action) {
+        System.out.println(this.owner + " is teaching a " + this.breed + " rabbit named " + this.name + " how to " + action + ".");
     }
 }

@@ -1,6 +1,4 @@
-package pets;
-
-public class Cat extends Pet{
+public class Cat extends Pet implements AnimalActions, PetInteractions {
     // Properties.
 
     // Constructor.
@@ -68,5 +66,21 @@ public class Cat extends Pet{
         result *= this.name.hashCode();
         result += this.age;
         return result;
+    }
+
+    public void eat() {
+        System.out.println("A " + this.breed + " cat named " + this.name + " is eating.");
+    }
+
+    public void makeNoise() {
+        System.out.println("A " + this.breed + " cat named " + this.name + " is meowing.");
+    }
+
+    public void pet() {
+        System.out.println(this.owner + " is petting a " + this.breed + " cat named " + this.name + ".");
+    }
+
+    public void teach(String action) {
+        System.out.println(this.owner + " is teaching a " + this.breed + " cat named " + this.name + " how to " + action + ".");
     }
 }

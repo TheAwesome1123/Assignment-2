@@ -1,5 +1,3 @@
-package domesticatedOrWild;
-
 public abstract class DomesticatedOrWild {
     protected boolean isDomesticated;
     protected String name;

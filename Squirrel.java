@@ -1,6 +1,4 @@
-package wildAnimals;
-
-public class Squirrel extends WildAnimal{
+public class Squirrel extends WildAnimal implements AnimalActions, WildAnimalBehaviors {
     // Properties.
     private int numOfVisitsToHousePerDay;
 
@@ -37,10 +35,6 @@ public class Squirrel extends WildAnimal{
     }
 
     // Other methods.
-    public void eat() {
-        System.out.println("A " + this.color + " squirrel is eating nuts.");
-    }
-
     public String toString() {
         return "Squirrel Home Continent: " + this.homeContinent + ", Color: " + this.color + ", Number of Visits to a House per Day: " + 
             this.numOfVisitsToHousePerDay;
@@ -51,5 +45,21 @@ public class Squirrel extends WildAnimal{
         result *= this.color.hashCode();
         result += this.numOfVisitsToHousePerDay;
         return result;
+    }
+
+    public void eat() {
+        System.out.println("A " + this.color + " squirrel is eating nuts.");
+    }
+
+    public void makeNoise() {
+        System.out.println("A " + this.color + " squirrel is chittering.");
+    }
+
+    public void hunt() {
+        System.out.println("A " + this.color + " squirrel is looking for nuts.");
+    }
+
+    public void mate() {
+        System.out.println("A " + this.color + " squirrel is mating.");
     }
 }

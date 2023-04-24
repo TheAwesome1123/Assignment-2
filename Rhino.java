@@ -1,6 +1,4 @@
-package wildAnimals;
-
-public class Rhino extends WildAnimal{
+public class Rhino extends WildAnimal implements AnimalActions, WildAnimalBehaviors {
     // Properties.
     private int weightInPounds;
 
@@ -37,10 +35,6 @@ public class Rhino extends WildAnimal{
     }
 
     // Other methods.
-    public void eat() {
-        System.out.println("A rhino that weighs " + this.weightInPounds + " pounds is eating.");
-    }
-
     public String toString() {
         return "Rhino Home Continent: " + this.homeContinent + ", Color: " + this.color + ", Weight in Pounds: " + this.weightInPounds;
     }
@@ -50,5 +44,22 @@ public class Rhino extends WildAnimal{
         result *= this.color.hashCode();
         result += this.weightInPounds;
         return result;
+    }
+
+    public void eat() {
+        System.out.println("A rhino that weighs " + this.weightInPounds + " pounds is eating.");
+    }
+
+    public void makeNoise() {
+        System.out.println("A rhino that weighs " + this.weightInPounds + " pounds is \"roaring\".");
+    }
+
+    public void hunt() {
+        System.out.println("A rhino that weighs " + this.weightInPounds + " pounds is looking for plants to eat.");
+    }
+
+    public void mate() {
+        System.out.println("A rhino that weighs " + this.weightInPounds + " pounds is mating.");
+
     }
 }

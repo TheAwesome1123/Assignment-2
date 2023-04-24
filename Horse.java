@@ -1,10 +1,8 @@
-package domesticatedOrWild;
-
-public class Bird extends DomesticatedOrWild{
+public class Horse extends DomesticatedOrWild implements HorseActions {
     // Properties.
 
     // Constructors.
-    public Bird(boolean isDomesticated, String name, String breed, int age, String owner) {
+    public Horse(boolean isDomesticated, String name, String breed, int age, String owner) {
         this.isDomesticated = isDomesticated;
         this.name = name;
         this.breed = breed;
@@ -73,14 +71,14 @@ public class Bird extends DomesticatedOrWild{
     }
 
     public String toString() {
-        return "Bird Is Domesticated: " + this.isDomesticated + ", Name: " + this.name + ", Breed: " + this.breed + ", Age: " + 
-        this.age + ", Owner: " + this.owner;
+        return "Horse Is Domesticated: " + this.isDomesticated + ", Name: " + this.name + ", Breed: " + this.breed + ", Age: " + 
+        this.age + ", Owner/Rider: " + this.owner;
     }
 
-    public boolean equals(Bird birdToCompareWith) {
-        if(this.isDomesticated == birdToCompareWith.isDomesticated && this.name.equals(birdToCompareWith.name) && 
-            this.breed.equals(birdToCompareWith.breed) && this.age == birdToCompareWith.age && 
-            this.owner.equals(birdToCompareWith.owner)) {
+    public boolean equals(Horse horseToCompareWith) {
+        if(this.isDomesticated == horseToCompareWith.isDomesticated && this.name.equals(horseToCompareWith.name) && 
+            this.breed.equals(horseToCompareWith.breed) && this.age == horseToCompareWith.age && 
+            this.owner.equals(horseToCompareWith.owner)) {
                 return true;
         }
         else {
@@ -93,5 +91,9 @@ public class Bird extends DomesticatedOrWild{
         result *= this.owner.hashCode();
         result += this.age;
         return result;
+    }
+
+    public void jump() {
+        System.out.println("A " + this.breed + " horse is jumping over a fence.");
     }
 }

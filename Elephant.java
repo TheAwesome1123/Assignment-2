@@ -1,6 +1,4 @@
-package wildAnimals;
-
-public class Elephant extends WildAnimal{
+public class Elephant extends WildAnimal implements AnimalActions, WildAnimalBehaviors {
     // Properties.
     private int heightInFeet;
     private String sex;
@@ -47,10 +45,6 @@ public class Elephant extends WildAnimal{
     }
 
     // Other methods.
-    public void eat() {
-        System.out.println("An elephant that is " + this.heightInFeet + " feet tall is eating.");
-    }
-
     public String toString() {
         return "Elephant Home Continent: " + this.homeContinent + ", Color: " + this.color + ", Height in feet: " + this.heightInFeet + 
             ", Sex: " + this.sex;
@@ -61,5 +55,22 @@ public class Elephant extends WildAnimal{
         result *= this.color.hashCode();
         result += this.heightInFeet;
         return result;
+    }
+
+    public void eat() {
+        System.out.println("An elephant that is " + this.heightInFeet + " feet tall is eating.");
+    }
+
+    public void makeNoise() {
+        System.out.println("An elephant that is " + this.heightInFeet + " feet tall is trumpeting.");
+    }
+
+    public void hunt() {
+        System.out.println("An elephant that is " + this.heightInFeet + " feet tall is looking for food.");
+    }
+
+    public void mate() {
+        System.out.println("An elephant that is " + this.heightInFeet + " feet tall is mating.");
+
     }
 }

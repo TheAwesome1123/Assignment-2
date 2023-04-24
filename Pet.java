@@ -1,5 +1,3 @@
-package pets;
-
 public abstract class Pet {
     protected String name;
     protected String breed;
