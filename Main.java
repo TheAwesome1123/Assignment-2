@@ -1,10 +1,10 @@
-import java.io.IOException;
 import java.util.Scanner;
-//import org.apache.logging.log4j.*;
-import java.util.logging.*;
+import org.apache.logging.log4j.*; // https://sematext.com/blog/log4j2-tutorial/
+//import java.util.logging.*;
+//import java.util.logging.LogManager;
 
 public class Main {
-    private static Logger newLogger = Logger.getLogger("Logger");
+    private static Logger newLogger = LogManager.getLogger("Logger");
 
     static {
         System.out.println("Welcome; please follow the next prompt.");
@@ -12,16 +12,6 @@ public class Main {
 
     public static void main(String[] args) {
         // Start.
-        try {
-            FileHandler fh = new FileHandler("Logs.log");
-            newLogger.addHandler(fh);
-
-        }
-        catch(IOException ioe) {
-            newLogger.info("Error with file.");
-            return;
-        }
-
         newLogger.info("Starting.");
         System.out.println("Press 1 to continue: ");
         Scanner scanner = new Scanner(System.in);

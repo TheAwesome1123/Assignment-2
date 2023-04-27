@@ -1,0 +1,17 @@
+<Configuration status="debug" strict="true" name="XMLConfigTest"
+               packages="org.apache.logging.log4j.test">
+  <Appenders>
+    <Appender type="Console" name="STDOUT">
+    </Appender>
+    <Appender type="File" name="File" fileName="Logs.log">
+    </Appender>
+  </Appenders>
+  <Loggers>
+    <Logger name="toFile">
+        <AppenderRef ref="File"/>
+    </Logger>
+    <Root level="info"> 
+        <AppenderRef ref="STDOUT"/>
+    </Root>
+  </Loggers>
+</Configuration>
