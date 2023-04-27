@@ -1,4 +1,4 @@
-<Configuration status="debug" strict="true" name="XMLConfigTest"
+<Configuration strict="true" name="XMLConfigTest"
                packages="org.apache.logging.log4j.test">
   <Appenders>
     <Appender type="Console" name="STDOUT">
