@@ -1,4 +1,4 @@
-public class Elephant extends WildAnimal implements AnimalActions, WildAnimalBehaviors {
+public class Elephant extends WildAnimal {
     // Properties.
     private int heightInFeet;
     private String sex;
@@ -61,12 +61,14 @@ public class Elephant extends WildAnimal implements AnimalActions, WildAnimalBeh
         System.out.println("An elephant that is " + this.heightInFeet + " feet tall is eating.");
     }
 
-    public void makeNoise() {
-        System.out.println("An elephant that is " + this.heightInFeet + " feet tall is trumpeting.");
+    public void makeNoise(String noise) throws InvalidSoundException {
+        super.makeNoise(noise);
+        System.out.println("An elephant that is " + this.heightInFeet + " feet tall is making a " + noise + " sound.");
     }
 
-    public void hunt() {
-        System.out.println("An elephant that is " + this.heightInFeet + " feet tall is looking for food.");
+    public void lookForFood(String food) throws InvalidFoodException {
+        super.lookForFood(food);
+        System.out.println("An elephant that is " + this.heightInFeet + " feet tall is looking for " + food + ".");
     }
 
     public void mate() {

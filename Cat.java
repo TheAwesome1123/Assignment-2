@@ -1,4 +1,4 @@
-public class Cat extends Pet implements AnimalActions, PetInteractions {
+public class Cat extends Pet {
     // Properties.
 
     // Constructor.
@@ -72,15 +72,12 @@ public class Cat extends Pet implements AnimalActions, PetInteractions {
         System.out.println("A " + this.breed + " cat named " + this.name + " is eating.");
     }
 
-    public void makeNoise() {
-        System.out.println("A " + this.breed + " cat named " + this.name + " is meowing.");
+    public void makeNoise(String noise) throws InvalidSoundException {
+        super.makeNoise(noise);
+        System.out.println("A " + this.breed + " cat named " + this.name + " is making a " + noise + " sound.");
     }
 
     public void pet() {
         System.out.println(this.owner + " is petting a " + this.breed + " cat named " + this.name + ".");
-    }
-
-    public void teach(String action) {
-        System.out.println(this.owner + " is teaching a " + this.breed + " cat named " + this.name + " how to " + action + ".");
     }
 }

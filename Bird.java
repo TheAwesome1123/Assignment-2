@@ -93,7 +93,12 @@ public class Bird extends DomesticatedOrWild implements BirdActions {
         return result;
     }
 
-    public void fly() {
-        System.out.println("A " + this.breed + " is flying.");
+    public void fly(int height) throws InvalidHeightException {
+        if(height < 1 || height > 250) {
+            throw new InvalidHeightException("Invalid height.");
+        }
+        else {
+            System.out.println("A " + this.breed + " is flying.");
+        }
     }
 }

@@ -1,4 +1,4 @@
-public abstract class DomesticatedOrWild {
+public abstract class DomesticatedOrWild extends Animal {
     protected boolean isDomesticated;
     protected String name;
     protected String breed;

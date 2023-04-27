@@ -1,4 +1,4 @@
-public class Rabbit extends Pet implements AnimalActions{
+public class Rabbit extends Pet {
     // Properties.
     private final boolean needsCage = true;
 
@@ -77,15 +77,12 @@ public class Rabbit extends Pet implements AnimalActions{
         System.out.println("A " + this.breed + " rabbit named " + this.name + " is eating.");
     }
 
-    public void makeNoise() {
-        System.out.println("A " + this.breed + " rabbit named " + this.name + " is making rabbit sounds.");
+    public void makeNoise(String noise) throws InvalidSoundException {
+        super.makeNoise(noise);
+        System.out.println("A " + this.breed + " rabbit named " + this.name + " is making a " + noise + " sound.");
     }
 
     public void pet() {
         System.out.println(this.owner + " is petting a " + this.breed + " rabbit named " + this.name + ".");
-    }
-
-    public void teach(String action) {
-        System.out.println(this.owner + " is teaching a " + this.breed + " rabbit named " + this.name + " how to " + action + ".");
     }
 }

@@ -1,4 +1,4 @@
-public class Wolf extends WildAnimal implements AnimalActions, WildAnimalBehaviors {
+public class Wolf extends WildAnimal {
     // Properties.
     private int packSize;
 
@@ -50,12 +50,14 @@ public class Wolf extends WildAnimal implements AnimalActions, WildAnimalBehavio
         System.out.println("A " + this.color + " wolf is eating with other wolves in its pack of " + this.packSize + ".");
     }
 
-    public void makeNoise() {
-        System.out.println("A " + this.color + " wolf is howling.");
+    public void makeNoise(String noise) throws InvalidSoundException {
+        super.makeNoise(color);
+        System.out.println("A " + this.color + " wolf is making a " + noise + " sound.");
     }
 
-    public void hunt() {
-        System.out.println("A " + this.color + " wolf is hunting with its pack.");
+    public void lookForFood(String food) throws InvalidFoodException {
+        super.lookForFood(food);
+        System.out.println("A " + this.color + " wolf is hunting with its pack for " + food + ".");
     }
 
     public void mate() {

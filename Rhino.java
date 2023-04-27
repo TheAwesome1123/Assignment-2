@@ -1,4 +1,4 @@
-public class Rhino extends WildAnimal implements AnimalActions, WildAnimalBehaviors {
+public class Rhino extends WildAnimal {
     // Properties.
     private int weightInPounds;
 
@@ -50,12 +50,14 @@ public class Rhino extends WildAnimal implements AnimalActions, WildAnimalBehavi
         System.out.println("A rhino that weighs " + this.weightInPounds + " pounds is eating.");
     }
 
-    public void makeNoise() {
-        System.out.println("A rhino that weighs " + this.weightInPounds + " pounds is \"roaring\".");
+    public void makeNoise(String noise) throws InvalidSoundException {
+        super.makeNoise(noise);
+        System.out.println("A rhino that weighs " + this.weightInPounds + " pounds is making a " + noise + " sound.");
     }
 
-    public void hunt() {
-        System.out.println("A rhino that weighs " + this.weightInPounds + " pounds is looking for plants to eat.");
+    public void lookForFood(String food) throws InvalidFoodException {
+        super.lookForFood(food);
+        System.out.println("A rhino that weighs " + this.weightInPounds + " pounds is looking for " + food + ".");
     }
 
     public void mate() {

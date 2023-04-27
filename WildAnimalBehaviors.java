@@ -1,4 +1,4 @@
 public interface WildAnimalBehaviors {
-    public void hunt();
+    public void lookForFood(String food) throws InvalidFoodException;
     public void mate();
 }

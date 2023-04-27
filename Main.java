@@ -1,5 +1,49 @@
+import java.io.IOException;
+import java.util.Scanner;
+//import org.apache.logging.log4j.*;
+import java.util.logging.*;
+
 public class Main {
+    private static Logger newLogger = Logger.getLogger("Logger");
+
     static {
+        System.out.println("Welcome; please follow the next prompt.");
+    }
+
+    public static void main(String[] args) {
+        // Start.
+        try {
+            FileHandler fh = new FileHandler("Logs.log");
+            newLogger.addHandler(fh);
+
+        }
+        catch(IOException ioe) {
+            newLogger.info("Error with file.");
+            return;
+        }
+
+        newLogger.info("Starting.");
+        System.out.println("Press 1 to continue: ");
+        Scanner scanner = new Scanner(System.in);
+
+        try {
+            int input = scanner.nextInt();
+
+            if(input == 1) {
+                printDetails();
+                newLogger.info("Making animals.");
+                makeAnimals(newLogger);
+                scanner.close();
+            }
+        }
+        catch(Exception e) {
+            System.out.println("Invalid input; quitting.");
+            scanner.close();
+            return;
+        }
+    }
+
+    public static void printDetails() {
         System.out.println("Order of operations:");
         System.out.println("1. Create animal objects (not shown here).");
         System.out.println("2. Use methods in animal classes.");
@@ -7,7 +51,7 @@ public class Main {
         System.out.println("-----------------");
     }
 
-    public static void main(String[] args) {
+    public static void makeAnimals(Logger logger) {
         // New objects.
         Bear bear = new Bear("North America", "brown", "Brown", 2);
         Bird bird = new Bird(true, "Jack", "Parrot", 3, "Robert");
@@ -38,7 +82,7 @@ public class Main {
         System.out.println("-----------------");
 
         // Interface methods.
-        interfaceMethods(cat2, germanShepherd, bird, horse, elephant, wolf);
+        interfaceMethods(cat2, germanShepherd, rabbit, bird, horse, elephant, wolf, logger);
     }
 
     public static void doPetStuff(Cat cat, Cat cat2, Dog dog, Rabbit rabbit) {
@@ -61,6 +105,7 @@ public class Main {
         System.out.println("Is \"" + rhino.toString() + "\" the same as \"" + rhino2.toString() + "\" ? " + rhino.equals(rhino2) + "\n");
         System.out.println(squirrel.toString() + "\n");
         wolf.eat();
+        wolf.printStatement();
         System.out.println();
     }
 
@@ -75,12 +120,54 @@ public class Main {
         System.out.println(horse.toString());
     }
 
-    public static void interfaceMethods(Cat cat, Dog dog, Bird bird, Horse horse, Elephant elephant, Wolf wolf) {
+    public static void interfaceMethods(Cat cat, Dog dog, Rabbit rabbit, Bird bird, Horse horse, Elephant elephant, Wolf wolf, 
+        Logger logger) {
         cat.eat();
-        dog.teach("fetch");
-        bird.fly();
-        horse.jump();
-        elephant.makeNoise();
-        wolf.hunt();
+
+        try {
+            dog.teach("fetch");
+            cat.teach("");
+            rabbit.teach("How to show its moves.");
+        }
+        catch(InvalidPetActionException iae) {
+            logger.info("ERROR!");
+            System.out.println(iae.reason + "\n");
+        }
+
+        try {
+            bird.fly(100);
+        }
+        catch(InvalidHeightException ihe) {
+            logger.info("ERROR!");
+            System.out.println(ihe.reason + "\n");
+        }
+
+        try {
+            horse.jump(4);
+            horse.jump(-1);
+        }
+        catch(InvalidNumFeetException infe) {
+            logger.info("ERROR!");
+            System.out.println(infe.reason + "\n");
+        }
+
+        try {
+            elephant.makeNoise("\"trumpeting\"");
+            wolf.makeNoise("howling");
+        }
+        catch(InvalidSoundException ise) {
+            logger.info("ERROR!");
+            System.out.println(ise.reason + "\n");
+        }
+
+        try {
+            elephant.lookForFood("plants");
+        }
+        catch(InvalidFoodException ife) {
+            logger.info("ERROR!");
+            System.out.println(ife.reason + "\n");
+        }   
+
+        newLogger.info("Done.");
     }
 }

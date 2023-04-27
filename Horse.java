@@ -93,7 +93,12 @@ public class Horse extends DomesticatedOrWild implements HorseActions {
         return result;
     }
 
-    public void jump() {
-        System.out.println("A " + this.breed + " horse is jumping over a fence.");
+    public void jump(int feet) throws InvalidNumFeetException {
+        if(feet < 0) {
+            throw new InvalidNumFeetException("Invalid jump height.");
+        }
+        else {
+            System.out.println("A " + this.breed + " horse is jumping " + feet + " feet.");
+        }
     }
 }

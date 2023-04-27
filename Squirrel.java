@@ -1,4 +1,4 @@
-public class Squirrel extends WildAnimal implements AnimalActions, WildAnimalBehaviors {
+public class Squirrel extends WildAnimal {
     // Properties.
     private int numOfVisitsToHousePerDay;
 
@@ -51,12 +51,14 @@ public class Squirrel extends WildAnimal implements AnimalActions, WildAnimalBeh
         System.out.println("A " + this.color + " squirrel is eating nuts.");
     }
 
-    public void makeNoise() {
-        System.out.println("A " + this.color + " squirrel is chittering.");
+    public void makeNoise(String noise) throws InvalidSoundException {
+        super.makeNoise(noise);
+        System.out.println("A " + this.color + " squirrel is making a " + noise + " sound.");
     }
 
-    public void hunt() {
-        System.out.println("A " + this.color + " squirrel is looking for nuts.");
+    public void lookForFood(String food) throws InvalidFoodException {
+        super.lookForFood(food);
+        System.out.println("A " + this.color + " squirrel is looking for ." + food + ".");
     }
 
     public void mate() {

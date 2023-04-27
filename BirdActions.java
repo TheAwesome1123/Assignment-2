@@ -1,3 +1,3 @@
 public interface BirdActions {
-    public void fly();
+    public void fly(int height) throws InvalidHeightException;
 }

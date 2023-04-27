@@ -1,4 +1,4 @@
-public class Dog extends Pet implements AnimalActions, PetInteractions {
+public class Dog extends Pet {
     // Properties.
     private boolean fightsWithCats;
     private static int numOfLegs = 4;
@@ -89,15 +89,12 @@ public class Dog extends Pet implements AnimalActions, PetInteractions {
         System.out.println("A " + this.breed + " dog named " + this.name + " is eating.");
     }
 
-    public void makeNoise() {
-        System.out.println("A " + this.breed + " dog named " + this.name + " is barking.");
+    public void makeNoise(String noise) throws InvalidSoundException {
+        super.makeNoise(noise);
+        System.out.println("A " + this.breed + " dog named " + this.name + " is making a " + noise + " sound.");
     }
 
     public void pet() {
         System.out.println(this.owner + " is petting a " + this.breed + " dog named " + this.name + ".");
-    }
-
-    public void teach(String action) {
-        System.out.println(this.owner + " is teaching a " + this.breed + " dog named " + this.name + " how to " + action + ".");
     }
 }

@@ -1,3 +1,3 @@
 public interface HorseActions {
-    public void jump();
+    public void jump(int feet) throws InvalidNumFeetException;
 }

@@ -1,4 +1,4 @@
-public class Bear extends WildAnimal implements AnimalActions, WildAnimalBehaviors{
+public class Bear extends WildAnimal {
     // Properties.
     private String type;
     private int numOfCubs;
@@ -61,12 +61,14 @@ public class Bear extends WildAnimal implements AnimalActions, WildAnimalBehavio
         System.out.println("A " + this.type + " bear is eating with " + this.numOfCubs + " cubs.");
     }
 
-    public void makeNoise() {
-        System.out.println("A " + this.type + " bear is growling.");
+    public void makeNoise(String noise) throws InvalidSoundException {
+        super.makeNoise(noise);
+        System.out.println("A " + this.type + " bear is making a " + noise + " noise.");
     }
 
-    public void hunt() {
-        System.out.println("A " + this.type + " bear is hunting for fish.");
+    public void lookForFood(String food) throws InvalidFoodException {
+        super.lookForFood(food);
+        System.out.println("A " + this.type + " bear is hunting for " + food + ".");
     }
 
     public void mate() {

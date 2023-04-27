@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-27T03:49:23.038725400Z</date>
+  <millis>1682567363038</millis>
+  <nanos>725400</nanos>
+  <sequence>0</sequence>
+  <logger>Logger</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Starting.</message>
+</record>
+<record>
+  <date>2023-04-27T03:49:24.306466Z</date>
+  <millis>1682567364306</millis>
+  <nanos>466000</nanos>
+  <sequence>1</sequence>
+  <logger>Logger</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Making animals.</message>
+</record>
+<record>
+  <date>2023-04-27T03:49:24.315442900Z</date>
+  <millis>1682567364315</millis>
+  <nanos>442900</nanos>
+  <sequence>2</sequence>
+  <logger>Logger</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>interfaceMethods</method>
+  <thread>1</thread>
+  <message>ERROR!</message>
+</record>
+<record>
+  <date>2023-04-27T03:49:24.317435900Z</date>
+  <millis>1682567364317</millis>
+  <nanos>435900</nanos>
+  <sequence>3</sequence>
+  <logger>Logger</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>interfaceMethods</method>
+  <thread>1</thread>
+  <message>ERROR!</message>
+</record>
+<record>
+  <date>2023-04-27T03:49:24.319430900Z</date>
+  <millis>1682567364319</millis>
+  <nanos>430900</nanos>
+  <sequence>4</sequence>
+  <logger>Logger</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>interfaceMethods</method>
+  <thread>1</thread>
+  <message>ERROR!</message>
+</record>
+<record>
+  <date>2023-04-27T03:49:24.321426100Z</date>
+  <millis>1682567364321</millis>
+  <nanos>426100</nanos>
+  <sequence>5</sequence>
+  <logger>Logger</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>interfaceMethods</method>
+  <thread>1</thread>
+  <message>Done.</message>
+</record>
+</log>
