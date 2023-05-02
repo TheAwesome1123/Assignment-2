@@ -1,13 +1,17 @@
+import org.apache.logging.log4j.*;
+
 public class Bird extends DomesticatedOrWild implements BirdActions {
     // Properties.
+    private Logger logger;
 
     // Constructors.
-    public Bird(boolean isDomesticated, String name, String breed, int age, String owner) {
+    public Bird(boolean isDomesticated, String name, String breed, int age, String owner, Logger logger) {
         this.isDomesticated = isDomesticated;
         this.name = name;
         this.breed = breed;
         this.age = age;
         this.owner = owner;
+        this.logger = logger;
 
         if(!this.isDomesticated) {
             this.name = "N/A";
@@ -98,7 +102,7 @@ public class Bird extends DomesticatedOrWild implements BirdActions {
             throw new InvalidHeightException("Invalid height.");
         }
         else {
-            System.out.println("A " + this.breed + " is flying.");
+            logger.info("A " + this.breed + " is flying.");
         }
     }
 }

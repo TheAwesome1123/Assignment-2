@@ -1,12 +1,16 @@
+import org.apache.logging.log4j.*;
+
 public class Squirrel extends WildAnimal {
     // Properties.
     private int numOfVisitsToHousePerDay;
+    private Logger logger;
 
     // Constructor.
-    public Squirrel(String homeContinent, String color, int numOfVisitsToHousePerDay) {
+    public Squirrel(String homeContinent, String color, int numOfVisitsToHousePerDay, Logger logger) {
         this.homeContinent = homeContinent;
         this.color = color;
         this.numOfVisitsToHousePerDay = numOfVisitsToHousePerDay;
+        this.logger = logger;
     }
 
     // Getters/setters.
@@ -48,20 +52,20 @@ public class Squirrel extends WildAnimal {
     }
 
     public void eat() {
-        System.out.println("A " + this.color + " squirrel is eating nuts.");
+        logger.info("A " + this.color + " squirrel is eating nuts.");
     }
 
     public void makeNoise(String noise) throws InvalidSoundException {
         super.makeNoise(noise);
-        System.out.println("A " + this.color + " squirrel is making a " + noise + " sound.");
+        logger.info("A " + this.color + " squirrel is making a " + noise + " sound.");
     }
 
     public void lookForFood(String food) throws InvalidFoodException {
         super.lookForFood(food);
-        System.out.println("A " + this.color + " squirrel is looking for ." + food + ".");
+        logger.info("A " + this.color + " squirrel is looking for ." + food + ".");
     }
 
     public void mate() {
-        System.out.println("A " + this.color + " squirrel is mating.");
+        logger.info("A " + this.color + " squirrel is mating.");
     }
 }

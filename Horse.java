@@ -1,13 +1,17 @@
+import org.apache.logging.log4j.*;
+
 public class Horse extends DomesticatedOrWild implements HorseActions {
     // Properties.
+    private Logger logger;
 
     // Constructors.
-    public Horse(boolean isDomesticated, String name, String breed, int age, String owner) {
+    public Horse(boolean isDomesticated, String name, String breed, int age, String owner, Logger logger) {
         this.isDomesticated = isDomesticated;
         this.name = name;
         this.breed = breed;
         this.age = age;
         this.owner = owner;
+        this.logger = logger;
 
         if(!this.isDomesticated) {
             this.name = "N/A";
@@ -98,7 +102,7 @@ public class Horse extends DomesticatedOrWild implements HorseActions {
             throw new InvalidNumFeetException("Invalid jump height.");
         }
         else {
-            System.out.println("A " + this.breed + " horse is jumping " + feet + " feet.");
+            logger.info("A " + this.breed + " horse is jumping " + feet + " feet.");
         }
     }
 }

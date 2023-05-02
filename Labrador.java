@@ -1,9 +1,11 @@
+import org.apache.logging.log4j.*;
+
 public final class Labrador extends Dog {
     // Properties.
     private String color;
 
-    public Labrador(String name, String breed, int age, String owner, boolean fightsWithCats, String color) {
-        super(name, breed, age, owner, fightsWithCats);
+    public Labrador(String name, String breed, int age, String owner, boolean fightsWithCats, String color, Logger logger) {
+        super(name, breed, age, owner, fightsWithCats, logger);
         this.color = color;
     }
 

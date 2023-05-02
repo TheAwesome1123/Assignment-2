@@ -1,14 +1,18 @@
+import org.apache.logging.log4j.*;
+
 public class Elephant extends WildAnimal {
     // Properties.
     private int heightInFeet;
     private String sex;
+    private Logger logger;
 
     // Constructor.
-    public Elephant(String homeContinent, String color, int heightInFeet, String sex) {
+    public Elephant(String homeContinent, String color, int heightInFeet, String sex, Logger logger) {
         this.homeContinent = homeContinent;
         this.color = color;
         this.heightInFeet = heightInFeet;
         this.sex = sex;
+        this.logger = logger;
     }
 
     // Getters/setters.
@@ -58,21 +62,21 @@ public class Elephant extends WildAnimal {
     }
 
     public void eat() {
-        System.out.println("An elephant that is " + this.heightInFeet + " feet tall is eating.");
+        logger.info("An elephant that is " + this.heightInFeet + " feet tall is eating.");
     }
 
     public void makeNoise(String noise) throws InvalidSoundException {
         super.makeNoise(noise);
-        System.out.println("An elephant that is " + this.heightInFeet + " feet tall is making a " + noise + " sound.");
+        logger.info("An elephant that is " + this.heightInFeet + " feet tall is making a " + noise + " sound.");
     }
 
     public void lookForFood(String food) throws InvalidFoodException {
         super.lookForFood(food);
-        System.out.println("An elephant that is " + this.heightInFeet + " feet tall is looking for " + food + ".");
+        logger.info("An elephant that is " + this.heightInFeet + " feet tall is looking for " + food + ".");
     }
 
     public void mate() {
-        System.out.println("An elephant that is " + this.heightInFeet + " feet tall is mating.");
+        logger.info("An elephant that is " + this.heightInFeet + " feet tall is mating.");
 
     }
 }

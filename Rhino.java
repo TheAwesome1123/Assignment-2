@@ -1,12 +1,16 @@
+import org.apache.logging.log4j.*;
+
 public class Rhino extends WildAnimal {
     // Properties.
     private int weightInPounds;
+    private Logger logger;
 
     // Constructor.
-    public Rhino(String homeContinent, String color, int weightInPounds) {
+    public Rhino(String homeContinent, String color, int weightInPounds, Logger logger) {
         this.homeContinent = homeContinent;
         this.color = color;
         this.weightInPounds = weightInPounds;
+        this.logger = logger;
     }
 
     // Getters/setters.
@@ -47,21 +51,21 @@ public class Rhino extends WildAnimal {
     }
 
     public void eat() {
-        System.out.println("A rhino that weighs " + this.weightInPounds + " pounds is eating.");
+        logger.info("A rhino that weighs " + this.weightInPounds + " pounds is eating.");
     }
 
     public void makeNoise(String noise) throws InvalidSoundException {
         super.makeNoise(noise);
-        System.out.println("A rhino that weighs " + this.weightInPounds + " pounds is making a " + noise + " sound.");
+        logger.info("A rhino that weighs " + this.weightInPounds + " pounds is making a " + noise + " sound.");
     }
 
     public void lookForFood(String food) throws InvalidFoodException {
         super.lookForFood(food);
-        System.out.println("A rhino that weighs " + this.weightInPounds + " pounds is looking for " + food + ".");
+        logger.info("A rhino that weighs " + this.weightInPounds + " pounds is looking for " + food + ".");
     }
 
     public void mate() {
-        System.out.println("A rhino that weighs " + this.weightInPounds + " pounds is mating.");
+        logger.info("A rhino that weighs " + this.weightInPounds + " pounds is mating.");
 
     }
 }

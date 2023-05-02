@@ -1,15 +1,19 @@
+import org.apache.logging.log4j.*;
+
 public class Dog extends Pet {
     // Properties.
     private boolean fightsWithCats;
     private static int numOfLegs = 4;
+    private Logger logger;
 
     // Constructor.
-    public Dog(String name, String breed, int age, String owner, boolean fightsWithCats) {
+    public Dog(String name, String breed, int age, String owner, boolean fightsWithCats, Logger logger) {
         this.name = name;
         this.breed = breed;
         this.age = age;
         this.owner = owner;
         this.fightsWithCats = fightsWithCats;
+        this.logger = logger;
     }
 
     // Getters/setters.
@@ -59,7 +63,7 @@ public class Dog extends Pet {
 
     // Other methods.
     public void adopt() {
-        System.out.println("A " + this.breed + " dog named " + this.name + " was adopted by " + this.owner + ".");
+        logger.info("A " + this.breed + " dog named " + this.name + " was adopted by " + this.owner + ".");
     }
 
     public String toString() {
@@ -86,15 +90,15 @@ public class Dog extends Pet {
     }
 
     public void eat() {
-        System.out.println("A " + this.breed + " dog named " + this.name + " is eating.");
+        logger.info("A " + this.breed + " dog named " + this.name + " is eating.");
     }
 
     public void makeNoise(String noise) throws InvalidSoundException {
         super.makeNoise(noise);
-        System.out.println("A " + this.breed + " dog named " + this.name + " is making a " + noise + " sound.");
+        logger.info("A " + this.breed + " dog named " + this.name + " is making a " + noise + " sound.");
     }
 
     public void pet() {
-        System.out.println(this.owner + " is petting a " + this.breed + " dog named " + this.name + ".");
+        logger.info(this.owner + " is petting a " + this.breed + " dog named " + this.name + ".");
     }
 }

@@ -7,10 +7,8 @@
     </Appender>
   </Appenders>
   <Loggers>
-    <Logger name="toFile">
-        <AppenderRef ref="File"/>
-    </Logger>
     <Root level="info"> 
+        <AppenderRef ref="File"/>
         <AppenderRef ref="STDOUT"/>
     </Root>
   </Loggers>

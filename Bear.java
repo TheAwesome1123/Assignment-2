@@ -1,14 +1,18 @@
+import org.apache.logging.log4j.*;
+
 public class Bear extends WildAnimal {
     // Properties.
     private String type;
     private int numOfCubs;
+    private Logger logger;
 
     // Constructor.
-    public Bear(String homeContinent, String color, String type, int numOfCubs) {
+    public Bear(String homeContinent, String color, String type, int numOfCubs, Logger logger) {
         this.homeContinent = homeContinent;
         this.color = color;
         this.type = type;
         this.numOfCubs = numOfCubs;
+        this.logger = logger;
     }
 
     // Getters/setters.
@@ -58,20 +62,20 @@ public class Bear extends WildAnimal {
     }
 
     public void eat() {
-        System.out.println("A " + this.type + " bear is eating with " + this.numOfCubs + " cubs.");
+        logger.info("A " + this.type + " bear is eating with " + this.numOfCubs + " cubs.");
     }
 
     public void makeNoise(String noise) throws InvalidSoundException {
         super.makeNoise(noise);
-        System.out.println("A " + this.type + " bear is making a " + noise + " noise.");
+        logger.info("A " + this.type + " bear is making a " + noise + " noise.");
     }
 
     public void lookForFood(String food) throws InvalidFoodException {
         super.lookForFood(food);
-        System.out.println("A " + this.type + " bear is hunting for " + food + ".");
+        logger.info("A " + this.type + " bear is hunting for " + food + ".");
     }
 
     public void mate() {
-        System.out.println("A " + this.type + " bear found a mate and will have cubs.");
+        logger.info("A " + this.type + " bear found a mate and will have cubs.");
     }
 }

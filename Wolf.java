@@ -1,12 +1,16 @@
+import org.apache.logging.log4j.*;
+
 public class Wolf extends WildAnimal {
     // Properties.
     private int packSize;
+    private Logger logger;
 
     // Constructor.
-    public Wolf(String homeContinent, String color, int packSize) {
+    public Wolf(String homeContinent, String color, int packSize, Logger logger) {
         this.homeContinent = homeContinent;
         this.color = color;
         this.packSize = packSize;
+        this.logger = logger;
     }
 
     // Getters/setters.
@@ -47,20 +51,20 @@ public class Wolf extends WildAnimal {
     }
 
     public void eat() {
-        System.out.println("A " + this.color + " wolf is eating with other wolves in its pack of " + this.packSize + ".");
+        logger.info("A " + this.color + " wolf is eating with other wolves in its pack of " + this.packSize + ".");
     }
 
     public void makeNoise(String noise) throws InvalidSoundException {
         super.makeNoise(color);
-        System.out.println("A " + this.color + " wolf is making a " + noise + " sound.");
+        logger.info("A " + this.color + " wolf is making a " + noise + " sound.");
     }
 
     public void lookForFood(String food) throws InvalidFoodException {
         super.lookForFood(food);
-        System.out.println("A " + this.color + " wolf is hunting with its pack for " + food + ".");
+        logger.info("A " + this.color + " wolf is hunting with its pack for " + food + ".");
     }
 
     public void mate() {
-        System.out.println("A " + this.color + " wolf is mating.");
+        logger.info("A " + this.color + " wolf is mating.");
     }
 }
