@@ -1,4 +1,8 @@
+package abstracts;
+
 import org.apache.logging.log4j.*;
+import exceptions.InvalidPetActionException;
+import interfaces.PetInteractions;
 
 public abstract class Pet extends Animal implements PetInteractions {
     protected String name;

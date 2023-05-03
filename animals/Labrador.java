@@ -1,3 +1,4 @@
+package animals;
 import org.apache.logging.log4j.*;
 
 public final class Labrador extends Dog {

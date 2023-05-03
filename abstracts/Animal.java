@@ -1,4 +1,8 @@
-public class Animal implements AnimalActions {
+package abstracts;
+import exceptions.InvalidSoundException;
+import interfaces.AnimalActions;
+
+public abstract class Animal implements AnimalActions {
     public void eat() {
 
     }

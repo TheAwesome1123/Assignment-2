@@ -1,4 +1,7 @@
+package animals;
 import org.apache.logging.log4j.*;
+import abstracts.WildAnimal;
+import exceptions.*;
 
 public class Squirrel extends WildAnimal {
     // Properties.

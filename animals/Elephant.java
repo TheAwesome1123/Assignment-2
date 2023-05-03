@@ -1,4 +1,8 @@
+package animals;
 import org.apache.logging.log4j.*;
+
+import abstracts.WildAnimal;
+import exceptions.*;
 
 public class Elephant extends WildAnimal {
     // Properties.

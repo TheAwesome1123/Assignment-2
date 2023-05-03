@@ -1,5 +1,7 @@
+package exceptions;
+
 public class InvalidSoundException extends Exception {
-    String reason;
+    public String reason;
 
     public InvalidSoundException(String reason) {
         this.reason = reason;

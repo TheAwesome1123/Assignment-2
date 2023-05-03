@@ -65,7 +65,5 @@ public class LinkedListNode<T> {
             currentNode = currentNode.next;
             logger.info(currentNode.contents.toString());
         }
-
-        logger.info("");
     }
  }

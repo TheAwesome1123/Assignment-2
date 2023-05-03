@@ -1,11 +1,15 @@
+package animals;
 import org.apache.logging.log4j.*;
+import abstracts.DomesticatedOrWild;
+import exceptions.*;
+import interfaces.BirdActions;
 
-public class Horse extends DomesticatedOrWild implements HorseActions {
+public class Bird extends DomesticatedOrWild implements BirdActions {
     // Properties.
     private Logger logger;
 
     // Constructors.
-    public Horse(boolean isDomesticated, String name, String breed, int age, String owner, Logger logger) {
+    public Bird(boolean isDomesticated, String name, String breed, int age, String owner, Logger logger) {
         this.isDomesticated = isDomesticated;
         this.name = name;
         this.breed = breed;
@@ -75,14 +79,14 @@ public class Horse extends DomesticatedOrWild implements HorseActions {
     }
 
     public String toString() {
-        return "Horse Is Domesticated: " + this.isDomesticated + ", Name: " + this.name + ", Breed: " + this.breed + ", Age: " + 
-        this.age + ", Owner/Rider: " + this.owner;
+        return "Bird Is Domesticated: " + this.isDomesticated + ", Name: " + this.name + ", Breed: " + this.breed + ", Age: " + 
+        this.age + ", Owner: " + this.owner;
     }
 
-    public boolean equals(Horse horseToCompareWith) {
-        if(this.isDomesticated == horseToCompareWith.isDomesticated && this.name.equals(horseToCompareWith.name) && 
-            this.breed.equals(horseToCompareWith.breed) && this.age == horseToCompareWith.age && 
-            this.owner.equals(horseToCompareWith.owner)) {
+    public boolean equals(Bird birdToCompareWith) {
+        if(this.isDomesticated == birdToCompareWith.isDomesticated && this.name.equals(birdToCompareWith.name) && 
+            this.breed.equals(birdToCompareWith.breed) && this.age == birdToCompareWith.age && 
+            this.owner.equals(birdToCompareWith.owner)) {
                 return true;
         }
         else {
@@ -97,12 +101,12 @@ public class Horse extends DomesticatedOrWild implements HorseActions {
         return result;
     }
 
-    public void jump(int feet) throws InvalidNumFeetException {
-        if(feet < 0) {
-            throw new InvalidNumFeetException("Invalid jump height.");
+    public void fly(int height) throws InvalidHeightException {
+        if(height < 1 || height > 250) {
+            throw new InvalidHeightException("Invalid height.");
         }
         else {
-            logger.info("A " + this.breed + " horse is jumping " + feet + " feet.");
+            logger.info("A " + this.breed + " is flying.");
         }
     }
 }

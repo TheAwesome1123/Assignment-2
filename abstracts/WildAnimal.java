@@ -1,4 +1,8 @@
+package abstracts;
+
 import org.apache.logging.log4j.*;
+import interfaces.WildAnimalBehaviors;
+import exceptions.*;
 
 public abstract class WildAnimal extends Animal implements WildAnimalBehaviors {
     protected String homeContinent;

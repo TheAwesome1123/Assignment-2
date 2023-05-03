@@ -1,4 +1,7 @@
+package animals;
 import org.apache.logging.log4j.*;
+import abstracts.WildAnimal;
+import exceptions.*;
 
 public class Rhino extends WildAnimal {
     // Properties.
@@ -66,6 +69,5 @@ public class Rhino extends WildAnimal {
 
     public void mate() {
         logger.info("A rhino that weighs " + this.weightInPounds + " pounds is mating.");
-
     }
 }

@@ -1,5 +1,7 @@
+package exceptions;
+
 public class InvalidHeightException extends Exception {
-    String reason;
+    public String reason;
     
     public InvalidHeightException(String reason) {
         this.reason = reason;

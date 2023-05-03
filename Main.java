@@ -2,67 +2,69 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import org.apache.logging.log4j.*; // https://sematext.com/blog/log4j2-tutorial/
+import abstracts.*;
+import animals.*;
+import exceptions.*;
 
 public class Main {
-    private static Logger newLogger = LogManager.getLogger("Logger");
+    private static final Logger NEW_LOGGER = LogManager.getLogger("Logger");
 
     static {
-        newLogger.info("Starting.");
-        newLogger.info("Welcome; please follow the next prompt.");
+        NEW_LOGGER.info("Starting.");
+        NEW_LOGGER.info("Welcome; please follow the next prompt.");
     }
 
     public static void main(String[] args) {
         // Start.
         int input = 0;
-        newLogger.info("Press 1 to continue: ");
+        NEW_LOGGER.info("Press 1 to continue: ");
         Scanner scanner = new Scanner(System.in);
 
         try {
             input = scanner.nextInt();
         }
         catch(InputMismatchException ime) {
-            newLogger.info("Invalid input; quitting.");
+            NEW_LOGGER.info("Invalid input; quitting.");
             scanner.close();
             return;
         }
-        finally {
-            if(input == 1) {
-                printDetails();
-                newLogger.info("Making animals.");
-                makeAnimals(newLogger);
-            }
-            else {
-                newLogger.info("Input wasn't 1; quitting.");
-            }
+        
+        if(input == 1) {
+            printDetails();
+            NEW_LOGGER.info("Making animals.");
+            makeAnimals(NEW_LOGGER);
         }
-
+        else {
+            NEW_LOGGER.info("Input wasn't 1; quitting.");
+        }
+        
         scanner.close();
         return;
     }
 
     public static void printDetails() {
-        newLogger.info("Order of operations:");
-        newLogger.info("1. Create animal objects (not shown here).");
-        newLogger.info("2. Use methods in animal classes.");
-        newLogger.info("3. Use interface methods.");
-        newLogger.info("-----------------");
+        NEW_LOGGER.info("Order of operations:");
+        NEW_LOGGER.info("1. Create animal objects (not shown here).");
+        NEW_LOGGER.info("2. Use methods in animal classes.");
+        NEW_LOGGER.info("3. Use interface methods.");
+        NEW_LOGGER.info("-----------------");
     }
 
     public static void makeAnimals(Logger logger) {
         // New objects.
-        Bear bear = new Bear("North America", "brown", "Brown", 2, newLogger);
-        Bird bird = new Bird(true, "Jack", "Parrot", 3, "Robert", newLogger);
-        Bird eagle = new Bird(false, "Unknown", "Bald Eagle", 4, "Robert", newLogger);
-        Cat cat = new Cat("Bob", "American Shorthair", 3, "Robert", newLogger);
-        Cat cat2 = new Cat("Bob", "American Shorthair", 3, "Robert", newLogger);
-        Dog germanShepherd = new Dog("Sam", "German Shepherd", 5, "Robert", false, newLogger);
-        Elephant elephant = new Elephant("Africa", "gray", 10, "Male", newLogger);
-        Horse horse = new Horse(true, "Bob", "American Belgian Draft", 5, "Robert", newLogger);
-        Rabbit rabbit = new Rabbit("Jerry", "American", 3, "Robert", newLogger);
-        Rhino rhino = new Rhino ("Africa", "gray", 1000, newLogger);
-        Rhino rhino2 = new Rhino ("Africa", "grey", 1000, newLogger);
-        Squirrel squirrel = new Squirrel("North America", "light brown", 1, newLogger);
-        Wolf wolf = new Wolf("North America", "light gray", 5, newLogger);
+        Bear bear = new Bear("North America", "brown", "Brown", 2, NEW_LOGGER);
+        Bird bird = new Bird(true, "Jack", "Parrot", 3, "Robert", NEW_LOGGER);
+        Bird eagle = new Bird(false, "Unknown", "Bald Eagle", 4, "Robert", NEW_LOGGER);
+        Cat cat = new Cat("Bob", "American Shorthair", 3, "Robert", NEW_LOGGER);
+        Cat cat2 = new Cat("Bob", "American Shorthair", 3, "Robert", NEW_LOGGER);
+        Dog germanShepherd = new Dog("Sam", "German Shepherd", 5, "Robert", false, NEW_LOGGER);
+        Elephant elephant = new Elephant("Africa", "gray", 10, "Male", NEW_LOGGER);
+        Horse horse = new Horse(true, "Bob", "American Belgian Draft", 5, "Robert", NEW_LOGGER);
+        Rabbit rabbit = new Rabbit("Jerry", "American", 3, "Robert", NEW_LOGGER);
+        Rhino rhino = new Rhino ("Africa", "gray", 1000, NEW_LOGGER);
+        Rhino rhino2 = new Rhino ("Africa", "grey", 1000, NEW_LOGGER);
+        Squirrel squirrel = new Squirrel("North America", "light brown", 1, NEW_LOGGER);
+        Wolf wolf = new Wolf("North America", "light gray", 5, NEW_LOGGER);
 
         // ArrayLists.
         ArrayList<Pet> pets = new ArrayList<Pet>();
@@ -98,55 +100,55 @@ public class Main {
         zooAnimals.add(wolf);
 
 
-        newLogger.info("Num of pets: " + pets.size() + ".");
-        newLogger.info("Num of wild animals: " + wildAnimals.size() + ".");
-        newLogger.info("Num of domestic/wild animals: " + domesticOrWildAnimals.size() + ".");
-        newLogger.info("Number of carnivores: " + carnivores.size() + ".\n");
+        NEW_LOGGER.info("Num of pets: " + pets.size() + ".");
+        NEW_LOGGER.info("Num of wild animals: " + wildAnimals.size() + ".");
+        NEW_LOGGER.info("Num of domestic/wild animals: " + domesticOrWildAnimals.size() + ".");
+        NEW_LOGGER.info("Number of carnivores: " + carnivores.size() + ".\n");
 
-        newLogger.info("Animals that can be found at zoos: ");
+        NEW_LOGGER.info("Animals that can be found at zoos: ");
         for (Animal animal : zooAnimals) {
-            newLogger.info(animal.getClass().getName() + " ");
+            NEW_LOGGER.info(animal.getClass().getName() + " ");
         }
 
         // Linked list.
         LinkedListNode<Animal> first = new LinkedListNode<Animal>(pets.get(0), 
-            pets.get(0).getClass().getName(), null, null, newLogger);
+            pets.get(0).getClass().getName(), null, null, NEW_LOGGER);
         
         for(int i = 1; i < pets.size(); i++) {
-            first.addNode(pets.get(i), pets.get(i).getClass().getName());
+            first.addNode(pets.get(i), pets.get(i).getClass().getSimpleName());
         }
 
         for(int i = 0; i < wildAnimals.size(); i++) {
-            first.addNode(wildAnimals.get(i), wildAnimals.get(i).getClass().getName());
+            first.addNode(wildAnimals.get(i), wildAnimals.get(i).getClass().getSimpleName());
         }
 
         for(int i = 0; i < domesticOrWildAnimals.size(); i++) {
-            first.addNode(domesticOrWildAnimals.get(i), domesticOrWildAnimals.get(i).getClass().getName());
+            first.addNode(domesticOrWildAnimals.get(i), domesticOrWildAnimals.get(i).getClass().getSimpleName());
         }
 
         first.printList();
         first = first.deleteNode("Horse");
         first.printList();
         LinkedListNode<Animal> newList = first.deleteNode("Cat");
-        newLogger.info("Deleting cat.");
+        NEW_LOGGER.info("Deleting cat.");
         newList.printList();
 
         // Pets.
-        doPetStuff(cat, cat2, germanShepherd, rabbit, newLogger);
-        newLogger.info("-----------------");
+        doPetStuff(cat, cat2, germanShepherd, rabbit, NEW_LOGGER);
+        NEW_LOGGER.info("-----------------");
 
 
         // Wild animals.
-        doWildAnimalStuff(bear, elephant, rhino, rhino2, squirrel, wolf, newLogger);
-        newLogger.info("-----------------");
+        doWildAnimalStuff(bear, elephant, rhino, rhino2, squirrel, wolf, NEW_LOGGER);
+        NEW_LOGGER.info("-----------------");
 
 
         // Domestic or wild animals.
-        doDomesticOrWildAnimalStuff(bird, eagle, horse, newLogger);
-        newLogger.info("-----------------");
+        doDomesticOrWildAnimalStuff(bird, eagle, horse, NEW_LOGGER);
+        NEW_LOGGER.info("-----------------");
 
         // Interface methods.
-        interfaceMethods(cat2, germanShepherd, rabbit, bird, horse, elephant, wolf, newLogger);
+        interfaceMethods(cat2, germanShepherd, rabbit, bird, horse, elephant, wolf, NEW_LOGGER);
     }
 
     public static void doPetStuff(Cat cat, Cat cat2, Dog dog, Rabbit rabbit, Logger logger) {

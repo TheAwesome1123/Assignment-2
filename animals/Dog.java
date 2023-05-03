@@ -1,4 +1,7 @@
+package animals;
 import org.apache.logging.log4j.*;
+import exceptions.InvalidSoundException;
+import abstracts.*;
 
 public class Dog extends Pet {
     // Properties.
@@ -68,7 +71,7 @@ public class Dog extends Pet {
 
     public String toString() {
         return "Dog Name: " + this.name + ", Breed: " + this.breed + ", Age: " + this.age + ", Owner: " + this.owner + 
-        ", Fights with cats:" + this.fightsWithCats;
+        ", Fights with cats: " + this.fightsWithCats;
     }
 
     public boolean equals(Dog dogToCompareWith) {

@@ -1,4 +1,7 @@
+package animals;
 import org.apache.logging.log4j.*;
+import exceptions.InvalidSoundException;
+import abstracts.*;
 
 public class Rabbit extends Pet {
     // Properties.

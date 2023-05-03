@@ -1,3 +1,5 @@
+package abstracts;
+
 public abstract class DomesticatedOrWild extends Animal {
     protected boolean isDomesticated;
     protected String name;
