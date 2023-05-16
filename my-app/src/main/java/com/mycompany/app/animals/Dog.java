@@ -1,23 +1,24 @@
 package com.mycompany.app.animals;
 
-import org.apache.logging.log4j.*;
+import com.mycompany.app.enums.DogBreed;
 import com.mycompany.app.abstracts.*;
 import com.mycompany.app.exceptions.ThrowableInvalidSoundException;
+import com.mycompany.app.enums.Sex;
 
 public class Dog extends Pet {
     // Properties.
     private boolean fightsWithCats;
-    private static int numOfLegs = 4;
-    private Logger logger;
+    private DogBreed breed;
+    private static final int numOfLegs = 4;
 
     // Constructor.
-    public Dog(String name, String breed, int age, String owner, boolean fightsWithCats, Logger logger) {
+    public Dog(String name, DogBreed breed, Sex sex, int age, String owner, boolean fightsWithCats) {
         this.name = name;
         this.breed = breed;
+        this.sex = sex;
         this.age = age;
         this.owner = owner;
         this.fightsWithCats = fightsWithCats;
-        this.logger = logger;
     }
 
     // Getters/setters.
@@ -29,11 +30,11 @@ public class Dog extends Pet {
         this.name = newName;
     }
 
-    public String getBreed() {
+    public DogBreed getBreed() {
         return this.breed;
     }
 
-    public void setBreed(String newBreed) {
+    public void setBreed(DogBreed newBreed) {
         this.breed = newBreed;
     }
 
@@ -43,14 +44,6 @@ public class Dog extends Pet {
 
     public void setAge(int newAge) {
         this.age = newAge;
-    }
-
-    public String getOwner() {
-        return this.owner;
-    }
-
-    public void setOwner(String newOwner) {
-        this.owner = newOwner;
     }
 
     public boolean getFightingWithCatsHabit() {
@@ -67,12 +60,12 @@ public class Dog extends Pet {
 
     // Other methods.
     public void adopt() {
-        logger.info("A " + this.breed + " dog named " + this.name + " was adopted by " + this.owner + ".");
+        LOGGER.info("A " + this.breed + " dog named " + this.name + " was adopted by " + this.owner + ".");
     }
 
     public String toString() {
-        return "Dog Name: " + this.name + ", Breed: " + this.breed + ", Age: " + this.age + ", Owner: " + this.owner + 
-        ", Fights with cats: " + this.fightsWithCats;
+        return "Dog Name: " + this.name + ", Breed: " + this.breed + ", Sex: " + this.sex + ", Age: " + this.age +
+            ", Owner: " + this.owner + ", Fights with cats: " + this.fightsWithCats;
     }
 
     public boolean equals(Dog dogToCompareWith) {
@@ -94,15 +87,15 @@ public class Dog extends Pet {
     }
 
     public void eat() {
-        logger.info("A " + this.breed + " dog named " + this.name + " is eating.");
+        LOGGER.info("A " + this.breed + " dog named " + this.name + " is eating.");
     }
 
     public void makeNoise(String noise) throws ThrowableInvalidSoundException {
         super.makeNoise(noise);
-        logger.info("A " + this.breed + " dog named " + this.name + " is making a " + noise + " sound.");
+        LOGGER.info("A " + this.breed + " dog named " + this.name + " is making a " + noise + " sound.");
     }
 
     public void pet() {
-        logger.info(this.owner + " is petting a " + this.breed + " dog named " + this.name + ".");
+        LOGGER.info(this.owner + " is petting a " + this.breed + " dog named " + this.name + ".");
     }
 }

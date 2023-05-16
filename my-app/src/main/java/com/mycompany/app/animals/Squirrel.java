@@ -1,32 +1,25 @@
 package com.mycompany.app.animals;
 
+import com.mycompany.app.enums.HomeContinent;
 import org.apache.logging.log4j.*;
 
 import com.mycompany.app.abstracts.WildAnimal;
 import com.mycompany.app.exceptions.*;
+import com.mycompany.app.enums.Sex;
 
 public class Squirrel extends WildAnimal {
     // Properties.
     private int numOfVisitsToHousePerDay;
-    private Logger logger;
 
     // Constructor.
-    public Squirrel(String homeContinent, String color, int numOfVisitsToHousePerDay, Logger logger) {
+    public Squirrel(Sex sex, HomeContinent homeContinent, String color, int numOfVisitsToHousePerDay) {
+        this.sex = sex;
         this.homeContinent = homeContinent;
         this.color = color;
         this.numOfVisitsToHousePerDay = numOfVisitsToHousePerDay;
-        this.logger = logger;
     }
 
     // Getters/setters.
-    public String getHomeContinent() {
-        return this.homeContinent;
-    }
-
-    public void setHomeContinent(String newContinent) {
-        this.homeContinent = newContinent;
-    }
-    
     public String getColor() {
         return this.color;
     }
@@ -45,8 +38,8 @@ public class Squirrel extends WildAnimal {
 
     // Other methods.
     public String toString() {
-        return "Squirrel Home Continent: " + this.homeContinent + ", Color: " + this.color + ", Number of Visits to a House per Day: " + 
-            this.numOfVisitsToHousePerDay;
+        return "Squirrel Sex: " + this.sex + ", Home Continent: " + this.homeContinent + ", Color: " + this.color +
+            ", Number of Visits to a House per Day: " + this.numOfVisitsToHousePerDay;
     }
 
     public int hashCode() {
@@ -57,20 +50,20 @@ public class Squirrel extends WildAnimal {
     }
 
     public void eat() {
-        logger.info("A " + this.color + " squirrel is eating nuts.");
+        LOGGER.info("A " + this.color + " squirrel is eating nuts.");
     }
 
     public void makeNoise(String noise) throws ThrowableInvalidSoundException {
         super.makeNoise(noise);
-        logger.info("A " + this.color + " squirrel is making a " + noise + " sound.");
+        LOGGER.info("A " + this.color + " squirrel is making a " + noise + " sound.");
     }
 
     public void lookForFood(String food) throws ThrowableInvalidFoodException {
         super.lookForFood(food);
-        logger.info("A " + this.color + " squirrel is looking for ." + food + ".");
+        LOGGER.info("A " + this.color + " squirrel is looking for ." + food + ".");
     }
 
     public void mate() {
-        logger.info("A " + this.color + " squirrel is mating.");
+        LOGGER.info("A " + this.color + " squirrel is mating.");
     }
 }

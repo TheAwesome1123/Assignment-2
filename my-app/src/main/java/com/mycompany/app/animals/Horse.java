@@ -1,23 +1,22 @@
 package com.mycompany.app.animals;
 
 import org.apache.logging.log4j.*;
-
 import com.mycompany.app.abstracts.DomesticatedOrWild;
 import com.mycompany.app.exceptions.ThrowableInvalidNumFeetException;
 import com.mycompany.app.interfaces.IHorseActions;
+import com.mycompany.app.enums.Sex;
 
 public class Horse extends DomesticatedOrWild implements IHorseActions {
     // Properties.
-    private Logger logger;
 
     // Constructors.
-    public Horse(boolean isDomesticated, String name, String breed, int age, String owner, Logger logger) {
+    public Horse(boolean isDomesticated, Sex sex, String name, String breed, int age, String owner) {
         this.isDomesticated = isDomesticated;
+        this.sex = sex;
         this.name = name;
         this.breed = breed;
         this.age = age;
         this.owner = owner;
-        this.logger = logger;
 
         if(!this.isDomesticated) {
             this.name = "N/A";
@@ -81,8 +80,8 @@ public class Horse extends DomesticatedOrWild implements IHorseActions {
     }
 
     public String toString() {
-        return "Horse Is Domesticated: " + this.isDomesticated + ", Name: " + this.name + ", Breed: " + this.breed + ", Age: " + 
-        this.age + ", Owner/Rider: " + this.owner;
+        return "Horse Is Domesticated: " + this.isDomesticated + ", Sex: " + this.sex + ", Name: " + this.name +
+            ", Breed: " + this.breed + ", Age: " + this.age + ", Owner/Rider: " + this.owner;
     }
 
     public boolean equals(Horse horseToCompareWith) {
@@ -108,7 +107,7 @@ public class Horse extends DomesticatedOrWild implements IHorseActions {
             throw new ThrowableInvalidNumFeetException("Invalid jump height.");
         }
         else {
-            logger.info("A " + this.breed + " horse is jumping " + feet + " feet.");
+            LOGGER.info("A " + this.breed + " horse is jumping " + feet + " feet.");
         }
     }
 }

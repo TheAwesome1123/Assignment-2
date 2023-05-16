@@ -5,19 +5,19 @@ import org.apache.logging.log4j.*;
 import com.mycompany.app.abstracts.DomesticatedOrWild;
 import com.mycompany.app.exceptions.*;
 import com.mycompany.app.interfaces.IFly;
+import com.mycompany.app.enums.Sex;
 
 public class Bird extends DomesticatedOrWild implements IFly {
     // Properties.
-    private Logger logger;
 
     // Constructors.
-    public Bird(boolean isDomesticated, String name, String breed, int age, String owner, Logger logger) {
+    public Bird(boolean isDomesticated, Sex sex, String name, String breed, int age, String owner) {
         this.isDomesticated = isDomesticated;
+        this.sex = sex;
         this.name = name;
         this.breed = breed;
         this.age = age;
         this.owner = owner;
-        this.logger = logger;
 
         if(!this.isDomesticated) {
             this.name = "N/A";
@@ -81,8 +81,8 @@ public class Bird extends DomesticatedOrWild implements IFly {
     }
 
     public String toString() {
-        return "Bird Is Domesticated: " + this.isDomesticated + ", Name: " + this.name + ", Breed: " + this.breed + ", Age: " + 
-        this.age + ", Owner: " + this.owner;
+        return "Bird Is Domesticated: " + this.isDomesticated + ", Sex: " + this.sex + ", Name: " + this.name +
+            ", Breed: " + this.breed + ", Age: " +  this.age + ", Owner: " + this.owner;
     }
 
     public boolean equals(Bird birdToCompareWith) {
@@ -108,7 +108,7 @@ public class Bird extends DomesticatedOrWild implements IFly {
             throw new ThrowableInvalidHeightException("Invalid height.");
         }
         else {
-            logger.info("A " + this.breed + " is flying.");
+            LOGGER.info("A " + this.breed + " is flying.");
         }
     }
 }

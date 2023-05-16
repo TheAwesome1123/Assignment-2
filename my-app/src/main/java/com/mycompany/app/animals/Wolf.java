@@ -1,32 +1,24 @@
 package com.mycompany.app.animals;
 
+import com.mycompany.app.enums.HomeContinent;
 import org.apache.logging.log4j.*;
-
 import com.mycompany.app.abstracts.WildAnimal;
 import com.mycompany.app.exceptions.*;
+import com.mycompany.app.enums.Sex;
 
 public class Wolf extends WildAnimal {
     // Properties.
     private int packSize;
-    private Logger logger;
 
     // Constructor.
-    public Wolf(String homeContinent, String color, int packSize, Logger logger) {
+    public Wolf(Sex sex, HomeContinent homeContinent, String color, int packSize) {
+        this.sex = sex;
         this.homeContinent = homeContinent;
         this.color = color;
         this.packSize = packSize;
-        this.logger = logger;
     }
 
     // Getters/setters.
-    public String getHomeContinent() {
-        return this.homeContinent;
-    }
-
-    public void setHomeContinent(String newContinent) {
-        this.homeContinent = newContinent;
-    }
-    
     public String getColor() {
         return this.color;
     }
@@ -45,7 +37,8 @@ public class Wolf extends WildAnimal {
 
     // Other methods.
     public String toString() {
-        return "Wolf Home Continent: " + this.homeContinent + ", Color: " + this.color + ", Pack Size: " + this.packSize;
+        return "Wolf Sex: " + this.sex + ", Home Continent: " + this.homeContinent + ", Color: " + this.color +
+            ", Pack Size: " + this.packSize;
     }
 
     public int hashCode() {
@@ -56,20 +49,20 @@ public class Wolf extends WildAnimal {
     }
 
     public void eat() {
-        logger.info("A " + this.color + " wolf is eating with other wolves in its pack of " + this.packSize + ".");
+        LOGGER.info("A " + this.color + " wolf is eating with other wolves in its pack of " + this.packSize + ".");
     }
 
     public void makeNoise(String noise) throws ThrowableInvalidSoundException {
         super.makeNoise(color);
-        logger.info("A " + this.color + " wolf is making a " + noise + " sound.");
+        LOGGER.info("A " + this.color + " wolf is making a " + noise + " sound.");
     }
 
     public void lookForFood(String food) throws ThrowableInvalidFoodException {
         super.lookForFood(food);
-        logger.info("A " + this.color + " wolf is hunting with its pack for " + food + ".");
+        LOGGER.info("A " + this.color + " wolf is hunting with its pack for " + food + ".");
     }
 
     public void mate() {
-        logger.info("A " + this.color + " wolf is mating.");
+        LOGGER.info("A " + this.color + " wolf is mating.");
     }
 }

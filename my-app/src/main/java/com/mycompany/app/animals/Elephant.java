@@ -1,34 +1,25 @@
 package com.mycompany.app.animals;
 
+import com.mycompany.app.enums.HomeContinent;
 import org.apache.logging.log4j.*;
 
 import com.mycompany.app.abstracts.WildAnimal;
 import com.mycompany.app.exceptions.*;
+import com.mycompany.app.enums.Sex;
 
 public class Elephant extends WildAnimal {
     // Properties.
     private int heightInFeet;
-    private String sex;
-    private Logger logger;
 
     // Constructor.
-    public Elephant(String homeContinent, String color, int heightInFeet, String sex, Logger logger) {
+    public Elephant(Sex sex, HomeContinent homeContinent, String color, int heightInFeet) {
+        this.sex = sex;
         this.homeContinent = homeContinent;
         this.color = color;
         this.heightInFeet = heightInFeet;
-        this.sex = sex;
-        this.logger = logger;
     }
 
     // Getters/setters.
-    public String getHomeContinent() {
-        return this.homeContinent;
-    }
-
-    public void setHomeContinent(String newContinent) {
-        this.homeContinent = newContinent;
-    }
-    
     public String getColor() {
         return this.color;
     }
@@ -45,18 +36,10 @@ public class Elephant extends WildAnimal {
         this.heightInFeet = newHeight;
     }
 
-    public String getSex() {
-        return this.sex;
-    }
-
-    public void setSex(String newSex) {
-        this.sex = newSex;
-    }
-
     // Other methods.
     public String toString() {
-        return "Elephant Home Continent: " + this.homeContinent + ", Color: " + this.color + ", Height in feet: " + this.heightInFeet + 
-            ", Sex: " + this.sex;
+        return "Elephant Sex: " + this.sex + ", Home Continent: " + this.homeContinent + ", Color: " + this.color +
+            ", Height in feet: " + this.heightInFeet + ", Sex: " + this.sex;
     }
 
     public int hashCode() {
@@ -67,21 +50,21 @@ public class Elephant extends WildAnimal {
     }
 
     public void eat() {
-        logger.info("An elephant that is " + this.heightInFeet + " feet tall is eating.");
+        LOGGER.info("An elephant that is " + this.heightInFeet + " feet tall is eating.");
     }
 
     public void makeNoise(String noise) throws ThrowableInvalidSoundException {
         super.makeNoise(noise);
-        logger.info("An elephant that is " + this.heightInFeet + " feet tall is making a " + noise + " sound.");
+        LOGGER.info("An elephant that is " + this.heightInFeet + " feet tall is making a " + noise + " sound.");
     }
 
     public void lookForFood(String food) throws ThrowableInvalidFoodException {
         super.lookForFood(food);
-        logger.info("An elephant that is " + this.heightInFeet + " feet tall is looking for " + food + ".");
+        LOGGER.info("An elephant that is " + this.heightInFeet + " feet tall is looking for " + food + ".");
     }
 
     public void mate() {
-        logger.info("An elephant that is " + this.heightInFeet + " feet tall is mating.");
+        LOGGER.info("An elephant that is " + this.heightInFeet + " feet tall is mating.");
 
     }
 }

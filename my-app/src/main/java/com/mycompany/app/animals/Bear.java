@@ -1,33 +1,26 @@
 package com.mycompany.app.animals;
 
-import org.apache.logging.log4j.*;
+import com.mycompany.app.enums.BearType;
+import com.mycompany.app.enums.HomeContinent;
+import com.mycompany.app.enums.Sex;
 import com.mycompany.app.abstracts.WildAnimal;
 import com.mycompany.app.exceptions.*;
 
 public class Bear extends WildAnimal {
     // Properties.
-    private String type;
+    private BearType type;
     private int numOfCubs;
-    private Logger logger;
 
     // Constructor.
-    public Bear(String homeContinent, String color, String type, int numOfCubs, Logger logger) {
+    public Bear(Sex sex, HomeContinent homeContinent, String color, BearType type, int numOfCubs) {
+        this.sex = sex;
         this.homeContinent = homeContinent;
         this.color = color;
         this.type = type;
         this.numOfCubs = numOfCubs;
-        this.logger = logger;
     }
 
     // Getters/setters.
-    public String getHomeContinent() {
-        return this.homeContinent;
-    }
-
-    public void setHomeContinent(String newContinent) {
-        this.homeContinent = newContinent;
-    }
-    
     public String getColor() {
         return this.color;
     }
@@ -36,11 +29,11 @@ public class Bear extends WildAnimal {
         this.color = newColor;
     }
 
-    public String getType() {
+    public BearType getType() {
         return this.type;
     }
 
-    public void setType(String newType) {
+    public void setType(BearType newType) {
         this.type = newType;
     }
 
@@ -54,8 +47,8 @@ public class Bear extends WildAnimal {
 
     // Other methods.
     public String toString() {
-        return "Bear Home Continent: " + this.homeContinent + ", Color: " + this.color + ", Type: " + this.type + ", Number of Cubs: " + 
-            this.numOfCubs;
+        return "Bear Sex: " + this.sex + ", Home Continent: " + this.homeContinent + ", Color: " + this.color +
+            ", Type: " + this.type + ", Number of Cubs: " + this.numOfCubs;
     }
 
     public int hashCode() {
@@ -66,20 +59,20 @@ public class Bear extends WildAnimal {
     }
 
     public void eat() {
-        logger.info("A " + this.type + " bear is eating with " + this.numOfCubs + " cubs.");
+        LOGGER.info("A " + this.type + " bear is eating with " + this.numOfCubs + " cubs.");
     }
 
     public void makeNoise(String noise) throws ThrowableInvalidSoundException {
         super.makeNoise(noise);
-        logger.info("A " + this.type + " bear is making a " + noise + " noise.");
+        LOGGER.info("A " + this.type + " bear is making a " + noise + " noise.");
     }
 
     public void lookForFood(String food) throws ThrowableInvalidFoodException {
         super.lookForFood(food);
-        logger.info("A " + this.type + " bear is hunting for " + food + ".");
+        LOGGER.info("A " + this.type + " bear is hunting for " + food + ".");
     }
 
     public void mate() {
-        logger.info("A " + this.type + " bear found a mate and will have cubs.");
+        LOGGER.info("A " + this.type + " bear found a mate and will have cubs.");
     }
 }

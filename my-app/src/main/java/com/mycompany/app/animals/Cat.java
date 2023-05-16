@@ -1,20 +1,22 @@
 package com.mycompany.app.animals;
 
+import com.mycompany.app.enums.CatBreed;
+import com.mycompany.app.enums.Sex;
 import org.apache.logging.log4j.*;
 import com.mycompany.app.abstracts.*;
 import com.mycompany.app.exceptions.ThrowableInvalidSoundException;
 
 public class Cat extends Pet {
     // Properties.
-    private Logger logger;
+    private CatBreed breed;
 
     // Constructor.
-    public Cat(String name, String breed, int age, String owner, Logger logger) {
+    public Cat(String name, CatBreed breed, Sex sex, int age, String owner) {
         this.name = name;
         this.breed = breed;
+        this.sex = sex;
         this.age = age;
         this.owner = owner;
-        this.logger = logger;
     }
 
     // Getters/setters.
@@ -26,11 +28,11 @@ public class Cat extends Pet {
         this.name = newName;
     }
 
-    public String getBreed() {
+    public CatBreed getBreed() {
         return this.breed;
     }
 
-    public void setBreed(String newBreed) {
+    public void setBreed(CatBreed newBreed) {
         this.breed = newBreed;
     }
 
@@ -42,21 +44,14 @@ public class Cat extends Pet {
         this.age = newAge;
     }
 
-    public String getOwner() {
-        return this.owner;
-    }
-
-    public void setOwner(String newOwner) {
-        this.owner = newOwner;
-    }
-
     // Other methods.
     public void adopt() {
-        logger.info("A " + this.breed + " cat named " + this.name + " was adopted by " + this.owner + ".");
+        LOGGER.info("A " + this.breed + " cat named " + this.name + " was adopted by " + this.owner + ".");
     }
 
     public String toString() {
-        return "Cat Name: " + this.name + ", Breed: " + this.breed + ", Age: " + this.age + ", Owner: " + this.owner;
+        return "Cat Name: " + this.name + ", Breed: " + this.breed + ", Sex: " + this.sex + ", Age: " + this.age +
+            ", Owner: " + this.owner;
     }
 
     public boolean equals(Cat catToCompareWith) {
@@ -77,15 +72,15 @@ public class Cat extends Pet {
     }
 
     public void eat() {
-        logger.info("A " + this.breed + " cat named " + this.name + " is eating.");
+        LOGGER.info("A " + this.breed + " cat named " + this.name + " is eating.");
     }
 
     public void makeNoise(String noise) throws ThrowableInvalidSoundException {
         super.makeNoise(noise);
-        logger.info("A " + this.breed + " cat named " + this.name + " is making a " + noise + " sound.");
+        LOGGER.info("A " + this.breed + " cat named " + this.name + " is making a " + noise + " sound.");
     }
 
     public void pet() {
-        logger.info(this.owner + " is petting a " + this.breed + " cat named " + this.name + ".");
+        LOGGER.info(this.owner + " is petting a " + this.breed + " cat named " + this.name + ".");
     }
 }

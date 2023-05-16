@@ -1,32 +1,25 @@
 package com.mycompany.app.animals;
 
+import com.mycompany.app.enums.HomeContinent;
 import org.apache.logging.log4j.*;
 
 import com.mycompany.app.abstracts.WildAnimal;
 import com.mycompany.app.exceptions.*;
+import com.mycompany.app.enums.Sex;
 
 public class Rhino extends WildAnimal {
     // Properties.
     private int weightInPounds;
-    private Logger logger;
 
     // Constructor.
-    public Rhino(String homeContinent, String color, int weightInPounds, Logger logger) {
+    public Rhino(Sex sex, HomeContinent homeContinent, String color, int weightInPounds) {
+        this.sex = sex;
         this.homeContinent = homeContinent;
         this.color = color;
         this.weightInPounds = weightInPounds;
-        this.logger = logger;
     }
 
     // Getters/setters.
-    public String getHomeContinent() {
-        return this.homeContinent;
-    }
-
-    public void setHomeContinent(String newContinent) {
-        this.homeContinent = newContinent;
-    }
-    
     public String getColor() {
         return this.color;
     }
@@ -45,7 +38,8 @@ public class Rhino extends WildAnimal {
 
     // Other methods.
     public String toString() {
-        return "Rhino Home Continent: " + this.homeContinent + ", Color: " + this.color + ", Weight in Pounds: " + this.weightInPounds;
+        return "Rhino Sex: " + this.sex + ", Home Continent: " + this.homeContinent + ", Color: " + this.color +
+            ", Weight in Pounds: " + this.weightInPounds;
     }
 
     public int hashCode() {
@@ -56,20 +50,20 @@ public class Rhino extends WildAnimal {
     }
 
     public void eat() {
-        logger.info("A rhino that weighs " + this.weightInPounds + " pounds is eating.");
+        LOGGER.info("A rhino that weighs " + this.weightInPounds + " pounds is eating.");
     }
 
     public void makeNoise(String noise) throws ThrowableInvalidSoundException {
         super.makeNoise(noise);
-        logger.info("A rhino that weighs " + this.weightInPounds + " pounds is making a " + noise + " sound.");
+        LOGGER.info("A rhino that weighs " + this.weightInPounds + " pounds is making a " + noise + " sound.");
     }
 
     public void lookForFood(String food) throws ThrowableInvalidFoodException {
         super.lookForFood(food);
-        logger.info("A rhino that weighs " + this.weightInPounds + " pounds is looking for " + food + ".");
+        LOGGER.info("A rhino that weighs " + this.weightInPounds + " pounds is looking for " + food + ".");
     }
 
     public void mate() {
-        logger.info("A rhino that weighs " + this.weightInPounds + " pounds is mating.");
+        LOGGER.info("A rhino that weighs " + this.weightInPounds + " pounds is mating.");
     }
 }

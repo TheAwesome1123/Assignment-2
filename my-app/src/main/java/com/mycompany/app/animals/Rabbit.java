@@ -1,21 +1,23 @@
 package com.mycompany.app.animals;
 
+import com.mycompany.app.enums.RabbitBreed;
 import org.apache.logging.log4j.*;
 import com.mycompany.app.abstracts.*;
 import com.mycompany.app.exceptions.ThrowableInvalidSoundException;
+import com.mycompany.app.enums.Sex;
 
 public class Rabbit extends Pet {
     // Properties.
-    private final boolean needsCage = true;
-    private Logger logger;
+    private static final boolean needsCage = true;
+    private RabbitBreed breed;
 
     // Constructor.
-    public Rabbit(String name, String breed, int age, String owner, Logger logger) {
+    public Rabbit(String name, RabbitBreed breed, Sex sex, int age, String owner) {
         this.name = name;
         this.breed = breed;
+        this.sex = sex;
         this.age = age;
         this.owner = owner;
-        this.logger = logger;
     }
 
     // Getters/setters.
@@ -27,11 +29,11 @@ public class Rabbit extends Pet {
         this.name = newName;
     }
 
-    public String getBreed() {
+    public RabbitBreed getBreed() {
         return this.breed;
     }
 
-    public void setBreed(String newBreed) {
+    public void setBreed(RabbitBreed newBreed) {
         this.breed = newBreed;
     }
 
@@ -43,25 +45,18 @@ public class Rabbit extends Pet {
         this.age = newAge;
     }
 
-    public String getOwner() {
-        return this.owner;
-    }
-
-    public void setOwner(String newOwner) {
-        this.owner = newOwner;
-    }
-
     public boolean getNeedsCage() {
-        return this.needsCage;
+        return needsCage;
     }
     
     // Other methods.
     public void adopt() {
-        logger.info("A " + this.breed + " rabbit named " + this.name + " was adopted by " + this.owner + ".");
+        LOGGER.info("A " + this.breed + " rabbit named " + this.name + " was adopted by " + this.owner + ".");
     }
 
     public String toString() {
-        return "Rabbit Name: " + this.name + ", Breed: " + this.breed + ", Age: " + this.age + ", Owner: " + this.owner;
+        return "Rabbit Name: " + this.name + ", Breed: " + this.breed + ", Sex: " + this.sex + ", Age: " + this.age +
+            ", Owner: " + this.owner;
     }
 
     public boolean equals(Rabbit rabbitToCompareWith) {
@@ -82,15 +77,15 @@ public class Rabbit extends Pet {
     }
 
     public void eat() {
-        logger.info("A " + this.breed + " rabbit named " + this.name + " is eating.");
+        LOGGER.info("A " + this.breed + " rabbit named " + this.name + " is eating.");
     }
 
     public void makeNoise(String noise) throws ThrowableInvalidSoundException {
         super.makeNoise(noise);
-        logger.info("A " + this.breed + " rabbit named " + this.name + " is making a " + noise + " sound.");
+        LOGGER.info("A " + this.breed + " rabbit named " + this.name + " is making a " + noise + " sound.");
     }
 
     public void pet() {
-        logger.info(this.owner + " is petting a " + this.breed + " rabbit named " + this.name + ".");
+        LOGGER.info(this.owner + " is petting a " + this.breed + " rabbit named " + this.name + ".");
     }
 }

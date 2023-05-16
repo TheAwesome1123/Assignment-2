@@ -1,13 +1,14 @@
 package com.mycompany.app.animals;
 
-import org.apache.logging.log4j.*;
+import com.mycompany.app.enums.DogBreed;
+import com.mycompany.app.enums.Sex;
 
 public final class Labrador extends Dog {
     // Properties.
     private String color;
 
-    public Labrador(String name, String breed, int age, String owner, boolean fightsWithCats, String color, Logger logger) {
-        super(name, breed, age, owner, fightsWithCats, logger);
+    public Labrador(String name, DogBreed breed, Sex sex, int age, String owner, boolean fightsWithCats, String color) {
+        super(name, breed, sex, age, owner, fightsWithCats);
         this.color = color;
     }
 

@@ -11,6 +11,7 @@ com\mycompany\app\exceptions\ThrowableInvalidNumFeetException.class
 com\mycompany\app\animals\Horse.class
 com\mycompany\app\Main.class
 com\mycompany\app\abstracts\Animal.class
+com\mycompany\app\animals\AnimalCreator.class
 com\mycompany\app\animals\Labrador.class
 com\mycompany\app\interfaces\IPetInteractions.class
 com\mycompany\app\exceptions\ThrowableInvalidPetActionException.class

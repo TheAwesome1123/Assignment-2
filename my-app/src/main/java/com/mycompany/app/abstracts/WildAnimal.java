@@ -3,14 +3,15 @@ package com.mycompany.app.abstracts;
 import org.apache.logging.log4j.*;
 import com.mycompany.app.exceptions.*;
 import com.mycompany.app.interfaces.IWildAnimalBehaviors;
+import com.mycompany.app.enums.HomeContinent;
 
 public abstract class WildAnimal extends Animal implements IWildAnimalBehaviors {
-    protected String homeContinent;
+    protected HomeContinent homeContinent;
     protected String color;
-    protected Logger logger = LogManager.getLogger("WildAnimalLogger");
+    protected static final Logger LOGGER = LogManager.getLogger("WildAnimalLogger");
 
     public final void printStatement() {
-        logger.info("Wild animals are not pets.");
+        LOGGER.info("Wild animals are not pets.");
     }
 
     public void lookForFood(String food) throws ThrowableInvalidFoodException {
@@ -19,4 +20,11 @@ public abstract class WildAnimal extends Animal implements IWildAnimalBehaviors 
         }
     }
 
+    public HomeContinent getHomeContinent() {
+        return this.homeContinent;
+    }
+
+    public void setHomeContinent(HomeContinent newContinent) {
+        this.homeContinent = newContinent;
+    }
 }

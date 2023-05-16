@@ -6,10 +6,9 @@ import com.mycompany.app.interfaces.IPetInteractions;
 
 public abstract class Pet extends Animal implements IPetInteractions {
     protected String name;
-    protected String breed;
     protected int age;
     protected String owner;
-    protected Logger logger = LogManager.getLogger("PetLogger");
+    protected static final Logger LOGGER = LogManager.getLogger("PetLogger");
 
     protected abstract void adopt();
 
@@ -18,8 +17,16 @@ public abstract class Pet extends Animal implements IPetInteractions {
             throw new ThrowableInvalidPetActionException("Action too short or long.");
         }
         else {
-            logger.info(this.owner + " is teaching a " + this.breed + " " + this.getClass().getTypeName() + 
+            LOGGER.info(this.owner + " is teaching a " + this.getClass().getTypeName() +
             " named " + this.name + " how to " + action + ".");
         }
+    }
+
+    public String getOwner() {
+        return this.owner;
+    }
+
+    public void setOwner(String newOwner) {
+        this.owner = newOwner;
     }
 }

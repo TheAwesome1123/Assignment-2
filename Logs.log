@@ -329,3 +329,3874 @@ Invalid noise representation.
 
 An elephant that is 10 feet tall is looking for plants.
 Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: North America, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: Africa, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: Africa, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: Africa, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: North America, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: North America, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: North America, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: Africa, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: Africa, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: Africa, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: North America, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: North America, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: North America, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: Africa, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: Africa, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: Africa, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: North America, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: North America, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A American Shorthair cat named Bob was adopted by Robert.
+A German Shepherd dog named Sam was adopted by Robert.
+A American rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: North America, Color: brown, Type: Brown, Number of Cubs: 2
+Bear Home Continent: North America, Color: brown, Type: Brown, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+
+
+Is "Rhino Home Continent: Africa, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: Africa, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: North America, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+
+
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A American Shorthair cat named Bob is eating.
+Robert is teaching a German Shepherd com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A American Shorthair cat named Bob was adopted by Robert.
+A German Shepherd dog named Sam was adopted by Robert.
+A American rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+
+
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+
+
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A American Shorthair cat named Bob is eating.
+Robert is teaching a German Shepherd com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+AFRICA
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A American Shorthair cat named Bob was adopted by Robert.
+A German Shepherd dog named Sam was adopted by Robert.
+A American rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+
+
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+
+
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A American Shorthair cat named Bob is eating.
+Robert is teaching a German Shepherd com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+AFRICA
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A American Shorthair cat named Bob was adopted by Robert.
+A German Shepherd dog named Sam was adopted by Robert.
+A American rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+
+
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+
+
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A American Shorthair cat named Bob is eating.
+Robert is teaching a German Shepherd com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+AFRICA
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A American Shorthair cat named Bob was adopted by Robert.
+A German Shepherd dog named Sam was adopted by Robert.
+A American rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+
+
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+
+
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A American Shorthair cat named Bob is eating.
+Robert is teaching a German Shepherd com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A American Shorthair cat named Bob was adopted by Robert.
+A German Shepherd dog named Sam was adopted by Robert.
+A American rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+
+
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+
+
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A American Shorthair cat named Bob is eating.
+Robert is teaching a German Shepherd com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A American Shorthair cat named Bob was adopted by Robert.
+A German Shepherd dog named Sam was adopted by Robert.
+A American rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+
+
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+
+
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A American Shorthair cat named Bob is eating.
+Robert is teaching a German Shepherd com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A American Shorthair cat named Bob was adopted by Robert.
+A German Shepherd dog named Sam was adopted by Robert.
+A American rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+
+
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+
+
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A American Shorthair cat named Bob is eating.
+Robert is teaching a German Shepherd com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A American Shorthair cat named Bob was adopted by Robert.
+A German Shepherd dog named Sam was adopted by Robert.
+A American rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+
+
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+
+
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A American Shorthair cat named Bob is eating.
+Robert is teaching a German Shepherd com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A American Shorthair cat named Bob was adopted by Robert.
+A German Shepherd dog named Sam was adopted by Robert.
+A American rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+
+
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+
+
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A American Shorthair cat named Bob is eating.
+Robert is teaching a German Shepherd com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A American Shorthair cat named Bob was adopted by Robert.
+A German Shepherd dog named Sam was adopted by Robert.
+A American rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+
+
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+
+
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A American Shorthair cat named Bob is eating.
+Robert is teaching a German Shepherd com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: German Shepherd, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A American Shorthair cat named Bob was adopted by Robert.
+A German Shepherd dog named Sam was adopted by Robert.
+A American rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: American Shorthair, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: American, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: Brown, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+
+
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+
+
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A American Shorthair cat named Bob is eating.
+Robert is teaching a German Shepherd com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+
+
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+
+
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+1
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+
+
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+
+
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of wild animals: 0.
+Num of domestic/wild animals: 0.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of wild animals: 0.
+Num of domestic/wild animals: 0.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of wild animals: 0.
+Num of domestic/wild animals: 0.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of wild animals: 0.
+Num of domestic/wild animals: 0.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of wild animals: 0.
+Num of domestic/wild animals: 0.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of wild animals: 0.
+Num of domestic/wild animals: 0.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+com.mycompany.app.animals.Bear 
+com.mycompany.app.animals.Bird 
+com.mycompany.app.animals.Elephant 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Rhino 
+com.mycompany.app.animals.Wolf 
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+
+
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+
+
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+Bear 
+Bird 
+Elephant 
+Rhino 
+Rhino 
+Wolf 
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+
+
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+
+
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+Bear 
+Bird 
+Elephant 
+Rhino 
+Rhino 
+Wolf 
+
+
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+Bear 
+Bird 
+Elephant 
+Rhino 
+Rhino 
+Wolf 
+
+
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+Bear 
+Bird 
+Elephant 
+Rhino 
+Rhino 
+Wolf 
+
+
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+Bear 
+Bird 
+Elephant 
+Rhino 
+Rhino 
+Wolf 
+
+
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+Bear 
+Bird 
+Elephant 
+Rhino 
+Rhino 
+Wolf 
+
+
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+The ratio between a list of size 4 and one of size 13 is about0.
+
+
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+Bear 
+Bird 
+Elephant 
+Rhino 
+Rhino 
+Wolf 
+
+
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+The ratio between a list of size 4 and one of size 13 is about0.3076923076923077.
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+Bear 
+Bird 
+Elephant 
+Rhino 
+Rhino 
+Wolf 
+The ratio between a list of size 4 and one of size 13 is about 0.3076923076923077.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+
+Class of contents: Cat
+Class of prev: N/A
+Class of next: Dog
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+Bear 
+Bird 
+Elephant 
+Rhino 
+Rhino 
+Wolf 
+
+
+The ratio between a list of size 4 and one of size 13 is about 0.3076923076923077.
+Dogs and cats can fight.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Class of contents: Cat
+Class of prev: N/A
+Class of next: Dog
+
+
+-----------------
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+Bear 
+Bird 
+Elephant 
+Rhino 
+Rhino 
+Wolf 
+The ratio between a list of size 4 and one of size 13 is about 0.3076923076923077.
+Dogs and cats can fight.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+
+Class of contents: Cat
+Class of prev: N/A
+Class of next: Dog
+-----------------
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+Bear 
+Bird 
+Elephant 
+Rhino 
+Rhino 
+Wolf 
+The ratio between a list of size 4 and one of size 13 is about 0.3076923076923077.
+Dogs and cats can fight.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+
+Class of contents: Cat
+Class of prev: N/A
+Class of next: Dog
+-----------------
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+Bear 
+Bird 
+Elephant 
+Rhino 
+Rhino 
+Wolf 
+The ratio between a list of size 4 and one of size 13 is about 0.3076923076923077.
+Dogs and cats can fight.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+
+Class of contents: Cat
+Class of prev: N/A
+Class of next: Dog
+-----------------
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+Bear 
+Bird 
+Elephant 
+Rhino 
+Rhino 
+Wolf 
+The ratio between a list of size 4 and one of size 13 is about 0.3076923076923077.
+Dogs and cats can fight.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+
+Class of contents: Cat
+Class of prev: N/A
+Class of next: Dog
+-----------------
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Field: fightsWithCats
+Field: breed
+Field: numOfLegs
+Field: fightsWithCats Modifier: 2
+Field: breed Modifier: 2
+Field: numOfLegs Modifier: 26
+Field: fightsWithCats, Modifier: public
+Field: breed, Modifier: public
+Field: numOfLegs, Modifier: public
+Field: fightsWithCats, Modifier: private
+Field: breed, Modifier: private
+Field: numOfLegs, Modifier: private
+Field: fightsWithCats, Modifier: private
+Field: breed, Modifier: private
+Field: numOfLegs, Modifier: private static final
+Field: fightsWithCats, Modifier(s): private
+Field: breed, Modifier(s): private
+Field: numOfLegs, Modifier(s): private static final
+Constructor: 
+java.lang.String
+com.mycompany.app.enums.DogBreed
+com.mycompany.app.enums.Sex
+int
+java.lang.String
+boolean
+Field: fightsWithCats, Modifier(s): private
+Field: breed, Modifier(s): private
+Field: numOfLegs, Modifier(s): private static final
+Constructor: 
+Class
+Class
+Class
+Class
+Class
+Class
+Field: fightsWithCats, Modifier(s): private
+Field: breed, Modifier(s): private
+Field: numOfLegs, Modifier(s): private static final
+Constructor: 
+java.lang.Class
+java.lang.Class
+java.lang.Class
+java.lang.Class
+java.lang.Class
+java.lang.Class
+Field: fightsWithCats, Modifier(s): private
+Field: breed, Modifier(s): private
+Field: numOfLegs, Modifier(s): private static final
+Constructor: 
+java.lang.Class
+java.lang.Class
+java.lang.Class
+java.lang.Class
+java.lang.Class
+java.lang.Class
+Field: fightsWithCats, Modifier(s): private
+Field: breed, Modifier(s): private
+Field: numOfLegs, Modifier(s): private static final
+Constructor: 
+java.lang.String
+com.mycompany.app.enums.DogBreed
+com.mycompany.app.enums.Sex
+int
+java.lang.String
+boolean
+Field: fightsWithCats, Modifier(s): private
+
+Field: breed, Modifier(s): private
+
+Field: numOfLegs, Modifier(s): private static final
+
+Constructor parameter types: 
+java.lang.String
+com.mycompany.app.enums.DogBreed
+com.mycompany.app.enums.Sex
+int
+java.lang.String
+boolean
+Method return type: java.lang.String
+Method return type: boolean
+Method return type: java.lang.String
+Method return type: int
+Method return type: void
+Method return type: java.lang.String
+Method return type: void
+Method return type: void
+Method return type: void
+Method return type: void
+Method return type: com.mycompany.app.enums.DogBreed
+Method return type: int
+Method return type: void
+Method return type: int
+Method return type: void
+Method return type: void
+Method return type: boolean
+Method return type: void
+Method return type: void
+Method return type: void
+Method return type: void
+Method return type: void
+Method return type: boolean
+Method return type: java.lang.Class
+Method return type: void
+Method return type: void
+Field: fightsWithCats, Modifier(s): private
+
+Field: breed, Modifier(s): private
+
+Field: numOfLegs, Modifier(s): private static final
+
+Constructor parameter types: 
+java.lang.String
+com.mycompany.app.enums.DogBreed
+com.mycompany.app.enums.Sex
+int
+java.lang.String
+boolean
+Method name: getName, Return Type: java.lang.String
+Method name: equals, Return Type: boolean
+Method name: toString, Return Type: java.lang.String
+Method name: hashCode, Return Type: int
+Method name: setName, Return Type: void
+Method name: getOwner, Return Type: java.lang.String
+Method name: setOwner, Return Type: void
+Method name: setFightingWithCatsHabit, Return Type: void
+Method name: getFightingWithCatsHabit, Return Type: boolean
+Method name: eat, Return Type: void
+Method name: makeNoise, Return Type: void
+Method name: getAge, Return Type: int
+Method name: setAge, Return Type: void
+Method name: getBreed, Return Type: com.mycompany.app.enums.DogBreed
+Method name: adopt, Return Type: void
+Method name: getNumOfLegs, Return Type: int
+Method name: setBreed, Return Type: void
+Method name: pet, Return Type: void
+Field: fightsWithCats, Modifier(s): private
+
+Field: breed, Modifier(s): private
+
+Field: numOfLegs, Modifier(s): private static final
+
+Constructor parameter types: 
+java.lang.String
+com.mycompany.app.enums.DogBreed
+com.mycompany.app.enums.Sex
+int
+java.lang.String
+boolean
+
+
+Method name: getName, Return Type: java.lang.String
+Method name: equals, Return Type: boolean
+Method name: toString, Return Type: java.lang.String
+Method name: hashCode, Return Type: int
+Method name: setName, Return Type: void
+Method name: getOwner, Return Type: java.lang.String
+Method name: setOwner, Return Type: void
+Method name: setBreed, Return Type: void
+Method name: getBreed, Return Type: com.mycompany.app.enums.DogBreed
+Method name: adopt, Return Type: void
+Method name: pet, Return Type: void
+Method name: getNumOfLegs, Return Type: int
+Method name: setAge, Return Type: void
+Method name: makeNoise, Return Type: void
+Method name: eat, Return Type: void
+Method name: getAge, Return Type: int
+Method name: getFightingWithCatsHabit, Return Type: boolean
+Method name: setFightingWithCatsHabit, Return Type: void
+Field: fightsWithCats, Modifier(s): private
+Field: breed, Modifier(s): private
+Field: numOfLegs, Modifier(s): private static final
+
+
+Constructor parameter types: 
+java.lang.String
+com.mycompany.app.enums.DogBreed
+com.mycompany.app.enums.Sex
+int
+java.lang.String
+boolean
+
+
+Method name: getName, Return Type: java.lang.String
+Method name: equals, Return Type: boolean
+Method name: toString, Return Type: java.lang.String
+Method name: hashCode, Return Type: int
+Method name: setName, Return Type: void
+Method name: getOwner, Return Type: java.lang.String
+Method name: setOwner, Return Type: void
+Method name: getBreed, Return Type: com.mycompany.app.enums.DogBreed
+Method name: setBreed, Return Type: void
+Method name: makeNoise, Return Type: void
+Method name: getAge, Return Type: int
+Method name: setAge, Return Type: void
+Method name: eat, Return Type: void
+Method name: getFightingWithCatsHabit, Return Type: boolean
+Method name: setFightingWithCatsHabit, Return Type: void
+Method name: pet, Return Type: void
+Method name: getNumOfLegs, Return Type: int
+Method name: adopt, Return Type: void
+Field: fightsWithCats, Modifier(s): private
+Field: breed, Modifier(s): private
+Field: numOfLegs, Modifier(s): private static final
+Constructor parameter types: 
+java.lang.String
+com.mycompany.app.enums.DogBreed
+com.mycompany.app.enums.Sex
+int
+java.lang.String
+boolean
+Method name: getName, Return Type: java.lang.String
+Method name: equals, Return Type: boolean
+Method name: toString, Return Type: java.lang.String
+Method name: hashCode, Return Type: int
+Method name: setName, Return Type: void
+Method name: getOwner, Return Type: java.lang.String
+Method name: setOwner, Return Type: void
+Method name: setFightingWithCatsHabit, Return Type: void
+Method name: getFightingWithCatsHabit, Return Type: boolean
+Method name: setAge, Return Type: void
+Method name: eat, Return Type: void
+Method name: setBreed, Return Type: void
+Method name: getNumOfLegs, Return Type: int
+Method name: makeNoise, Return Type: void
+Method name: getAge, Return Type: int
+Method name: adopt, Return Type: void
+Method name: getBreed, Return Type: com.mycompany.app.enums.DogBreed
+Method name: pet, Return Type: void
+Field: fightsWithCats, Modifier(s): private
+Field: breed, Modifier(s): private
+Field: numOfLegs, Modifier(s): private static final
+
+Constructor parameter types: 
+java.lang.String
+com.mycompany.app.enums.DogBreed
+com.mycompany.app.enums.Sex
+int
+java.lang.String
+boolean
+
+Method name: getName, Return Type: java.lang.String
+Method name: equals, Return Type: boolean
+Method name: toString, Return Type: java.lang.String
+Method name: hashCode, Return Type: int
+Method name: setName, Return Type: void
+Method name: getOwner, Return Type: java.lang.String
+Method name: setOwner, Return Type: void
+Method name: makeNoise, Return Type: void
+Method name: setAge, Return Type: void
+Method name: getBreed, Return Type: com.mycompany.app.enums.DogBreed
+Method name: getAge, Return Type: int
+Method name: setBreed, Return Type: void
+Method name: eat, Return Type: void
+Method name: adopt, Return Type: void
+Method name: getNumOfLegs, Return Type: int
+Method name: pet, Return Type: void
+Method name: setFightingWithCatsHabit, Return Type: void
+Method name: getFightingWithCatsHabit, Return Type: boolean
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+Bear 
+Bird 
+Elephant 
+Rhino 
+Rhino 
+Wolf 
+The ratio between a list of size 4 and one of size 13 is about 0.3076923076923077.
+Dogs and cats can fight.
+The breeds AMERICANSHORTHAIR and AMERICANSHORTHAIR are the same.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+
+Class of contents: Cat
+Class of prev: N/A
+Class of next: Dog
+-----------------
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 2.
+
+Animals that can be found at zoos: 
+Bear 
+Bird 
+Elephant 
+Rhino 
+Rhino 
+Wolf 
+
+The ratio between a list of size 4 and one of size 13 is about 0.3076923076923077.
+Dogs and cats can fight.
+The breeds AMERICANSHORTHAIR and AMERICANSHORTHAIR are the same.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Class of contents: Cat
+Class of prev: N/A
+Class of next: Dog
+
+-----------------
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Age: 3, Owner: Robert
+-----------------
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+Is "Rhino Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+-----------------
+Bird Is Domesticated: true, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+A BEAGLE is not big.
+A BEAGLE is not big.
+A GOLDENRETRIEVER is big.
+A BEAGLE is not big.
+A GOLDENRETRIEVER is big.
+A Elephant is probably going to be at a zoo.
+A Squirrel is probably not going to be at a zoo.
+A Bird is probably going to be at a zoo.
+A BEAGLE is not big.
+A GOLDENRETRIEVER is big.
+A Elephant is probably going to be at a zoo.
+A Squirrel is probably not going to be at a zoo.
+A Bird is probably going to be at a zoo.
+A Dog is probably not going to be at a zoo.
+A BEAGLE is not big.
+A GOLDENRETRIEVER is big.
+A Elephant is probably going to be at a zoo.
+A Squirrel is probably not going to be at a zoo.
+A Bird is probably going to be at a zoo.
+A Dog is probably not going to be at a zoo.
+A Labrador is probably not going to be at a zoo.
+A BEAGLE is not big.
+A GOLDENRETRIEVER is big.
+A Elephant is probably going to be at a zoo.
+A Squirrel is probably not going to be at a zoo.
+A Bird is probably going to be at a zoo.
+A Dog is probably not going to be at a zoo.
+A Labrador is probably not going to be at a zoo.
+ThisDog is a male.
+ThisDog is a male.
+ThisLabrador is a male.
+ThisSquirrel is a male.
+A BEAGLE is not big.
+A GOLDENRETRIEVER is big.
+A Elephant is probably going to be at a zoo.
+A Squirrel is probably not going to be at a zoo.
+A Bird is probably going to be at a zoo.
+A Dog is probably not going to be at a zoo.
+A Labrador is probably not going to be at a zoo.
+This DogDog Name: Sam, Breed: BEAGLE, Age: 5, Owner: Robert, Fights with cats: true is a male.
+This DogDog Name: Max, Breed: GOLDENRETRIEVER, Age: 2, Owner: Robert, Fights with cats: false is a male.
+This LabradorDog Name: Max, Breed: LABRADORRETRIEVER, Age: 2, Owner: Robert, Fights with cats: false is a male.
+This SquirrelSquirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1 is a male.
+A BEAGLE is not big.
+A GOLDENRETRIEVER is big.
+A Elephant is probably going to be at a zoo.
+A Squirrel is probably not going to be at a zoo.
+A Bird is probably going to be at a zoo.
+A Dog is probably not going to be at a zoo.
+A Labrador is probably not going to be at a zoo.
+Dog Name: Sam, Breed: BEAGLE, Age: 5, Owner: Robert, Fights with cats: true     is a male.
+Dog Name: Max, Breed: GOLDENRETRIEVER, Age: 2, Owner: Robert, Fights with cats: false     is a male.
+Dog Name: Max, Breed: LABRADORRETRIEVER, Age: 2, Owner: Robert, Fights with cats: false     is a male.
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1     is a male.
+A BEAGLE is not big.
+A GOLDENRETRIEVER is big.
+A Elephant is probably going to be at a zoo.
+A Squirrel is probably not going to be at a zoo.
+A Bird is probably going to be at a zoo.
+A Dog is probably not going to be at a zoo.
+A Labrador is probably not going to be at a zoo.
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Robert, Fights with cats: true     is a male.
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false     is a male.
+Dog Name: Max, Breed: LABRADORRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false     is a male.
+Squirrel Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1     is a male.
+A BEAGLE is not big.
+A GOLDENRETRIEVER is big.
+A Elephant is probably going to be at a zoo.
+A Squirrel is probably not going to be at a zoo.
+A Bird is probably going to be at a zoo.
+A Dog is probably not going to be at a zoo.
+A Labrador is probably not going to be at a zoo.
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Robert, Fights with cats: true     is a male.
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false     is a male.
+Dog Name: Max, Breed: LABRADORRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false     is a male.
+Squirrel Sex: MALE, Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1     is a male.
+A BEAGLE is not big.
+A GOLDENRETRIEVER is big.
+A Elephant is probably going to be at a zoo.
+A Squirrel is probably not going to be at a zoo.
+A Bird is probably going to be at a zoo.
+A Dog is probably not going to be at a zoo.
+A Labrador is probably not going to be at a zoo.
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Robert, Fights with cats: true     is a male.
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false     is a male.
+Dog Name: Max, Breed: LABRADORRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false     is a male.
+Squirrel Sex: MALE, Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1     is a male.
+All female animals: 
+Elephant Sex: FEMALE, Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Bird Is Domesticated: false, Sex: FEMALE, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+A BEAGLE is not big.
+A GOLDENRETRIEVER is big.
+A Elephant is probably going to be at a zoo.
+A Squirrel is probably not going to be at a zoo.
+A Bird is probably going to be at a zoo.
+A Dog is probably not going to be at a zoo.
+A Labrador is probably not going to be at a zoo.
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Robert, Fights with cats: true     is a male.
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false     is a male.
+Dog Name: Max, Breed: LABRADORRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false     is a male.
+Squirrel Sex: MALE, Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1     is a male.
+All female animals: 
+Elephant Sex: FEMALE, Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Bird Is Domesticated: false, Sex: FEMALE, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Starting.
+Welcome; please follow the next prompt.
+Press 1 to continue: 
+Order of operations:
+1. Create animal objects (not shown here).
+2. Use methods in animal classes.
+3. Use interface methods.
+-----------------
+Making animals.
+Num of pets: 4.
+Num of wild animals: 6.
+Num of domestic/wild animals: 3.
+Number of carnivores: 9.
+
+Animals that can be found at zoos: 
+
+
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Sex: MALE, Age: 3, Owner: Robert
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Sex: MALE, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Sex: MALE, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Sex: MALE, Age: 3, Owner: Robert
+Bear Sex: FEMALE, Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Sex: FEMALE, Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Sex: FEMALE, Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Sex: FEMALE, Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Sex: MALE, Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Sex: FEMALE, Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Sex: MALE, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Sex: FEMALE, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Horse Is Domesticated: true, Sex: MALE, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Deleting Horse.
+Deleting Cat.
+Cat Name: Bob, Breed: AMERICANSHORTHAIR, Sex: MALE, Age: 3, Owner: Robert
+Dog Name: Sam, Breed: GERMANSHEPHERD, Sex: MALE, Age: 5, Owner: Robert, Fights with cats: false
+Rabbit Name: Jerry, Breed: AMERICAN, Sex: MALE, Age: 3, Owner: Robert
+Bear Sex: FEMALE, Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Elephant Sex: FEMALE, Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Rhino Sex: FEMALE, Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000
+Rhino Sex: FEMALE, Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000
+Squirrel Sex: MALE, Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+Wolf Sex: FEMALE, Home Continent: NORTHAMERICA, Color: light gray, Pack Size: 5
+Bird Is Domesticated: true, Sex: MALE, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird Is Domesticated: false, Sex: FEMALE, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Class of contents: Cat
+Class of prev: N/A
+Class of next: Dog
+
+-----------------
+A AMERICANSHORTHAIR cat named Bob was adopted by Robert.
+A GERMANSHEPHERD dog named Sam was adopted by Robert.
+A AMERICAN rabbit named Jerry was adopted by Robert.
+
+Is "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Sex: MALE, Age: 3, Owner: Robert" the same as "Cat Name: Bob, Breed: AMERICANSHORTHAIR, Sex: MALE, Age: 3, Owner: Robert" ? true
+
+Dog hash code: 82879005
+
+Rabbit Name: Jerry, Breed: AMERICAN, Sex: MALE, Age: 3, Owner: Robert
+-----------------
+Bear Sex: FEMALE, Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 2
+Bear Sex: FEMALE, Home Continent: NORTHAMERICA, Color: brown, Type: BROWN, Number of Cubs: 6
+
+Elephant hash code: -1113812286
+An elephant that is 10 feet tall is eating.
+Is "Rhino Sex: FEMALE, Home Continent: AFRICA, Color: gray, Weight in Pounds: 1000" the same as "Rhino Sex: FEMALE, Home Continent: AFRICA, Color: grey, Weight in Pounds: 1000" ? false
+
+Squirrel Sex: MALE, Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1
+
+A light gray wolf is eating with other wolves in its pack of 5.
+Wild animals are not pets.
+-----------------
+Bird Is Domesticated: true, Sex: MALE, Name: Jack, Breed: Parrot, Age: 3, Owner: Robert
+Bird hash code: 695115987
+Bird Is Domesticated: false, Sex: MALE, Name: Jack, Breed: Parrot, Age: 3, Owner: N/A
+Bird Is Domesticated: false, Sex: FEMALE, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+
+Horse Is Domesticated: true, Sex: MALE, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: Robert
+Horse Is Domesticated: false, Sex: MALE, Name: Bob, Breed: American Belgian Draft, Age: 5, Owner/Rider: N/A
+-----------------
+A AMERICANSHORTHAIR cat named Bob is eating.
+Robert is teaching a com.mycompany.app.animals.Dog named Sam how to fetch.
+ERROR!
+Action too short or long.
+
+A Parrot is flying.
+A American Belgian Draft horse is jumping 4 feet.
+ERROR!
+Invalid jump height.
+
+An elephant that is 10 feet tall is making a "trumpeting" sound.
+ERROR!
+Invalid noise representation.
+
+An elephant that is 10 feet tall is looking for plants.
+Done.
+None of these wild animals are in Antarctica.
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Rob, Fights with cats: true
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false
+All animals are unique.
+None of these wild animals are in Antarctica.
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Rob, Fights with cats: true
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false
+All animals are unique.
+Adding animal.
+There are at least 2 identical animals.
+
+None of these wild animals are in Antarctica.
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Rob, Fights with cats: true
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false
+
+All animals are unique.
+Adding animal.
+There are at least 2 identical animals.
+
+None of these wild animals are in Antarctica.
+
+First 2 animals: 
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Rob, Fights with cats: true
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false
+
+All animals are unique.
+Adding animal.
+There are at least 2 identical animals.
+
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Rob, Fights with cats: true
+
+None of these wild animals are in Antarctica.
+
+First 2 animals: 
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Rob, Fights with cats: true
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false
+
+All animals are unique.
+Adding animal.
+There are at least 2 identical animals.
+
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Rob, Fights with cats: true
+
+None of these wild animals are in Antarctica.
+
+First 2 animals: 
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Rob, Fights with cats: true
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false
+
+All animals are unique.
+Adding animal.
+There are at least 2 identical animals.
+
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Rob, Fights with cats: true
+
+None of these wild animals are in Antarctica.
+
+First 2 animals: 
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Rob, Fights with cats: true
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false
+
+All animals are unique.
+Adding animal.
+There are at least 2 identical animals.
+
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Rob, Fights with cats: true
+
+None of these wild animals are in Antarctica.
+
+First 2 animals: 
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Rob, Fights with cats: true
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false
+
+All animals are unique.
+Adding animal.
+There are at least 2 identical animals.
+
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Rob, Fights with cats: true
