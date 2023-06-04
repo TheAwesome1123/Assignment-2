@@ -5035,3 +5035,27 @@ Getting animal info...
 Getting animal info...
 Bird Is Domesticated: false, Sex: MALE, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
 Horse Is Domesticated: true, Sex: FEMALE, Name: Emma, Breed: American Belgian Draft, Age: 3, Owner/Rider: Robert
+A BEAGLE is not big.
+A GOLDENRETRIEVER is big.
+A Elephant is probably going to be at a zoo.
+A Squirrel is probably not going to be at a zoo.
+A Bird is probably going to be at a zoo.
+A Dog is probably not going to be at a zoo.
+A Labrador is probably not going to be at a zoo.
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: Robert, Fights with cats: true     is a male.
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false     is a male.
+Dog Name: Max, Breed: LABRADORRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false     is a male.
+Squirrel Sex: MALE, Home Continent: NORTHAMERICA, Color: light brown, Number of Visits to a House per Day: 1     is a male.
+All female animals: 
+Elephant Sex: FEMALE, Home Continent: AFRICA, Color: gray, Height in feet: 10, Sex: FEMALE
+Bird Is Domesticated: false, Sex: FEMALE, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+Table 'animals.owner' doesn't exist
