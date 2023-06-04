@@ -70,7 +70,6 @@ public class InsertionMethods {
             }
 
             animalID++;
-            domesticOrWildID++;
             ownerID++;
         }
         catch(SQLException se) {
@@ -81,7 +80,6 @@ public class InsertionMethods {
     public static void addHomeContinent(String continent) {
         try {
             new HomeContinentDAO().createHomeContinent(connectionPool, continent, wildAnimalID);
-            wildAnimalID++;
         }
         catch(SQLException se) {
             LOGGER.info(se.getMessage());
@@ -100,6 +98,26 @@ public class InsertionMethods {
     public static void addDomesticOrWildColor(String color, String shade) {
         try {
             new DomesticOrWildColorDAO().createDomesticOrWildColor(connectionPool, color, shade);
+        }
+        catch(SQLException se) {
+            LOGGER.info(se.getMessage());
+        }
+    }
+
+    public static void addWildAnimalAndColorRelation(int wildAnimalID, int wildAnimalColorID) {
+        try {
+            new WildAnimalsAndColorsDAO().createWildAnimalAndColorRelation(connectionPool, wildAnimalID,
+                wildAnimalColorID);
+        }
+        catch(SQLException se) {
+            LOGGER.info(se.getMessage());
+        }
+    }
+
+    public static void addDomesticOrWildAnimalAndColorRelation(int domesticOrWildID, int domesticOrWildColorID) {
+        try {
+            new DomesticOrWildAnimalsAndColorsDAO().createDomesticOrWildAnimalAndColorRelation(connectionPool,
+                domesticOrWildID, domesticOrWildColorID);
         }
         catch(SQLException se) {
             LOGGER.info(se.getMessage());

@@ -33,9 +33,24 @@ public class DatabaseMain {
 
             InsertionMethods.addWildAnimal("Wolf", "Female");
             InsertionMethods.addHomeContinent("North America");
+            InsertionMethods.addWildAnimalColor("Gray", "Light");
+            InsertionMethods.addWildAnimalAndColorRelation(wildAnimalID, wildAnimalColorID);
+            wildAnimalColorID++;
+            InsertionMethods.addWildAnimalColor("Gray", "Dark");
+            InsertionMethods.addWildAnimalAndColorRelation(wildAnimalID, wildAnimalColorID);
+            wildAnimalColorID++;
+            wildAnimalID++;
 
             InsertionMethods.addOwner("Robert", "Thompson");
             InsertionMethods.addDomesticOrWildAnimal("Horse", "Male", true, "Jack");
+            InsertionMethods.addDomesticOrWildColor("White", "Normal");
+            InsertionMethods.addDomesticOrWildAnimalAndColorRelation(domesticOrWildID, domesticOrWildColorID);
+            domesticOrWildColorID++;
+            InsertionMethods.addDomesticOrWildColor("Brown", "Normal");
+            InsertionMethods.addDomesticOrWildAnimalAndColorRelation(domesticOrWildID, domesticOrWildColorID);
+            domesticOrWildColorID++;
+            domesticOrWildID++;
+
         }
         catch(SQLException se) {
             LOGGER.info(se.getMessage());
