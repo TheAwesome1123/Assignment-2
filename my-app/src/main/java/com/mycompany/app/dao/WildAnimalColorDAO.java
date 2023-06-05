@@ -2,6 +2,7 @@ package com.mycompany.app.dao;
 
 import com.mycompany.app.animals.Dog;
 import com.mycompany.app.database.ConnectionPool;
+import com.mycompany.app.models.WildAnimalColor;
 
 import java.sql.*;
 
@@ -19,7 +20,7 @@ public class WildAnimalColorDAO {
         pool.putBackConnection(connection);
     }
 
-    public Dog getWildAnimalColor(ConnectionPool pool, int id) throws SQLException {
+    public WildAnimalColor getWildAnimalColor(ConnectionPool pool, int id) throws SQLException {
         Connection connection = pool.getConnection();
         String selectStatement = "select ? from WildAnimalColors where id = ?;";
         PreparedStatement preparedStatement = connection.prepareStatement(selectStatement);
@@ -27,6 +28,7 @@ public class WildAnimalColorDAO {
         preparedStatement.setString(1, "*");
         preparedStatement.setInt(2, id);
         ResultSet resultSet = preparedStatement.executeQuery();
+        resultSet.next();
         pool.putBackConnection(connection);
 
         int resultID = resultSet.getInt("ID");

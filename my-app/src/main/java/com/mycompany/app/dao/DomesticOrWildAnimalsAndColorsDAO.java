@@ -1,6 +1,7 @@
 package com.mycompany.app.dao;
 
 import com.mycompany.app.database.ConnectionPool;
+import com.mycompany.app.models.DomesticOrWildAnimalAndColorRelation;
 import com.mycompany.app.models.WildAnimalAndColorRelation;
 
 import java.sql.*;
@@ -20,7 +21,7 @@ public class DomesticOrWildAnimalsAndColorsDAO {
         pool.putBackConnection(connection);
     }
 
-    public WildAnimalAndColorRelation getDomesticOrWildAnimalAndColorRelation(ConnectionPool pool, int id)
+    public DomesticOrWildAnimalAndColorRelation getDomesticOrWildAnimalAndColorRelation(ConnectionPool pool, int id)
             throws SQLException {
         Connection connection = pool.getConnection();
         String selectStatement = "select ? from DomesticOrWildAnimalsAndColors where id = ?;";
@@ -29,15 +30,16 @@ public class DomesticOrWildAnimalsAndColorsDAO {
         preparedStatement.setString(1, "*");
         preparedStatement.setInt(2, id);
         ResultSet resultSet = preparedStatement.executeQuery();
+        resultSet.next();
         pool.putBackConnection(connection);
 
         int resultID = resultSet.getInt("ID");
-        int wildAnimalID = resultSet.getInt("DomesticOrWildAnimal_ID");
+        int domesticOrWildAnimalId = resultSet.getInt("DomesticOrWildAnimal_ID");
         int colorID = resultSet.getInt("Color_ID");
 
-        WildAnimalAndColorRelation relation = new WildAnimalAndColorRelation();
+        DomesticOrWildAnimalAndColorRelation relation = new DomesticOrWildAnimalAndColorRelation();
         relation.setRelationID(resultID);
-        relation.setWildAnimalID(wildAnimalID);
+        relation.setDomesticOrWildAnimalID(domesticOrWildAnimalId);
         relation.setColorID(colorID);
 
         return relation;

@@ -5059,3 +5059,4 @@ No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
 No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
 No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
 Table 'animals.owner' doesn't exist
+1

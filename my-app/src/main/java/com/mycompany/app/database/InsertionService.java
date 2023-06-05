@@ -6,9 +6,9 @@ import org.apache.logging.log4j.Logger;
 
 import java.sql.SQLException;
 
-public class InsertionMethods {
+public class InsertionService {
     private static ConnectionPool connectionPool = DatabaseMain.getConnectionPool();
-    private static final Logger LOGGER = LogManager.getLogger(InsertionMethods.class);
+    private static final Logger LOGGER = LogManager.getLogger(InsertionService.class);
     public static int animalID = DatabaseMain.getAnimalID();
     public static int petID = DatabaseMain.getPetID();
     public static int ownerID = DatabaseMain.getOwnerID();

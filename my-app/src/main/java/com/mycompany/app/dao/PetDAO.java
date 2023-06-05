@@ -28,6 +28,7 @@ public class PetDAO {
         preparedStatement.setString(1, "*");
         preparedStatement.setInt(2, id);
         ResultSet resultSet = preparedStatement.executeQuery();
+        resultSet.next();
         pool.putBackConnection(connection);
 
         int resultID = resultSet.getInt("animalID");

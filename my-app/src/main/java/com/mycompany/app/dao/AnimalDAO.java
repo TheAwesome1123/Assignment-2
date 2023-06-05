@@ -4,7 +4,7 @@ import com.mycompany.app.models.*;
 import com.mycompany.app.database.*;
 import java.sql.*;
 
-public class AnimalDAO  {
+public class AnimalDAO {
     public void createAnimal(ConnectionPool pool, String type, String sex) throws SQLException {
         Connection connection = pool.getConnection();
 
@@ -20,31 +20,24 @@ public class AnimalDAO  {
 
     public Animal getAnimal(ConnectionPool pool, int id) throws SQLException {
         Connection connection = pool.getConnection();
-        String selectStatement = "select ? from Animals where id = ?;";
+        String selectStatement = "select * from Animals where ID = ?;";
         PreparedStatement preparedStatement = connection.prepareStatement(selectStatement);
 
-        preparedStatement.setString(1, "*");
-        preparedStatement.setInt(2, id);
+        preparedStatement.setInt(1, id);
         ResultSet resultSet = preparedStatement.executeQuery();
+
+        // https://stackoverflow.com/questions/2120255/resultset-exception-before-start-of-result-set
+        resultSet.next();
         pool.putBackConnection(connection);
 
         int resultID = resultSet.getInt("ID");
         String type = resultSet.getString("Type");
         String sex = resultSet.getString("Sex");
 
-        Animal animal;
-
-        if(type.equals("Pet")) {
-            animal = new Pet();
-        }
-        else if(type.equals("Wild")) {
-            animal = new WildAnimal();
-        }
-        else {
-            animal = new DomesticOrWild();
-        }
+        Animal animal = new Animal();
 
         animal.setID(resultID);
+        animal.setType(type);
         animal.setSex(sex);
 
         return animal;

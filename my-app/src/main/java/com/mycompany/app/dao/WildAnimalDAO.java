@@ -23,31 +23,23 @@ public class WildAnimalDAO {
 
     public WildAnimal getWildAnimal(ConnectionPool pool, int id) throws SQLException {
         Connection connection = pool.getConnection();
-        String selectStatement = "select ? from WildAnimals where id = ?;";
+        String selectStatement = "select * from WildAnimals where ID = ?;";
         PreparedStatement preparedStatement = connection.prepareStatement(selectStatement);
 
-        preparedStatement.setString(1, "*");
-        preparedStatement.setInt(2, id);
+        preparedStatement.setInt(1, id);
         ResultSet resultSet = preparedStatement.executeQuery();
+        resultSet.next();
         pool.putBackConnection(connection);
 
-        int resultID = resultSet.getInt("animalID");
+        WildAnimal wildAnimal = new WildAnimal();
+        int resultID = resultSet.getInt("ID");
         String type = resultSet.getString("Type");
-        int weight = resultSet.getInt("Weight");
         int animalID = resultSet.getInt("Animal_ID");
 
-//        WildAnimal wildAnimal = switch (type) {
-//            case "Bear" -> new Bear();
-//            case "Elephant" -> new Elephant();
-//            case "Rhino" -> new Rhino();
-//            case "Squirrel" -> new Squirrel();
-//            default -> new Wolf();
-//        };
-//
-//        wildAnimal.setWildAnimalID(resultID);
-//        wildAnimal.setWeight(weight);
-//        wildAnimal.setAnimalID(animalID);
-        return null;
+        wildAnimal.setWildAnimalID(resultID);
+        wildAnimal.setType(type);
+        wildAnimal.setAnimalID(animalID);
+        return wildAnimal;
     }
     public void updateWildAnimal(ConnectionPool pool, int id) throws SQLException {
         Connection connection = pool.getConnection();
