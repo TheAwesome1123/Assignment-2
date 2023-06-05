@@ -8,6 +8,15 @@ import java.sql.SQLException;
 public class GetterService {
     private ConnectionPool connectionPool = DatabaseMain.getConnectionPool();
 
+    public Animal getAnimal(int id) {
+        try {
+            return new AnimalDAO().getAnimal(connectionPool, id);
+        }
+        catch(SQLException se) {
+            return null;
+        }
+    }
+
     public Pet getPet(int id) {
         try {
             return new PetDAO().getPet(connectionPool, id);
