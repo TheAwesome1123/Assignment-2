@@ -5,10 +5,7 @@ import com.mycompany.app.models.WildAnimal;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.sql.SQLException;
-
 public class DatabaseMain {
-    private static ConnectionPool connectionPool = new ConnectionPool();
     private static final Logger LOGGER = LogManager.getLogger(DatabaseMain.class);
     private static int animalID = 1;
     private static int petID = 1;
@@ -18,18 +15,8 @@ public class DatabaseMain {
     private static int wildAnimalColorID = 1;
     private static int domesticOrWildColorID = 1;
     public static void main(String[] args) {
-        String url = "jdbc:mysql://127.0.0.1:3306/animals";
-        String user = "root";
-        String password = "Mcsamdw!n1";
-
-        try {
-            connectionPool.initialize(5, url, user, password);
-            //insertion();
-            //getStuff();
-        }
-        catch(SQLException se) {
-            LOGGER.info(se.getMessage());
-        }
+        insertion();
+        //getStuff();
     }
 
     public static void insertion() {
@@ -70,10 +57,6 @@ public class DatabaseMain {
         LOGGER.info(wildAnimal.getWildAnimalID());
         LOGGER.info(wildAnimal.getType());
         LOGGER.info(wildAnimal.getAnimalID());
-    }
-
-    public static ConnectionPool getConnectionPool() {
-        return connectionPool;
     }
 
     public static int getAnimalID() {

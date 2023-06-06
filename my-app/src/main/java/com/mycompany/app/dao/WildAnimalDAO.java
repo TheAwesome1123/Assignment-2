@@ -8,55 +8,116 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class WildAnimalDAO {
-    public void createWildAnimal(ConnectionPool pool, String type, int animalID)
-        throws SQLException {
-            Connection connection = pool.getConnection();
-            String createStatement = "insert into WildAnimals (Type, Animal_ID) values (?, ?);";
-            PreparedStatement create = connection.prepareStatement(createStatement);
+    ConnectionPool pool = ConnectionPool.getInstance();
+
+    public void createWildAnimal(String type, int animalID) {
+        Connection connection = pool.retrieve();
+        String createStatement = "insert into WildAnimals (Type, Animal_ID) values (?, ?);";
+        PreparedStatement create = null;
+
+        try {
+            create = connection.prepareStatement(createStatement);
 
             // https://stackoverflow.com/questions/1639269/java-enum-to-mysql-enum-in-prepared-statement
             create.setString(1, type);
             create.setInt(2, animalID);
             create.executeUpdate();
-            pool.putBackConnection(connection);
+        }
+        catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        finally {
+            try {
+                if (connection != null) pool.putBack(connection);
+                if (create != null) create.close();
+            }
+            catch (SQLException e) {
+                System.out.println(e);
+            }
+        }
     }
 
-    public WildAnimal getWildAnimal(ConnectionPool pool, int id) throws SQLException {
-        Connection connection = pool.getConnection();
-        String selectStatement = "select * from WildAnimals where ID = ?;";
-        PreparedStatement preparedStatement = connection.prepareStatement(selectStatement);
-
-        preparedStatement.setInt(1, id);
-        ResultSet resultSet = preparedStatement.executeQuery();
-        resultSet.next();
-        pool.putBackConnection(connection);
-
+    public WildAnimal getWildAnimal(int id) {
+        Connection connection = pool.retrieve();
         WildAnimal wildAnimal = new WildAnimal();
-        int resultID = resultSet.getInt("ID");
-        String type = resultSet.getString("Type");
-        int animalID = resultSet.getInt("Animal_ID");
+        ResultSet resultSet = null;
+        String selectStatement = "select * from WildAnimals where ID = ?;";
+        PreparedStatement preparedStatement = null;
 
-        wildAnimal.setWildAnimalID(resultID);
-        wildAnimal.setType(type);
-        wildAnimal.setAnimalID(animalID);
+        try {
+            preparedStatement = connection.prepareStatement(selectStatement);
+            preparedStatement.setInt(1, id);
+            resultSet = preparedStatement.executeQuery();
+            resultSet.next();
+
+            int resultID = resultSet.getInt("ID");
+            String type = resultSet.getString("Type");
+            int animalID = resultSet.getInt("Animal_ID");
+
+            wildAnimal.setWildAnimalID(resultID);
+            wildAnimal.setType(type);
+            wildAnimal.setAnimalID(animalID);
+        }
+        catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        finally {
+            try {
+                if (connection != null) pool.putBack(connection);
+                if (resultSet != null) resultSet.close();
+                if (preparedStatement != null) preparedStatement.close();
+            }
+            catch (SQLException e) {
+                System.out.println(e);
+            }
+        }
+
         return wildAnimal;
     }
-    public void updateWildAnimal(ConnectionPool pool, int id) throws SQLException {
-        Connection connection = pool.getConnection();
+    public void updateWildAnimal(int id) {
+        Connection connection = pool.retrieve();
         String updateStatement = "update WildAnimals where id = ?;";
-        PreparedStatement preparedStatement = connection.prepareStatement(updateStatement);
+        PreparedStatement preparedStatement = null;
 
-        preparedStatement.setInt(1, id);
-        preparedStatement.executeUpdate();
-        pool.putBackConnection(connection);
+        try {
+            preparedStatement = connection.prepareStatement(updateStatement);
+            preparedStatement.setInt(1, id);
+            preparedStatement.executeUpdate();
+        }
+        catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        finally {
+            try {
+                if (connection != null) pool.putBack(connection);
+                if (preparedStatement != null) preparedStatement.close();
+            }
+            catch (SQLException e) {
+                System.out.println(e);
+            }
+        }
     }
-    public void deleteWildAnimal(ConnectionPool pool, int id) throws SQLException {
-        Connection connection = pool.getConnection();
+    public void deleteWildAnimal(int id) {
+        Connection connection = pool.retrieve();
         String updateStatement = "delete from WildAnimals where id = ?;";
-        PreparedStatement preparedStatement = connection.prepareStatement(updateStatement);
+        PreparedStatement preparedStatement = null;
 
-        preparedStatement.setInt(1, id);
-        preparedStatement.executeUpdate();
-        pool.putBackConnection(connection);
+        try {
+            preparedStatement = connection.prepareStatement(updateStatement);
+            preparedStatement.setInt(1, id);
+            preparedStatement.executeUpdate();
+        }
+        catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        finally {
+            try {
+                if (connection != null) pool.putBack(connection);
+                if (preparedStatement != null) preparedStatement.close();
+            }
+            catch (SQLException e) {
+                System.out.println(e);
+            }
+        }
     }
 }

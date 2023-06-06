@@ -6,122 +6,60 @@ import com.mycompany.app.models.*;
 import java.sql.SQLException;
 
 public class GetterService {
-    private ConnectionPool connectionPool = DatabaseMain.getConnectionPool();
+    private ConnectionPool connectionPool = ConnectionPool.getInstance();
 
     public Animal getAnimal(int id) {
-        try {
-            return new AnimalDAO().getAnimal(connectionPool, id);
-        }
-        catch(SQLException se) {
-            return null;
-        }
+        return new AnimalDAO().getAnimal(id);
     }
 
     public Pet getPet(int id) {
-        try {
-            return new PetDAO().getPet(connectionPool, id);
-        }
-        catch(SQLException se) {
-            return null;
-        }
+        return new PetDAO().getPet(id);
     }
 
     public WildAnimal getWildAnimal(int id) {
-        try {
-            return new WildAnimalDAO().getWildAnimal(connectionPool, id);
-        }
-        catch(SQLException se) {
-            return null;
-        }
+        return new WildAnimalDAO().getWildAnimal(id);
     }
 
     public DomesticOrWild getDomesticOrWild(int id) {
-        try {
-            return new DomesticOrWildDAO().getDomesticOrWildAnimal(connectionPool, id);
-        }
-        catch(SQLException se) {
-            return null;
-        }
+        return new DomesticOrWildDAO().getDomesticOrWildAnimal(id);
     }
 
     public Dog getDog(int id) {
-        try {
-            return new DogDAO().getDog(connectionPool, id);
-        }
-        catch(SQLException se) {
-            return null;
-        }
+        return new DogDAO().getDog(id);
     }
 
     public Cat getCat(int id) {
-        try {
-            return new CatDAO().getCat(connectionPool, id);
-        }
-        catch(SQLException se) {
-            return null;
-        }
+        return new CatDAO().getCat(id);
+
     }
 
     public Owner getOwner(int id) {
-        try {
-            return new OwnerDAO().getOwner(connectionPool, id);
-        }
-        catch(SQLException se) {
-            return null;
-        }
+        return new OwnerDAO().getOwner(id);
     }
 
     public HomeContinent getHomeContinent(int id) {
-        try {
-            return new HomeContinentDAO().getHomeContinent(connectionPool, id);
-        }
-        catch(SQLException se) {
-            return null;
-        }
+        return new HomeContinentDAO().getHomeContinent(id);
     }
 
     public WildAnimalColor getWildAnimalColor(int id) {
-        try {
-            return new WildAnimalColorDAO().getWildAnimalColor(connectionPool, id);
-        }
-        catch(SQLException se) {
-            return null;
-        }
+        return new WildAnimalColorDAO().getWildAnimalColor(id);
+
     }
 
     public WildAnimalAndColorRelation getWildAnimalAndColorRelation(int id) {
-        try {
-            return new WildAnimalsAndColorsDAO().getWildAnimalAndColorRelation(connectionPool, id);
-        }
-        catch(SQLException se) {
-            return null;
-        }
+        return new WildAnimalsAndColorsDAO().getWildAnimalAndColorRelation(id);
     }
 
     public DomesticAnimal getDomesticAnimal(int id) {
-        try {
-            return new DomesticAnimalDAO().getDomesticAnimal(connectionPool, id);
-        }
-        catch(SQLException se) {
-            return null;
-        }
+        return new DomesticAnimalDAO().getDomesticAnimal(id);
     }
 
     public DomesticOrWildColor getDomesticOrWildColor(int id) {
-        try {
-            return new DomesticOrWildColorDAO().getDomesticOrWildColor(connectionPool, id);
-        }
-        catch(SQLException se) {
-            return null;
-        }
+        return new DomesticOrWildColorDAO().getDomesticOrWildColor(id);
+
     }
 
     public DomesticOrWildAnimalAndColorRelation getDomesticOrWildAnimalAndColorRelation(int id) {
-        try {
-            return new DomesticOrWildAnimalsAndColorsDAO().getDomesticOrWildAnimalAndColorRelation(connectionPool, id);
-        }
-        catch(SQLException se) {
-            return null;
-        }
+        return new DomesticOrWildAnimalsAndColorsDAO().getDomesticOrWildAnimalAndColorRelation(id);
     }
 }

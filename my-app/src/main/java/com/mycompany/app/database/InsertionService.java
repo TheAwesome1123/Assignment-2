@@ -4,10 +4,7 @@ import com.mycompany.app.dao.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.sql.SQLException;
-
 public class InsertionService {
-    private static ConnectionPool connectionPool = DatabaseMain.getConnectionPool();
     private static final Logger LOGGER = LogManager.getLogger(InsertionService.class);
     public static int animalID = DatabaseMain.getAnimalID();
     public static int petID = DatabaseMain.getPetID();
@@ -18,109 +15,63 @@ public class InsertionService {
     public static int domesticOrWildColorID = DatabaseMain.getDomesticOrWildColorID();
 
     public static void addPet(String sex, String type, String breed, String name) {
-        try {
-            new AnimalDAO().createAnimal(connectionPool, "Pet", sex);
-            new PetDAO().createPet(connectionPool, type, name, ownerID, animalID);
+        new AnimalDAO().createAnimal("Pet", sex);
+        new PetDAO().createPet(type, name, ownerID, animalID);
 
-            if(type.equals("Dog")) {
-                new DogDAO().createDog(connectionPool, breed, petID);
-            }
-            else {
-                new CatDAO().createCat(connectionPool, breed, petID);
-            }
+        if(type.equals("Dog")) {
+            new DogDAO().createDog(breed, petID);
+        }
+        else {
+            new CatDAO().createCat(breed, petID);
+        }
 
-            animalID++;
-            petID++;
-            ownerID++;
-        }
-        catch(SQLException se) {
-            LOGGER.info("Failure.");
-        }
+        animalID++;
+        petID++;
+        ownerID++;
     }
 
     public static void addOwner(String firstName, String lastName) {
-        try {
-            new OwnerDAO().createOwner(connectionPool, firstName, lastName);
-        }
-        catch(SQLException se) {
-            LOGGER.info(se.getMessage());
-        }
+        new OwnerDAO().createOwner(firstName, lastName);
     }
 
     public static void addWildAnimal(String type, String sex) {
-        try {
-            new AnimalDAO().createAnimal(connectionPool, "Wild", sex);
-            new WildAnimalDAO().createWildAnimal(connectionPool, type, animalID);
+        new AnimalDAO().createAnimal("Wild", sex);
+        new WildAnimalDAO().createWildAnimal(type, animalID);
 
-            animalID++;
-        }
-        catch(SQLException se) {
-            LOGGER.info(se.getMessage());
-        }
+        animalID++;
     }
 
     public static void addDomesticOrWildAnimal(String type, String sex, boolean isDomesticated, String name) {
-        try {
-            new AnimalDAO().createAnimal(connectionPool, "DomesticOrWild", sex);
-            new DomesticOrWildDAO().createDomesticOrWildAnimal(connectionPool, type, isDomesticated, name, ownerID,
-                    animalID);
+        new AnimalDAO().createAnimal("DomesticOrWild", sex);
+        new DomesticOrWildDAO().createDomesticOrWildAnimal(type, isDomesticated, name, ownerID,
+                animalID);
 
-            if(isDomesticated) {
-                new DomesticAnimalDAO().createDomesticAnimal(connectionPool, name, ownerID, domesticOrWildID);
-            }
+        if(isDomesticated) {
+            new DomesticAnimalDAO().createDomesticAnimal(name, ownerID, domesticOrWildID);
+        }
 
-            animalID++;
-            ownerID++;
-        }
-        catch(SQLException se) {
-            LOGGER.info(se.getMessage());
-        }
+        animalID++;
+        ownerID++;
     }
 
     public static void addHomeContinent(String continent) {
-        try {
-            new HomeContinentDAO().createHomeContinent(connectionPool, continent, wildAnimalID);
-        }
-        catch(SQLException se) {
-            LOGGER.info(se.getMessage());
-        }
+        new HomeContinentDAO().createHomeContinent(continent, wildAnimalID);
     }
 
     public static void addWildAnimalColor(String color, String shade) {
-        try {
-            new WildAnimalColorDAO().createWildAnimalColor(connectionPool, color, shade);
-        }
-        catch(SQLException se) {
-            LOGGER.info(se.getMessage());
-        }
+        new WildAnimalColorDAO().createWildAnimalColor(color, shade);
     }
 
     public static void addDomesticOrWildColor(String color, String shade) {
-        try {
-            new DomesticOrWildColorDAO().createDomesticOrWildColor(connectionPool, color, shade);
-        }
-        catch(SQLException se) {
-            LOGGER.info(se.getMessage());
-        }
+        new DomesticOrWildColorDAO().createDomesticOrWildColor(color, shade);
     }
 
     public static void addWildAnimalAndColorRelation(int wildAnimalID, int wildAnimalColorID) {
-        try {
-            new WildAnimalsAndColorsDAO().createWildAnimalAndColorRelation(connectionPool, wildAnimalID,
-                wildAnimalColorID);
-        }
-        catch(SQLException se) {
-            LOGGER.info(se.getMessage());
-        }
+        new WildAnimalsAndColorsDAO().createWildAnimalAndColorRelation(wildAnimalID, wildAnimalColorID);
     }
 
     public static void addDomesticOrWildAnimalAndColorRelation(int domesticOrWildID, int domesticOrWildColorID) {
-        try {
-            new DomesticOrWildAnimalsAndColorsDAO().createDomesticOrWildAnimalAndColorRelation(connectionPool,
-                domesticOrWildID, domesticOrWildColorID);
-        }
-        catch(SQLException se) {
-            LOGGER.info(se.getMessage());
-        }
+        new DomesticOrWildAnimalsAndColorsDAO().createDomesticOrWildAnimalAndColorRelation(domesticOrWildID,
+            domesticOrWildColorID);
     }
 }

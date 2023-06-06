@@ -5,59 +5,113 @@ import com.mycompany.app.database.*;
 import java.sql.*;
 
 public class AnimalDAO {
-    public void createAnimal(ConnectionPool pool, String type, String sex) throws SQLException {
-        Connection connection = pool.getConnection();
+    ConnectionPool pool = ConnectionPool.getInstance();
+    public void createAnimal(String type, String sex) {
+        Connection connection = pool.retrieve();
 
         String createStatement = "insert into Animals (Type, Sex) values (?, ?);";
-        PreparedStatement create = connection.prepareStatement(createStatement);
-
-        // https://stackoverflow.com/questions/1639269/java-enum-to-mysql-enum-in-prepared-statement
-        create.setString(1, type);
-        create.setString(2, sex);
-        create.executeUpdate();
-        pool.putBackConnection(connection);
+        PreparedStatement create = null;
+        try {
+            create = connection.prepareStatement(createStatement);
+            // https://stackoverflow.com/questions/1639269/java-enum-to-mysql-enum-in-prepared-statement
+            create.setString(1, type);
+            create.setString(2, sex);
+            create.executeUpdate();
+        }
+        catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        finally {
+            try {
+                if (connection != null) pool.putBack(connection);
+                if (create != null) create.close();
+            }
+            catch (SQLException e) {
+                System.out.println(e);
+            }
+        }
     }
 
-    public Animal getAnimal(ConnectionPool pool, int id) throws SQLException {
-        Connection connection = pool.getConnection();
-        String selectStatement = "select * from Animals where ID = ?;";
-        PreparedStatement preparedStatement = connection.prepareStatement(selectStatement);
-
-        preparedStatement.setInt(1, id);
-        ResultSet resultSet = preparedStatement.executeQuery();
-
-        // https://stackoverflow.com/questions/2120255/resultset-exception-before-start-of-result-set
-        resultSet.next();
-        pool.putBackConnection(connection);
-
-        int resultID = resultSet.getInt("ID");
-        String type = resultSet.getString("Type");
-        String sex = resultSet.getString("Sex");
-
+    public Animal getAnimal(int id) {
+        Connection connection = pool.retrieve();
         Animal animal = new Animal();
+        ResultSet resultSet = null;
+        String selectStatement = "select * from Animals where ID = ?;";
+        PreparedStatement preparedStatement = null;
+        try {
+            preparedStatement = connection.prepareStatement(selectStatement);
+            preparedStatement.setInt(1, id);
+            resultSet = preparedStatement.executeQuery();
 
-        animal.setID(resultID);
-        animal.setType(type);
-        animal.setSex(sex);
+            // https://stackoverflow.com/questions/2120255/resultset-exception-before-start-of-result-set
+            resultSet.next();
+
+            int resultID = resultSet.getInt("ID");
+            String type = resultSet.getString("Type");
+            String sex = resultSet.getString("Sex");
+
+            animal.setID(resultID);
+            animal.setType(type);
+            animal.setSex(sex);
+        }
+        catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        finally {
+            try {
+                if (connection != null) pool.putBack(connection);
+                if (resultSet != null) resultSet.close();
+                if (preparedStatement != null) preparedStatement.close();
+            }
+            catch (SQLException e) {
+                System.out.println(e);
+            }
+        }
 
         return animal;
     }
-    public void updateAnimal(ConnectionPool pool, int id) throws SQLException {
-        Connection connection = pool.getConnection();
+    public void updateAnimal(int id) {
+        Connection connection = pool.retrieve();
         String updateStatement = "update Animals where id = ?;";
-        PreparedStatement preparedStatement = connection.prepareStatement(updateStatement);
-
-        preparedStatement.setInt(1, id);
-        preparedStatement.executeUpdate();
-        pool.putBackConnection(connection);
+        PreparedStatement preparedStatement = null;
+        try {
+            preparedStatement = connection.prepareStatement(updateStatement);
+            preparedStatement.setInt(1, id);
+            preparedStatement.executeUpdate();
+        }
+        catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        finally {
+            try {
+                if (connection != null) pool.putBack(connection);
+                if (preparedStatement != null) preparedStatement.close();
+            }
+            catch (SQLException e) {
+                System.out.println(e);
+            }
+        }
     }
-    public void deleteAnimal(ConnectionPool pool, int id) throws SQLException {
-        Connection connection = pool.getConnection();
+    public void deleteAnimal(int id) {
+        Connection connection = pool.retrieve();
         String updateStatement = "delete from Animals where id = ?;";
-        PreparedStatement preparedStatement = connection.prepareStatement(updateStatement);
-
-        preparedStatement.setInt(1, id);
-        preparedStatement.executeUpdate();
-        pool.putBackConnection(connection);
+        PreparedStatement preparedStatement = null;
+        try {
+            preparedStatement = connection.prepareStatement(updateStatement);
+            preparedStatement.setInt(1, id);
+            preparedStatement.executeUpdate();
+        }
+        catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        finally {
+            try {
+                if (connection != null) pool.putBack(connection);
+                if (preparedStatement != null) preparedStatement.close();
+            }
+            catch (SQLException e) {
+                System.out.println(e);
+            }
+        }
     }
 }

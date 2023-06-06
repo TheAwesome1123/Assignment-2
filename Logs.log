@@ -5060,3 +5060,98 @@ No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
 No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
 Table 'animals.owner' doesn't exist
 1
+java.io.FileNotFoundException: src\main\resources\db.properties (The system cannot find the path specified)
+java.sql.SQLException: The url cannot be null
+java.sql.SQLException: The url cannot be null
+java.sql.SQLException: The url cannot be null
+java.sql.SQLException: The url cannot be null
+java.sql.SQLException: The url cannot be null
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: db.driver
+java.lang.ClassNotFoundException: db.driver
+java.lang.ClassNotFoundException: db.driver
+java.lang.ClassNotFoundException: db.driver
+java.lang.ClassNotFoundException: db.driver
+java.lang.ClassNotFoundException: db.driver
+java.lang.ClassNotFoundException: db.driver
+java.lang.ClassNotFoundException: db.driver
+java.lang.ClassNotFoundException: db.driver
+java.lang.ClassNotFoundException: db.driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
