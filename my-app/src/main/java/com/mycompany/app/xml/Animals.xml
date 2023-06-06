@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimalsAndProperties>
+	<Pet>
+		<int>ID</int>
+		<String>Type</String>
+		<String>Name</String>
+		<int>Owner_ID</int>
+		<int>Animal_ID</int>
+	</Pet>
+	<Dog>
+		<int>ID</int>
+		<String>Breed</String>
+		<int>Pet_ID</int>
+	</Dog>
+	<WildAnimal>
+		<int>ID</int>
+		<String>Type</String>
+		<int>Animal_ID</int>
+	</WildAnimal>
+	<HomeContinent>
+		<int>ID</int>
+		<String>HomeContinent</String>
+		<int>WildAnimal_ID</int>
+	</HomeContinent>
+	<DomesticOrWild>
+		<int>ID</int>
+		<String>Type</String>
+		<String>IsDomesticated</String>
+		<int>Animal_ID</int>
+	</DomesticOrWild>
+</AnimalsAndProperties>

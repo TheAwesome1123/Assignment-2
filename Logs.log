@@ -5155,3 +5155,791 @@ The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
 Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
 The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
 Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Found file Animals.xml.
+java.io.FileNotFoundException: C:\Users\sdn49\OneDrive\Desktop\Solvd\Assignment-2\Animals.xml (The system cannot find the file specified)
+Found file Animals.xml.
+Node: AnimalsAndProperties, Contents: 
+	
+		ID
+		Type
+		Name
+		Owner_ID
+		Animal_ID
+	
+	
+		ID
+		Breed
+		Pet_ID
+	
+	
+		ID
+		Type
+		Animal_ID
+	
+	
+		ID
+		HomeContinent
+		WildAnimal_ID
+	
+	
+		ID
+		Type
+		IsDomesticated
+		Animal_ID
+	
+
+Found file Animals.xml.
+Node: #text, Contents: 
+	
+Node: Pet, Contents: 
+		ID
+		Type
+		Name
+		Owner_ID
+		Animal_ID
+	
+Node: #text, Contents: 
+	
+Node: Dog, Contents: 
+		ID
+		Breed
+		Pet_ID
+	
+Node: #text, Contents: 
+	
+Node: WildAnimal, Contents: 
+		ID
+		Type
+		Animal_ID
+	
+Node: #text, Contents: 
+	
+Node: HomeContinent, Contents: 
+		ID
+		HomeContinent
+		WildAnimal_ID
+	
+Node: #text, Contents: 
+	
+Node: DomesticOrWild, Contents: 
+		ID
+		Type
+		IsDomesticated
+		Animal_ID
+	
+Node: #text, Contents: 
+
+Found file Animals.xml.
+Node: #text
+Node: Pet
+Node: #text
+Node: Dog
+Node: #text
+Node: WildAnimal
+Node: #text
+Node: HomeContinent
+Node: #text
+Node: DomesticOrWild
+Node: #text
+Found file Animals.xml.
+Node: #text
+Node: Pet
+Type: #text
+Type: int
+Type: #text
+Type: String
+Type: #text
+Type: String
+Type: #text
+Type: int
+Type: #text
+Type: int
+Type: #text
+Node: #text
+Node: Dog
+Type: #text
+Type: int
+Type: #text
+Type: String
+Type: #text
+Type: int
+Type: #text
+Node: #text
+Node: WildAnimal
+Type: #text
+Type: int
+Type: #text
+Type: String
+Type: #text
+Type: int
+Type: #text
+Node: #text
+Node: HomeContinent
+Type: #text
+Type: int
+Type: #text
+Type: String
+Type: #text
+Type: int
+Type: #text
+Node: #text
+Node: DomesticOrWild
+Type: #text
+Type: int
+Type: #text
+Type: String
+Type: #text
+Type: String
+Type: #text
+Type: int
+Type: #text
+Node: #text
+Found file Animals.xml.
+Node: #text
+Node: Pet
+Type: #text, Name: 
+		
+Type: int, Name: ID
+Type: #text, Name: 
+		
+Type: String, Name: Type
+Type: #text, Name: 
+		
+Type: String, Name: Name
+Type: #text, Name: 
+		
+Type: int, Name: Owner_ID
+Type: #text, Name: 
+		
+Type: int, Name: Animal_ID
+Type: #text, Name: 
+	
+Node: #text
+Node: Dog
+Type: #text, Name: 
+		
+Type: int, Name: ID
+Type: #text, Name: 
+		
+Type: String, Name: Breed
+Type: #text, Name: 
+		
+Type: int, Name: Pet_ID
+Type: #text, Name: 
+	
+Node: #text
+Node: WildAnimal
+Type: #text, Name: 
+		
+Type: int, Name: ID
+Type: #text, Name: 
+		
+Type: String, Name: Type
+Type: #text, Name: 
+		
+Type: int, Name: Animal_ID
+Type: #text, Name: 
+	
+Node: #text
+Node: HomeContinent
+Type: #text, Name: 
+		
+Type: int, Name: ID
+Type: #text, Name: 
+		
+Type: String, Name: HomeContinent
+Type: #text, Name: 
+		
+Type: int, Name: WildAnimal_ID
+Type: #text, Name: 
+	
+Node: #text
+Node: DomesticOrWild
+Type: #text, Name: 
+		
+Type: int, Name: ID
+Type: #text, Name: 
+		
+Type: String, Name: Type
+Type: #text, Name: 
+		
+Type: String, Name: IsDomesticated
+Type: #text, Name: 
+		
+Type: int, Name: Animal_ID
+Type: #text, Name: 
+	
+Node: #text
+Found file Animals.xml.
+Node: Pet
+Type: int, Name: ID
+Type: String, Name: Type
+Type: String, Name: Name
+Type: int, Name: Owner_ID
+Type: int, Name: Animal_ID
+Node: Dog
+Type: int, Name: ID
+Type: String, Name: Breed
+Type: int, Name: Pet_ID
+Node: WildAnimal
+Type: int, Name: ID
+Type: String, Name: Type
+Type: int, Name: Animal_ID
+Node: HomeContinent
+Type: int, Name: ID
+Type: String, Name: HomeContinent
+Type: int, Name: WildAnimal_ID
+Node: DomesticOrWild
+Type: int, Name: ID
+Type: String, Name: Type
+Type: String, Name: IsDomesticated
+Type: int, Name: Animal_ID
+Found file Animals.xml.
+Node: Pet
+Type: int, Name: ID
+
+Type: String, Name: Type
+
+Type: String, Name: Name
+
+Type: int, Name: Owner_ID
+
+Type: int, Name: Animal_ID
+
+Node: Dog
+Type: int, Name: ID
+
+Type: String, Name: Breed
+
+Type: int, Name: Pet_ID
+
+Node: WildAnimal
+Type: int, Name: ID
+
+Type: String, Name: Type
+
+Type: int, Name: Animal_ID
+
+Node: HomeContinent
+Type: int, Name: ID
+
+Type: String, Name: HomeContinent
+
+Type: int, Name: WildAnimal_ID
+
+Node: DomesticOrWild
+Type: int, Name: ID
+
+Type: String, Name: Type
+
+Type: String, Name: IsDomesticated
+
+Type: int, Name: Animal_ID
+
+Found file Animals.xml.
+Node: Pet
+Type: int, Name: ID
+Type: String, Name: Type
+Type: String, Name: Name
+Type: int, Name: Owner_ID
+Type: int, Name: Animal_ID
+Node: Dog
+Type: int, Name: ID
+Type: String, Name: Breed
+Type: int, Name: Pet_ID
+Node: WildAnimal
+Type: int, Name: ID
+Type: String, Name: Type
+Type: int, Name: Animal_ID
+Node: HomeContinent
+Type: int, Name: ID
+Type: String, Name: HomeContinent
+Type: int, Name: WildAnimal_ID
+Node: DomesticOrWild
+Type: int, Name: ID
+Type: String, Name: Type
+Type: String, Name: IsDomesticated
+Type: int, Name: Animal_ID
+
+
+Found file Animals.xml.
+Node: Pet
+Type: int, Name: ID
+Type: String, Name: Type
+Type: String, Name: Name
+Type: int, Name: Owner_ID
+Type: int, Name: Animal_ID
+Node: Dog
+Type: int, Name: ID
+Type: String, Name: Breed
+Type: int, Name: Pet_ID
+Node: WildAnimal
+Type: int, Name: ID
+Type: String, Name: Type
+Type: int, Name: Animal_ID
+Node: HomeContinent
+Type: int, Name: ID
+Type: String, Name: HomeContinent
+Type: int, Name: WildAnimal_ID
+Node: DomesticOrWild
+Type: int, Name: ID
+Type: String, Name: Type
+Type: String, Name: IsDomesticated
+Type: int, Name: Animal_ID
+
+
+Found file Animals.xml.
+Node: Pet
+Type: int, Name: ID
+Type: String, Name: Type
+Type: String, Name: Name
+Type: int, Name: Owner_ID
+Type: int, Name: Animal_ID
+Node: Dog
+Type: int, Name: ID
+Type: String, Name: Breed
+Type: int, Name: Pet_ID
+Node: WildAnimal
+Type: int, Name: ID
+Type: String, Name: Type
+Type: int, Name: Animal_ID
+Node: HomeContinent
+Type: int, Name: ID
+Type: String, Name: HomeContinent
+Type: int, Name: WildAnimal_ID
+Node: DomesticOrWild
+Type: int, Name: ID
+Type: String, Name: Type
+Type: String, Name: IsDomesticated
+Type: int, Name: Animal_ID
+Found file Animals.xml.
+Node: Pet
+Type: int, Name: ID
+Type: String, Name: Type
+Type: String, Name: Name
+Type: int, Name: Owner_ID
+Type: int, Name: Animal_ID
+Node: Dog
+Type: int, Name: ID
+Type: String, Name: Breed
+Type: int, Name: Pet_ID
+Node: WildAnimal
+Type: int, Name: ID
+Type: String, Name: Type
+Type: int, Name: Animal_ID
+Node: HomeContinent
+Type: int, Name: ID
+Type: String, Name: HomeContinent
+Type: int, Name: WildAnimal_ID
+Node: DomesticOrWild
+Type: int, Name: ID
+Type: String, Name: Type
+Type: String, Name: IsDomesticated
+Type: int, Name: Animal_ID
+
+Found file Animals.xml.
+
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+
+
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+
+
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+
+
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+
+
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+
+
+Found file Animals.xml.
+
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+
+
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+
+
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+
+
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+
+
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+
+
+Found file Animals.xml.
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+Found file Animals.xml.
+
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+
+
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+
+
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+
+
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+
+
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+
+
+Found file Animals.xml.
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+Found file Animals.xml.
+Class: Pet
+
+Property Type: int, Property Name: ID
+
+
+Property Type: String, Property Name: Type
+
+
+Property Type: String, Property Name: Name
+
+
+Property Type: int, Property Name: Owner_ID
+
+
+Property Type: int, Property Name: Animal_ID
+
+
+Class: Dog
+
+Property Type: int, Property Name: ID
+
+
+Property Type: String, Property Name: Breed
+
+
+Property Type: int, Property Name: Pet_ID
+
+
+Class: WildAnimal
+
+Property Type: int, Property Name: ID
+
+
+Property Type: String, Property Name: Type
+
+
+Property Type: int, Property Name: Animal_ID
+
+
+Class: HomeContinent
+
+Property Type: int, Property Name: ID
+
+
+Property Type: String, Property Name: HomeContinent
+
+
+Property Type: int, Property Name: WildAnimal_ID
+
+
+Class: DomesticOrWild
+
+Property Type: int, Property Name: ID
+
+
+Property Type: String, Property Name: Type
+
+
+Property Type: String, Property Name: IsDomesticated
+
+
+Property Type: int, Property Name: Animal_ID
+
+
+Found file Animals.xml.
+
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+
+
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+
+
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+
+
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+
+
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+
+
+Found file Animals.xml.
+Class: Pet
+
+
+Property Type: int, Property Name: ID
+
+
+Property Type: String, Property Name: Type
+
+
+Property Type: String, Property Name: Name
+
+
+Property Type: int, Property Name: Owner_ID
+
+
+Property Type: int, Property Name: Animal_ID
+
+Class: Dog
+
+
+Property Type: int, Property Name: ID
+
+
+Property Type: String, Property Name: Breed
+
+
+Property Type: int, Property Name: Pet_ID
+
+Class: WildAnimal
+
+
+Property Type: int, Property Name: ID
+
+
+Property Type: String, Property Name: Type
+
+
+Property Type: int, Property Name: Animal_ID
+
+Class: HomeContinent
+
+
+Property Type: int, Property Name: ID
+
+
+Property Type: String, Property Name: HomeContinent
+
+
+Property Type: int, Property Name: WildAnimal_ID
+
+Class: DomesticOrWild
+
+
+Property Type: int, Property Name: ID
+
+
+Property Type: String, Property Name: Type
+
+
+Property Type: String, Property Name: IsDomesticated
+
+
+Property Type: int, Property Name: Animal_ID
+
+Found file Animals.xml.
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+Found file Animals.xml.
+test
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+test
+test
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+test
+test
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+test
+test
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+test
+test
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+test
+test
+Found file Animals.xml
+
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
