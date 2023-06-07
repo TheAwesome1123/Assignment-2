@@ -2,11 +2,14 @@ package com.mycompany.app.dao;
 
 import com.mycompany.app.models.Cat;
 import com.mycompany.app.database.ConnectionPool;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.sql.*;
 
 public class CatDAO {
     ConnectionPool pool = ConnectionPool.getInstance();
-    //private static final Logger LOGGER = LogManager.getLogger(CatDAO.class);
+    private static final Logger LOGGER = LogManager.getLogger(CatDAO.class);
 
     public void createCat(String breed, int petID) {
         Connection connection = pool.retrieve();
@@ -20,7 +23,7 @@ public class CatDAO {
             create.executeUpdate();
         }
         catch (SQLException e) {
-            System.out.println(e);
+            LOGGER.info(e);
         }
         finally {
             try {
@@ -28,7 +31,7 @@ public class CatDAO {
                 if (create != null) create.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -55,7 +58,7 @@ public class CatDAO {
             cat.setPetID(petID);
         }
         catch (SQLException e) {
-            System.out.println(e);
+            LOGGER.info(e);
         }
         finally {
             try {
@@ -64,7 +67,7 @@ public class CatDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
 
@@ -88,7 +91,7 @@ public class CatDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -111,7 +114,7 @@ public class CatDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }

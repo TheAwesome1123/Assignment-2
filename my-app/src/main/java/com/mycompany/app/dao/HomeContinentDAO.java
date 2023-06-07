@@ -2,10 +2,14 @@ package com.mycompany.app.dao;
 
 import com.mycompany.app.models.HomeContinent;
 import com.mycompany.app.database.ConnectionPool;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.sql.*;
 
 public class HomeContinentDAO {
     ConnectionPool pool = ConnectionPool.getInstance();
+    private static final Logger LOGGER = LogManager.getLogger(HomeContinentDAO.class);
 
     public void createHomeContinent(String homeContinent, int wildAnimalID) {
         Connection connection = pool.retrieve();
@@ -28,7 +32,7 @@ public class HomeContinentDAO {
                 if (create != null) create.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -65,7 +69,7 @@ public class HomeContinentDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
 
@@ -91,7 +95,7 @@ public class HomeContinentDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -114,7 +118,7 @@ public class HomeContinentDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }

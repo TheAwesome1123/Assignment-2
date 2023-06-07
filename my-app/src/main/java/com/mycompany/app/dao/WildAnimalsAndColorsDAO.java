@@ -2,11 +2,15 @@ package com.mycompany.app.dao;
 
 import com.mycompany.app.database.ConnectionPool;
 import com.mycompany.app.models.WildAnimalAndColorRelation;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.sql.*;
 
 public class WildAnimalsAndColorsDAO {
     ConnectionPool pool = ConnectionPool.getInstance();
+    private static final Logger LOGGER = LogManager.getLogger(WildAnimalsAndColorsDAO.class);
+
     public void createWildAnimalAndColorRelation(int wildAnimalID, int colorID) {
         Connection connection = pool.retrieve();
         String createStatement = "insert into WildAnimalsAndColors (WildAnimal_ID, Color_ID) values (?, ?);";
@@ -29,7 +33,7 @@ public class WildAnimalsAndColorsDAO {
                 if (create != null) create.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -66,7 +70,7 @@ public class WildAnimalsAndColorsDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
 
@@ -92,7 +96,7 @@ public class WildAnimalsAndColorsDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -115,7 +119,7 @@ public class WildAnimalsAndColorsDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }

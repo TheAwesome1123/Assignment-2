@@ -2,10 +2,15 @@ package com.mycompany.app.dao;
 
 import com.mycompany.app.models.*;
 import com.mycompany.app.database.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.sql.*;
 
 public class AnimalDAO {
     ConnectionPool pool = ConnectionPool.getInstance();
+    private static final Logger LOGGER = LogManager.getLogger(AnimalDAO.class);
+
     public void createAnimal(String type, String sex) {
         Connection connection = pool.retrieve();
 
@@ -27,7 +32,7 @@ public class AnimalDAO {
                 if (create != null) create.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -64,7 +69,7 @@ public class AnimalDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
 
@@ -88,7 +93,7 @@ public class AnimalDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -110,7 +115,7 @@ public class AnimalDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }

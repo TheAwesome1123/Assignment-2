@@ -6,15 +6,8 @@ import org.apache.logging.log4j.Logger;
 
 public class InsertionService {
     private static final Logger LOGGER = LogManager.getLogger(InsertionService.class);
-    public static int animalID = DatabaseMain.getAnimalID();
-    public static int petID = DatabaseMain.getPetID();
-    public static int ownerID = DatabaseMain.getOwnerID();
-    public static int wildAnimalID = DatabaseMain.getWildAnimalID();
-    public static int domesticOrWildID = DatabaseMain.getDomesticOrWildID();
-    public static int wildAnimalColorID = DatabaseMain.getWildAnimalColorID();
-    public static int domesticOrWildColorID = DatabaseMain.getDomesticOrWildColorID();
 
-    public static void addPet(String sex, String type, String breed, String name) {
+    public static void addPet(String sex, String type, String breed, String name, int ownerID, int animalID, int petID) {
         new AnimalDAO().createAnimal("Pet", sex);
         new PetDAO().createPet(type, name, ownerID, animalID);
 
@@ -24,37 +17,29 @@ public class InsertionService {
         else {
             new CatDAO().createCat(breed, petID);
         }
-
-        animalID++;
-        petID++;
-        ownerID++;
     }
 
     public static void addOwner(String firstName, String lastName) {
         new OwnerDAO().createOwner(firstName, lastName);
     }
 
-    public static void addWildAnimal(String type, String sex) {
+    public static void addWildAnimal(String type, String sex, int animalID) {
         new AnimalDAO().createAnimal("Wild", sex);
         new WildAnimalDAO().createWildAnimal(type, animalID);
-
-        animalID++;
     }
 
-    public static void addDomesticOrWildAnimal(String type, String sex, boolean isDomesticated, String name) {
-        new AnimalDAO().createAnimal("DomesticOrWild", sex);
-        new DomesticOrWildDAO().createDomesticOrWildAnimal(type, isDomesticated, name, ownerID,
-                animalID);
+    public static void addDomesticOrWildAnimal(String type, String sex, boolean isDomesticated, String name,
+        int ownerID, int animalID, int domesticOrWildID) {
+            new AnimalDAO().createAnimal("DomesticOrWild", sex);
+            new DomesticOrWildDAO().createDomesticOrWildAnimal(type, isDomesticated, name, ownerID,
+                    animalID);
 
-        if(isDomesticated) {
-            new DomesticAnimalDAO().createDomesticAnimal(name, ownerID, domesticOrWildID);
-        }
-
-        animalID++;
-        ownerID++;
+            if(isDomesticated) {
+                new DomesticAnimalDAO().createDomesticAnimal(name, ownerID, domesticOrWildID);
+            }
     }
 
-    public static void addHomeContinent(String continent) {
+    public static void addHomeContinent(String continent, int wildAnimalID) {
         new HomeContinentDAO().createHomeContinent(continent, wildAnimalID);
     }
 

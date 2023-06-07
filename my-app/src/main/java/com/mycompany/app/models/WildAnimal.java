@@ -1,7 +1,9 @@
 package com.mycompany.app.models;
 
 public class WildAnimal extends Animal {
-    private int wildAnimalID, animalID;
+    private int wildAnimalID;
+    private int animalID;
+    private int weight;
     private String wildAnimalType;
 
     public int getWildAnimalID() {
@@ -26,5 +28,13 @@ public class WildAnimal extends Animal {
 
     public void setWildAnimalType(String wildAnimalType) {
         this.wildAnimalType = wildAnimalType;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
     }
 }

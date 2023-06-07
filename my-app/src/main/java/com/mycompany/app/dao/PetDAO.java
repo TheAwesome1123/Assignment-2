@@ -2,10 +2,14 @@ package com.mycompany.app.dao;
 
 import com.mycompany.app.models.*;
 import com.mycompany.app.database.ConnectionPool;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.sql.*;
 
 public class PetDAO {
     ConnectionPool pool = ConnectionPool.getInstance();
+    private static final Logger LOGGER = LogManager.getLogger(PetDAO.class);
 
     public void createPet(String type, String name, int ownerID, int animalID) {
         Connection connection = pool.retrieve();
@@ -31,7 +35,7 @@ public class PetDAO {
                 if (create != null) create.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -55,12 +59,14 @@ public class PetDAO {
             String name = resultSet.getString("Name");
             int ownerID = resultSet.getInt("Owner_ID");
             int animalID = resultSet.getInt("Animal_ID");
+            int age = resultSet.getInt("Height");
 
             pet.setPetID(resultID);
-            pet.setType(type);
+            pet.setPetType(type);
             pet.setName(name);
             pet.setOwnerID(ownerID);
             pet.setAnimalID(animalID);
+            pet.setAge(age);
         }
         catch (SQLException e) {
             throw new RuntimeException(e);
@@ -72,20 +78,22 @@ public class PetDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
 
         return pet;
     }
-    public void updatePet(int id) {
+
+    public void updatePetAge(int id, int age) {
         Connection connection = pool.retrieve();
-        String updateStatement = "update Pets where id = ?;";
+        String updateStatement = "update Pets set Age = ? where id = ?;";
         PreparedStatement preparedStatement = null;
 
         try {
             preparedStatement = connection.prepareStatement(updateStatement);
-            preparedStatement.setInt(1, id);
+            preparedStatement.setInt(1, age);
+            preparedStatement.setInt(2, id);
             preparedStatement.executeUpdate();
         }
         catch (SQLException e) {
@@ -97,10 +105,11 @@ public class PetDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
+
     public void deletePet(int id) {
         Connection connection = pool.retrieve();
         String updateStatement = "delete from Pets where id = ?;";
@@ -120,7 +129,7 @@ public class PetDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }

@@ -2,11 +2,15 @@ package com.mycompany.app.dao;
 
 import com.mycompany.app.models.Dog;
 import com.mycompany.app.database.ConnectionPool;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.sql.*;
 
 public class DogDAO {
     ConnectionPool pool = ConnectionPool.getInstance();
+    private static final Logger LOGGER = LogManager.getLogger(DogDAO.class);
+
     public void createDog(String breed, int petID) {
         Connection connection = pool.retrieve();
         String createStatement = "insert into Dogs (Breed, Pet_ID) values (?, ?);";
@@ -28,7 +32,7 @@ public class DogDAO {
                 if (create != null) create.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -65,7 +69,7 @@ public class DogDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
 
@@ -91,7 +95,7 @@ public class DogDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -113,7 +117,7 @@ public class DogDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }

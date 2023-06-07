@@ -2,10 +2,15 @@ package com.mycompany.app.dao;
 
 import com.mycompany.app.database.ConnectionPool;
 import com.mycompany.app.models.DomesticOrWildAnimalAndColorRelation;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.sql.*;
 
 public class DomesticOrWildAnimalsAndColorsDAO {
     ConnectionPool pool = ConnectionPool.getInstance();
+    private static final Logger LOGGER = LogManager.getLogger(DomesticOrWildAnimalsAndColorsDAO.class);
+
     public void createDomesticOrWildAnimalAndColorRelation(int domesticOrWildAnimalID, int colorID) {
         Connection connection = pool.retrieve();
         String createStatement = "insert into DomesticOrWildAnimalsAndColors (DomesticOrWildAnimal_ID, Color_ID) " +
@@ -28,7 +33,7 @@ public class DomesticOrWildAnimalsAndColorsDAO {
                 if (create != null) create.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -65,7 +70,7 @@ public class DomesticOrWildAnimalsAndColorsDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
 
@@ -90,7 +95,7 @@ public class DomesticOrWildAnimalsAndColorsDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -113,7 +118,7 @@ public class DomesticOrWildAnimalsAndColorsDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }

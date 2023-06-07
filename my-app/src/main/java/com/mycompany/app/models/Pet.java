@@ -2,7 +2,8 @@ package com.mycompany.app.models;
 
 public class Pet extends Animal {
     private int petID, ownerID, animalID;
-    private String petType;
+    private String petType, name;
+    private int age;
 
     public int getPetID() {
         return petID;
@@ -44,6 +45,11 @@ public class Pet extends Animal {
         this.name = name;
     }
 
-    private String name;
+    public int getAge() {
+        return this.age;
+    }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
 }

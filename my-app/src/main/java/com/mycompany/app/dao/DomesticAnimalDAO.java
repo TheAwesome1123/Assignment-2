@@ -2,6 +2,9 @@ package com.mycompany.app.dao;
 
 import com.mycompany.app.models.DomesticAnimal;
 import com.mycompany.app.database.ConnectionPool;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -9,6 +12,8 @@ import java.sql.SQLException;
 
 public class DomesticAnimalDAO {
     ConnectionPool pool = ConnectionPool.getInstance();
+    private static final Logger LOGGER = LogManager.getLogger(DomesticAnimalDAO.class);
+
 
     public void createDomesticAnimal(String name, int ownerID, int domesticOrWildID) {
         Connection connection = pool.retrieve();
@@ -33,7 +38,7 @@ public class DomesticAnimalDAO {
                 if (connection != null) pool.putBack(connection);
                 if (create != null) create.close();
             } catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -72,7 +77,7 @@ public class DomesticAnimalDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
 
@@ -97,7 +102,7 @@ public class DomesticAnimalDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -121,7 +126,7 @@ public class DomesticAnimalDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }

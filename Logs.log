@@ -5943,3 +5943,1308 @@ Property Type: int, Property Name: ID
 Property Type: String, Property Name: Type
 Property Type: String, Property Name: IsDomesticated
 Property Type: int, Property Name: Animal_ID
+Found file Animals.xml
+
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+Found file Animals.xml
+
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+Found file Animals.xml
+
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+Found file Animals.xml
+
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+Found file Animals.xml
+
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+Found file Animals.xml
+
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+Found file Animals.xml
+
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+Found file Animals.xml
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+Found file Animals.xml
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+Found file Animals.xml
+
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animals.xml; lineNumber: 2; columnNumber: 15; The document type declaration for root element type "root" must end with '>'.
+Found file Animals.xml
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animals.xml; lineNumber: 2; columnNumber: 32; The document type declaration for root element type "AnimalsAndProperties" must end with '>'.
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+
+Class: Pet
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: Name
+Property Type: int, Property Name: Owner_ID
+Property Type: int, Property Name: Animal_ID
+
+Class: Dog
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Breed
+Property Type: int, Property Name: Pet_ID
+
+Class: WildAnimal
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: int, Property Name: Animal_ID
+
+Class: HomeContinent
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: HomeContinent
+Property Type: int, Property Name: WildAnimal_ID
+
+Class: DomesticOrWild
+Property Type: int, Property Name: ID
+Property Type: String, Property Name: Type
+Property Type: String, Property Name: IsDomesticated
+Property Type: int, Property Name: Animal_ID
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+Found file Animals.xml
+Found file Animals.xml
+Found file Animals.xml
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/Animal%20Schema.xsd; lineNumber: 2; columnNumber: 2; The markup declarations contained or pointed to by the document type declaration must be well-formed.
+Found file Animals.xml
+
+Class: Pet
+Property Type: ID, Property Name: 1
+Property Type: Type, Property Name: Dog
+Property Type: Name, Property Name: Max
+Property Type: Owner_ID, Property Name: 2
+Property Type: Animal_ID, Property Name: 3
+
+Class: Dog
+Property Type: ID, Property Name: 1
+Property Type: Breed, Property Name: German Shepherd
+Property Type: Pet_ID, Property Name: 1
+
+Class: WildAnimal
+Property Type: ID, Property Name: 2
+Property Type: Type, Property Name: Wolf
+Property Type: Animal_ID, Property Name: 2
+
+Class: HomeContinent
+Property Type: ID, Property Name: 1
+Property Type: HomeContinent, Property Name: Europe
+Property Type: WildAnimal_ID, Property Name: 2
+
+Class: DomesticOrWild
+Property Type: ID, Property Name: 4
+Property Type: Type, Property Name: Horse
+Property Type: IsDomesticated, Property Name: True
+Property Type: Animal_ID, Property Name: 5
+Found file Animals.xml
+
+Class: Pet
+Property Type: ID, Property Name: 1
+Property Type: Type, Property Name: Dog
+Property Type: Name, Property Name: Max
+Property Type: Owner_ID, Property Name: 2
+Property Type: Animal_ID, Property Name: 3
+
+Class: Dog
+Property Type: ID, Property Name: 1
+Property Type: Breed, Property Name: German Shepherd
+Property Type: Pet_ID, Property Name: 1
+
+Class: WildAnimal
+Property Type: ID, Property Name: 2
+Property Type: Type, Property Name: Wolf
+Property Type: Animal_ID, Property Name: 2
+
+Class: HomeContinent
+Property Type: ID, Property Name: 1
+Property Type: HomeContinent, Property Name: Europe
+Property Type: WildAnimal_ID, Property Name: 2
+
+Class: DomesticOrWild
+Property Type: ID, Property Name: 4
+Property Type: Type, Property Name: Horse
+Property Type: IsDomesticated, Property Name: True
+Property Type: Animal_ID, Property Name: 5
+Found file Animals.xml
+
+Class: Pet
+Property Type: ID, Property Name: 1
+Property Type: Type, Property Name: Dog
+Property Type: Name, Property Name: Max
+Property Type: Owner_ID, Property Name: 2
+Property Type: Animal_ID, Property Name: 3
+
+Class: Dog
+Property Type: ID, Property Name: 1
+Property Type: Breed, Property Name: German Shepherd
+Property Type: Pet_ID, Property Name: 1
+
+Class: WildAnimal
+Property Type: ID, Property Name: 2
+Property Type: Type, Property Name: Wolf
+Property Type: Animal_ID, Property Name: 2
+
+Class: HomeContinent
+Property Type: ID, Property Name: 1
+Property Type: HomeContinent, Property Name: Europe
+Property Type: WildAnimal_ID, Property Name: 2
+
+Class: DomesticOrWild
+Property Type: ID, Property Name: 4
+Property Type: Type, Property Name: Horse
+Property Type: IsDomesticated, Property Name: True
+Property Type: Animal_ID, Property Name: 5
+Found file Animals.xml
+
+Class: Pet
+Property Type: ID, Property Name: 1
+Property Type: Type, Property Name: Dog
+Property Type: Name, Property Name: Max
+Property Type: Owner_ID, Property Name: 2
+Property Type: Animal_ID, Property Name: 3
+
+Class: Dog
+Property Type: ID, Property Name: 1
+Property Type: Breed, Property Name: German Shepherd
+Property Type: Pet_ID, Property Name: 1
+
+Class: WildAnimal
+Property Type: ID, Property Name: 2
+Property Type: Type, Property Name: Wolf
+Property Type: Animal_ID, Property Name: 2
+
+Class: HomeContinent
+Property Type: ID, Property Name: 1
+Property Type: HomeContinent, Property Name: Europe
+Property Type: WildAnimal_ID, Property Name: 2
+
+Class: DomesticOrWild
+Property Type: ID, Property Name: 4
+Property Type: Type, Property Name: Horse
+Property Type: IsDomesticated, Property Name: True
+Property Type: Animal_ID, Property Name: 5
+Found file Animals.xml
+
+Class: Pet
+Property Type: ID, Property Name: 1
+Property Type: Type, Property Name: Dog
+Property Type: Name, Property Name: Max
+Property Type: Owner_ID, Property Name: 2
+Property Type: Animal_ID, Property Name: 3
+
+Class: Dog
+Property Type: ID, Property Name: 1
+Property Type: Breed, Property Name: German Shepherd
+Property Type: Pet_ID, Property Name: 1
+
+Class: WildAnimal
+Property Type: ID, Property Name: 2
+Property Type: Type, Property Name: Wolf
+Property Type: Animal_ID, Property Name: 2
+
+Class: HomeContinent
+Property Type: ID, Property Name: 1
+Property Type: HomeContinent, Property Name: Europe
+Property Type: WildAnimal_ID, Property Name: 2
+
+Class: DomesticOrWild
+Property Type: ID, Property Name: 4
+Property Type: Type, Property Name: Horse
+Property Type: IsDomesticated, Property Name: True
+Property Type: Animal_ID, Property Name: 5
+Found file Animals.xml
+
+Class: Pet
+Property Type: ID, Property Name: 1
+Property Type: Type, Property Name: Dog
+Property Type: Name, Property Name: Max
+Property Type: Owner_ID, Property Name: 2
+Property Type: Animal_ID, Property Name: 3
+
+Class: Dog
+Property Type: ID, Property Name: 1
+Property Type: Breed, Property Name: German Shepherd
+Property Type: Pet_ID, Property Name: 1
+
+Class: WildAnimal
+Property Type: ID, Property Name: 2
+Property Type: Type, Property Name: Wolf
+Property Type: Animal_ID, Property Name: 2
+
+Class: HomeContinent
+Property Type: ID, Property Name: 1
+Property Type: HomeContinent, Property Name: Europe
+Property Type: WildAnimal_ID, Property Name: 2
+
+Class: DomesticOrWild
+Property Type: ID, Property Name: 4
+Property Type: Type, Property Name: Horse
+Property Type: IsDomesticated, Property Name: True
+Property Type: Animal_ID, Property Name: 5
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@1b2c4efb
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5f7b97da
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c35172e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c35172e

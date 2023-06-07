@@ -2,6 +2,9 @@ package com.mycompany.app.dao;
 
 import com.mycompany.app.models.WildAnimal;
 import com.mycompany.app.database.ConnectionPool;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -9,6 +12,7 @@ import java.sql.SQLException;
 
 public class WildAnimalDAO {
     ConnectionPool pool = ConnectionPool.getInstance();
+    private static final Logger LOGGER = LogManager.getLogger(WildAnimalDAO.class);
 
     public void createWildAnimal(String type, int animalID) {
         Connection connection = pool.retrieve();
@@ -32,7 +36,7 @@ public class WildAnimalDAO {
                 if (create != null) create.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -53,10 +57,12 @@ public class WildAnimalDAO {
             int resultID = resultSet.getInt("ID");
             String type = resultSet.getString("Type");
             int animalID = resultSet.getInt("Animal_ID");
+            int weight = resultSet.getInt("Weight");
 
             wildAnimal.setWildAnimalID(resultID);
             wildAnimal.setType(type);
             wildAnimal.setAnimalID(animalID);
+            wildAnimal.setWeight(weight);
         }
         catch (SQLException e) {
             throw new RuntimeException(e);
@@ -68,20 +74,22 @@ public class WildAnimalDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
 
         return wildAnimal;
     }
-    public void updateWildAnimal(int id) {
+    public void updateWildAnimalWeight(int id, int weight) {
         Connection connection = pool.retrieve();
-        String updateStatement = "update WildAnimals where id = ?;";
+        String updateStatement = "update WildAnimals set Weight = ? where id = ?;";
         PreparedStatement preparedStatement = null;
 
         try {
             preparedStatement = connection.prepareStatement(updateStatement);
-            preparedStatement.setInt(1, id);
+            preparedStatement.setInt(1, weight);
+            preparedStatement.setInt(2, id);
+
             preparedStatement.executeUpdate();
         }
         catch (SQLException e) {
@@ -93,7 +101,7 @@ public class WildAnimalDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -116,7 +124,7 @@ public class WildAnimalDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }

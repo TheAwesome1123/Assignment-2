@@ -2,6 +2,8 @@ package com.mycompany.app.models;
 
 public class Owner {
     int ownerID;
+
+    double height;
     String firstName, lastName;
 
     public int getOwnerID() {
@@ -25,5 +27,13 @@ public class Owner {
 
     public void setLastName(String newLastName) {
         this.lastName = newLastName;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
     }
 }

@@ -13,14 +13,14 @@ import java.io.File;
 public class XMLParser {
     private static final Logger LOGGER = LogManager.getLogger(XMLMain.class);
     private static Document document;
-    private static final String w3 = "http://www.w3.org/2001/XMLSchema";
-    private static final String jaxp =  "http://java.sun.com/xml/jaxp/properties/schemaLanguage";
 
     public static void makeParser() {
         try {
-            DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilderFactory documentBuilderFactory = XMLMain.getDocumentBuilderFactory();
+            documentBuilderFactory.setNamespaceAware(true);
+            documentBuilderFactory.setValidating(true);
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-            document = documentBuilder.parse(new File("my-app/src/main/java/com/mycompany/app/xml/Animals.xml"));
+            document = documentBuilder.parse(XMLMain.getFile());
             document.getDocumentElement().normalize();
 
             parse();

@@ -2,11 +2,14 @@ package com.mycompany.app.dao;
 
 import com.mycompany.app.database.ConnectionPool;
 import com.mycompany.app.models.DomesticOrWildColor;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.sql.*;
 
 public class DomesticOrWildColorDAO {
     ConnectionPool pool = ConnectionPool.getInstance();
+    private static final Logger LOGGER = LogManager.getLogger(DomesticOrWildColorDAO.class);
 
     public void createDomesticOrWildColor(String color, String shade) {
         Connection connection = pool.retrieve();
@@ -29,7 +32,7 @@ public class DomesticOrWildColorDAO {
                 if (create != null) create.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
@@ -66,7 +69,7 @@ public class DomesticOrWildColorDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
 
@@ -92,7 +95,7 @@ public class DomesticOrWildColorDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
 
@@ -116,7 +119,7 @@ public class DomesticOrWildColorDAO {
                 if (preparedStatement != null) preparedStatement.close();
             }
             catch (SQLException e) {
-                System.out.println(e);
+                LOGGER.info(e);
             }
         }
     }
