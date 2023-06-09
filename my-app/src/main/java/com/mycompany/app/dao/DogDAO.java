@@ -41,13 +41,12 @@ public class DogDAO {
         Connection connection = pool.retrieve();
         Dog dog = new Dog();
         ResultSet resultSet = null;
-        String selectStatement = "select ? from Dogs where id = ?;";
+        String selectStatement = "select * from Dogs where id = ?;";
         PreparedStatement preparedStatement = null;
 
         try {
             preparedStatement = connection.prepareStatement(selectStatement);
-            preparedStatement.setString(1, "*");
-            preparedStatement.setInt(2, id);
+            preparedStatement.setInt(1, id);
             resultSet = preparedStatement.executeQuery();
             resultSet.next();
 
@@ -76,14 +75,15 @@ public class DogDAO {
         return dog;
     }
 
-    public void updateDog(int id) {
+    public void updateDog(int id, String breed) {
         Connection connection = pool.retrieve();
-        String updateStatement = "update Dogs where id = ?;";
+        String updateStatement = "update Dogs set Breed = ? where ID = ?;";
         PreparedStatement preparedStatement = null;
 
         try {
             preparedStatement = connection.prepareStatement(updateStatement);
-            preparedStatement.setInt(1, id);
+            preparedStatement.setString(1, breed);
+            preparedStatement.setInt(2, id);
             preparedStatement.executeUpdate();
         }
         catch (SQLException e) {
@@ -101,7 +101,7 @@ public class DogDAO {
     }
     public void deleteDog(int id) {
         Connection connection = pool.retrieve();
-        String updateStatement = "delete from Dogs where id = ?;";
+        String updateStatement = "delete from Dogs where ID = ?;";
         PreparedStatement preparedStatement = null;
         try {
             preparedStatement = connection.prepareStatement(updateStatement);

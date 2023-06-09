@@ -23,6 +23,7 @@ public class DatabaseMain {
         insertion();
         updateTables();
         updateEntries();
+        DeleteService.deleteDog(1);
         //getStuff();
     }
 

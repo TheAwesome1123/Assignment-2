@@ -73,13 +73,15 @@ public class CatDAO {
 
         return cat;
     }
-    public void updateCat(int id) {
+    public void updateCat(int id, String breed) {
         Connection connection = pool.retrieve();
-        String updateStatement = "update Cats where id = ?;";
+        String updateStatement = "update Cats set Breed = ? where id = ?;";
         PreparedStatement preparedStatement = null;
         try {
             preparedStatement = connection.prepareStatement(updateStatement);
-            preparedStatement.setInt(1, id);
+            preparedStatement.setString(1, breed);
+            preparedStatement.setInt(2, id);
+
             preparedStatement.executeUpdate();
         }
         catch (SQLException e) {

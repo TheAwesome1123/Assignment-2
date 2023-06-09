@@ -76,14 +76,15 @@ public class HomeContinentDAO {
         return newHomeContinent;
     }
 
-    public void updateHomeContinent(int id) {
+    public void updateHomeContinent(int id, String homeContinent) {
         Connection connection = pool.retrieve();
-        String updateStatement = "update HomeContinents where id = ?;";
+        String updateStatement = "update HomeContinents set HomeContinent = ? where id = ?;";
 
         PreparedStatement preparedStatement = null;
         try {
             preparedStatement = connection.prepareStatement(updateStatement);
-            preparedStatement.setInt(1, id);
+            preparedStatement.setString(1, homeContinent);
+            preparedStatement.setInt(2, id);
             preparedStatement.executeUpdate();
         }
         catch (SQLException e) {

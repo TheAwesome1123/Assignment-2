@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Pet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Pet.xsd">
+    <ID>1</ID>
+    <Type>Dog</Type>
+    <Name>Max</Name>
+    <Owner_ID>2</Owner_ID>
+    <Animal_ID>3</Animal_ID>
+</Pet>

@@ -1,10 +1,7 @@
 package com.mycompany.app.xml;
 
 import java.io.File;
-
 import org.apache.logging.log4j.*;
-
-import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 public class XMLMain {
@@ -12,23 +9,22 @@ public class XMLMain {
     private static DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
 
     private static File file;
+    private static File schema;
 
     public static void main(String[] args ){
         try {
-            // Find file.
-            file = new File("my-app/src/main/java/com/mycompany/app/xml/Animals.xml");
+            // Find files.
+            file = new File("my-app/src/main/java/com/mycompany/app/xml/Pet.xml");
+            schema = new File("my-app/src/main/java/com/mycompany/app/xml/Pet.xsd");
             LOGGER.info("Found file " + file.getName());
+            LOGGER.info("Found file " + schema.getName());
 
-            doParsing();
+            XMLParser.doParsing(true);
             XMLValidator.validate();
         }
         catch(NullPointerException npe) {
             LOGGER.info("File not found; quitting.");
         }
-    }
-
-    public static void doParsing() {
-        XMLParser.makeParser();
     }
 
     public static DocumentBuilderFactory getDocumentBuilderFactory() {
@@ -38,4 +34,9 @@ public class XMLMain {
     public static File getFile() {
         return file;
     }
+
+    public static File getSchema() {
+        return schema;
+    }
+
 }

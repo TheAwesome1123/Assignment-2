@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<DomesticOrWild>
+    <ID>4</ID>
+    <Type>Horse</Type>
+    <IsDomesticated>True</IsDomesticated>
+    <Animal_ID>5</Animal_ID>
+</DomesticOrWild>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Pet">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ID" type="xs:integer"/>
+                <xs:element name="Type" type="xs:string"/>
+                <xs:element name="Name" type="xs:string"/>
+                <xs:element name="Owner_ID" type="xs:integer"/>
+                <xs:element name="Animal_ID" type="xs:integer" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

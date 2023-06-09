@@ -76,14 +76,16 @@ public class DomesticOrWildColorDAO {
         return domesticOrWildColor;
     }
 
-    public void updateDomesticOrWildColor(int id) {
+    public void updateDomesticOrWildColor(int id, String color, String shade) {
         Connection connection = pool.retrieve();
-        String updateStatement = "update DomesticOrWildColors where id = ?;";
+        String updateStatement = "update DomesticOrWildColors set Color = ?, Shade = ? where id = ?;";
         PreparedStatement preparedStatement = null;
 
         try {
             preparedStatement = connection.prepareStatement(updateStatement);
-            preparedStatement.setInt(1, id);
+            preparedStatement.setString(1, color);
+            preparedStatement.setString(2, shade);
+            preparedStatement.setInt(3, id);
             preparedStatement.executeUpdate();
         }
         catch (SQLException e) {

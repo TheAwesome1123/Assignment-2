@@ -84,13 +84,14 @@ public class DomesticAnimalDAO {
         return domesticAnimal;
     }
 
-    public void updateDomesticOrWildAnimal(int id)  {
+    public void updateDomesticOrWildAnimal(int id, String name)  {
         Connection connection = pool.retrieve();
-        String updateStatement = "update DomesticAnimals where id = ?;";
+        String updateStatement = "update DomesticAnimals set Name = ? where id = ?;";
         PreparedStatement preparedStatement = null;
         try {
             preparedStatement = connection.prepareStatement(updateStatement);
-            preparedStatement.setInt(1, id);
+            preparedStatement.setString(1, name);
+            preparedStatement.setInt(2, id);
             preparedStatement.executeUpdate();
         }
         catch (SQLException e) {

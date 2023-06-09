@@ -44,22 +44,21 @@ public class PetDAO {
         Connection connection = pool.retrieve();
         Pet pet = new Pet();
         ResultSet resultSet = null;
-        String selectStatement = "select ? from Pets where id = ?;";
+        String selectStatement = "select * from Pets where id = ?;";
         PreparedStatement preparedStatement = null;
 
         try {
             preparedStatement = connection.prepareStatement(selectStatement);
-            preparedStatement.setString(1, "*");
-            preparedStatement.setInt(2, id);
+            preparedStatement.setInt(1, id);
             resultSet = preparedStatement.executeQuery();
             resultSet.next();
 
-            int resultID = resultSet.getInt("animalID");
+            int resultID = resultSet.getInt("ID");
             String type = resultSet.getString("Type");
             String name = resultSet.getString("Name");
             int ownerID = resultSet.getInt("Owner_ID");
             int animalID = resultSet.getInt("Animal_ID");
-            int age = resultSet.getInt("Height");
+            int age = resultSet.getInt("Age");
 
             pet.setPetID(resultID);
             pet.setPetType(type);
@@ -112,7 +111,7 @@ public class PetDAO {
 
     public void deletePet(int id) {
         Connection connection = pool.retrieve();
-        String updateStatement = "delete from Pets where id = ?;";
+        String updateStatement = "delete from Pets where ID = ?;";
         PreparedStatement preparedStatement = null;
 
         try {

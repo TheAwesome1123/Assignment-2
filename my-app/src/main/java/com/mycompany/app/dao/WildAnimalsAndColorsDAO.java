@@ -77,14 +77,17 @@ public class WildAnimalsAndColorsDAO {
         return relation;
     }
 
-    public void updateWildAnimalAndColorRelation(int id) {
+    public void updateWildAnimalAndColorRelation(int id, int wildAnimalID, int colorID) {
         Connection connection = pool.retrieve();
-        String updateStatement = "update WildAnimalsAndColors where id = ?;";
+        String updateStatement = "update WildAnimalsAndColors set WildAnimal_ID = ?, Color_ID = ? where id = ?;";
         PreparedStatement preparedStatement = null;
 
         try {
             preparedStatement = connection.prepareStatement(updateStatement);
-            preparedStatement.setInt(1, id);
+            preparedStatement.setInt(1, wildAnimalID);
+            preparedStatement.setInt(2, colorID);
+            preparedStatement.setInt(3, id);
+
             preparedStatement.executeUpdate();
         }
         catch (SQLException e) {
