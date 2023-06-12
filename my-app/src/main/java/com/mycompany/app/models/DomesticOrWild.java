@@ -1,11 +1,21 @@
 package com.mycompany.app.models;
 
-public class DomesticOrWild extends Animal {
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlTransient;
+
+@XmlRootElement(name = "DomesticOrWild")
+public class DomesticOrWild {
+    @XmlElement(name = "ID")
     private int domesticOrWildID;
+    @XmlElement(name = "Animal_ID")
     private int animalID;
+    @XmlElement(name = "Type")
     private String domesticOrWildType;
+    @XmlElement(name = "IsDomesticated")
     private boolean isDomesticated;
 
+    @XmlTransient
     public int getDomesticOrWildID() {
         return domesticOrWildID;
     }
@@ -13,6 +23,8 @@ public class DomesticOrWild extends Animal {
     public void setDomesticOrWildID(int id) {
         this.domesticOrWildID = id;
     }
+
+    @XmlTransient
 
     public int getAnimalID() {
         return animalID;
@@ -22,6 +34,7 @@ public class DomesticOrWild extends Animal {
         this.animalID = animalID;
     }
 
+    @XmlTransient
     public String getDomesticOrWildType() {
         return domesticOrWildType;
     }
@@ -30,6 +43,7 @@ public class DomesticOrWild extends Animal {
         this.domesticOrWildType = type;
     }
 
+    @XmlTransient
     public boolean isDomesticated() {
         return isDomesticated;
     }

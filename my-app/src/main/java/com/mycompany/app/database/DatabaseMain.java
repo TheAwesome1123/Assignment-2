@@ -106,7 +106,7 @@ public class DatabaseMain {
 
         WildAnimal wildAnimal = new GetterService().getWildAnimal(1);
         LOGGER.info(wildAnimal.getWildAnimalID());
-        LOGGER.info(wildAnimal.getType());
+        LOGGER.info(wildAnimal.getWildAnimalType());
         LOGGER.info(wildAnimal.getAnimalID());
     }
 }

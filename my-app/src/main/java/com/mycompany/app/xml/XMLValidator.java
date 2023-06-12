@@ -22,7 +22,7 @@ public class XMLValidator {
             Schema schema = schemaFactory.newSchema(fileWithSchema);
             Validator validator = schema.newValidator();
 
-            validator.validate(new StreamSource(XMLMain.getFile()));
+            validator.validate(new StreamSource(XMLMain.getPetFile()));
 
         }
         catch(SAXException | IOException saxe) {

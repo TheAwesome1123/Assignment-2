@@ -18,7 +18,7 @@ public class XMLParser {
             documentBuilderFactory.setNamespaceAware(true);
             documentBuilderFactory.setValidating(true);
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-            document = documentBuilder.parse(XMLMain.getFile());
+            document = documentBuilder.parse(XMLMain.getPetFile());
             document.getDocumentElement().normalize();
 
             parse(fileHasOneElement);

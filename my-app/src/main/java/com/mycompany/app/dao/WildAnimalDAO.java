@@ -60,7 +60,7 @@ public class WildAnimalDAO {
             int weight = resultSet.getInt("Weight");
 
             wildAnimal.setWildAnimalID(resultID);
-            wildAnimal.setType(type);
+            wildAnimal.setWildAnimalType(type);
             wildAnimal.setAnimalID(animalID);
             wildAnimal.setWeight(weight);
         }

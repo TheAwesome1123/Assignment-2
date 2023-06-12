@@ -1,10 +1,28 @@
 package com.mycompany.app.models;
 
-public class Pet extends Animal {
-    private int petID, ownerID, animalID;
-    private String petType, name;
+import javax.xml.bind.annotation.*;
+
+@XmlRootElement(name = "Pet")
+public class Pet {
+    @XmlElement(name = "ID")
+    private int petID;
+
+    @XmlElement(name = "Owner_ID")
+    private int ownerID;
+
+    @XmlElement(name = "Animal_ID")
+    private int animalID;
+
+    @XmlElement(name = "Type")
+    private String petType;
+
+    @XmlElement(name = "Name")
+    private String name;
+
+    @XmlElement(name = "Age")
     private int age;
 
+    @XmlTransient
     public int getPetID() {
         return petID;
     }
@@ -13,6 +31,7 @@ public class Pet extends Animal {
         this.petID = petID;
     }
 
+    @XmlTransient
     public int getOwnerID() {
         return ownerID;
     }
@@ -21,6 +40,7 @@ public class Pet extends Animal {
         this.ownerID = ownerID;
     }
 
+    @XmlTransient
     public int getAnimalID() {
         return animalID;
     }
@@ -29,6 +49,7 @@ public class Pet extends Animal {
         this.animalID = animalID;
     }
 
+    @XmlTransient
     public String getPetType() {
         return petType;
     }
@@ -37,6 +58,7 @@ public class Pet extends Animal {
         this.petType = petType;
     }
 
+    @XmlTransient
     public String getName() {
         return name;
     }
@@ -45,6 +67,7 @@ public class Pet extends Animal {
         this.name = name;
     }
 
+    @XmlTransient
     public int getAge() {
         return this.age;
     }

@@ -1,7 +1,8 @@
 package com.mycompany.app.models;
 
-public class Cat extends Pet {
+public class Cat {
     private int catID;
+    private int petID;
     private String breed;
 
     public int getCatID() {
@@ -18,5 +19,13 @@ public class Cat extends Pet {
 
     public void setBreed(String breed) {
         this.breed = breed;
+    }
+
+    public int getPetID() {
+        return petID;
+    }
+
+    public void setPetID(int petID) {
+        this.petID = petID;
     }
 }

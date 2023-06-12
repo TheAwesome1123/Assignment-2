@@ -8,6 +8,8 @@ import com.mycompany.app.enums.HomeContinent;
 import com.mycompany.app.enums.Sex;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
@@ -34,10 +36,38 @@ public class ThreadMain {
         Animal[] animals = {dog1, dog2, elephant, wolf, squirrel, bird, horse};
         List<Animal> animalList = ArrayListMethods.makeArrayListFromArray(animals);
 
-        doFutureStuff(animalList);
+        future(animalList);
         NEW_LOGGER.info("");
-        doPoolStuff(animalList);
+        connectionPool(animalList);
         System.exit(0);
+    }
+
+    public static void future(List<Animal> list) {
+        List<AnimalThreadWithFuture> inactiveConnections = new ArrayList<>();
+        List<AnimalThreadWithFuture> activeConnections = new ArrayList<>();
+
+        for(int i = 0; i < 5; i++) {
+            inactiveConnections.add(new AnimalThreadWithFuture());
+        }
+
+        for (Animal animal : list) {
+            if (inactiveConnections.size() > 0) {
+                AnimalThreadWithFuture animalThreadWithFuture = inactiveConnections.get(0);
+                activeConnections.add(animalThreadWithFuture);
+                inactiveConnections.remove(animalThreadWithFuture);
+
+                Future<String> animalInfo = animalThreadWithFuture.getAnimalInfoString(animal);
+                inactiveConnections.add(animalThreadWithFuture);
+                activeConnections.remove(animalThreadWithFuture);
+
+                try {
+                    NEW_LOGGER.info("Getting animal info...");
+                    NEW_LOGGER.info(animalInfo.get());
+                } catch (ExecutionException | InterruptedException e) {
+                    NEW_LOGGER.info(e);
+                }
+            }
+        }
     }
 
     public static void doFutureStuff(List<Animal> list) {
@@ -69,37 +99,23 @@ public class ThreadMain {
         }
     }
 
-    public static void doPoolStuff(List<Animal> list) {
-        if(list.size() < 5) {
-            NEW_LOGGER.info("List is too small.");
-            return;
+    public static void connectionPool(List<Animal> list) {
+        List<AnimalThread> inactiveConnections = new ArrayList<>();
+        List<AnimalThread> activeConnections = new ArrayList<>();
+
+        for(int i = 0; i < 5; i++) {
+            inactiveConnections.add(new AnimalThread());
         }
 
-        AnimalThread animalThread = new AnimalThread();
-        ExecutorService executorService = Executors.newFixedThreadPool(5);
+        for (Animal animal : list) {
+            if (inactiveConnections.size() > 0) {
+                AnimalThread animalThread = inactiveConnections.get(0);
+                inactiveConnections.remove(animalThread);
+                activeConnections.add(animalThread);
 
-        for(int i = 0; i < 5; i ++) {
-            Runnable runnable = new AnimalRunnable(list.get(i));
-            executorService.execute(runnable);
-        }
-
-        try {
-            Thread.sleep(300);
-        }
-        catch (InterruptedException ie) {
-            NEW_LOGGER.info(("Interrupted."));
-        }
-
-        for(int i = 5; i < list.size(); i++) {
-            Animal currentAnimal = list.get(i);
-            Runnable animalRunnable = new AnimalRunnable(currentAnimal);
-
-            if(animalThread.isAlive()) {
-                animalThread.run(currentAnimal);
-            }
-            else {
-                Thread threadWithAnimalRunnable = new Thread(animalRunnable);
-                threadWithAnimalRunnable.start();
+                animalThread.run(animal);
+                inactiveConnections.add(animalThread);
+                activeConnections.remove(animalThread);
             }
         }
     }

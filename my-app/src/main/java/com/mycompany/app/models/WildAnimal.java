@@ -1,11 +1,21 @@
 package com.mycompany.app.models;
 
-public class WildAnimal extends Animal {
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlTransient;
+
+@XmlRootElement(name = "WildAnimal")
+public class WildAnimal {
+    @XmlElement(name = "ID")
     private int wildAnimalID;
+    @XmlElement(name = "Animal_ID")
     private int animalID;
+    @XmlTransient
     private int weight;
+    @XmlElement(name = "Type")
     private String wildAnimalType;
 
+    @XmlTransient
     public int getWildAnimalID() {
         return wildAnimalID;
     }
@@ -14,6 +24,7 @@ public class WildAnimal extends Animal {
         this.wildAnimalID = wildAnimalID;
     }
 
+    @XmlTransient
     public int getAnimalID() {
         return animalID;
     }
@@ -22,6 +33,7 @@ public class WildAnimal extends Animal {
         this.animalID = animalID;
     }
 
+    @XmlTransient
     public String getWildAnimalType() {
         return wildAnimalType;
     }
@@ -30,6 +42,7 @@ public class WildAnimal extends Animal {
         this.wildAnimalType = wildAnimalType;
     }
 
+    @XmlTransient
     public int getWeight() {
         return weight;
     }

@@ -1,22 +1,42 @@
 package com.mycompany.app.models;
 
-public class Dog extends Pet {
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlTransient;
+
+@XmlRootElement(name = "Dog")
+public class Dog {
+    @XmlElement(name = "ID")
     private int dogID;
+    @XmlElement(name = "Pet_ID")
+    private int petID;
+    @XmlElement(name = "Breed")
     private String breed;
 
+    @XmlTransient
     public int getDogID() {
         return dogID;
     }
 
-    public void setDogID(int catID) {
-        this.dogID = catID;
+    public void setDogID(int dogID) {
+        this.dogID = dogID;
     }
 
+    @XmlTransient
     public String getBreed() {
         return breed;
     }
 
     public void setBreed(String breed) {
         this.breed = breed;
+    }
+
+    @XmlTransient
+    public int getPetID() {
+        return petID;
+    }
+
+    public void setPetID(int petID) {
+        this.petID = petID;
     }
 }

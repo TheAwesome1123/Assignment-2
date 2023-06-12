@@ -3,6 +3,6 @@
 <DomesticOrWild>
     <ID>4</ID>
     <Type>Horse</Type>
-    <IsDomesticated>True</IsDomesticated>
+    <IsDomesticated>true</IsDomesticated>
     <Animal_ID>5</Animal_ID>
 </DomesticOrWild>
