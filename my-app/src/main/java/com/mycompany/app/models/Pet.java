@@ -1,6 +1,12 @@
 package com.mycompany.app.models;
 
+import com.mycompany.app.xml.pet.DateAdapter2;
+import com.mycompany.app.xml.pet.DateOfBirthAdapter;
+
 import javax.xml.bind.annotation.*;
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import java.time.LocalDateTime;
+import java.util.Date;
 
 @XmlRootElement(name = "Pet")
 public class Pet {
@@ -21,6 +27,10 @@ public class Pet {
 
     @XmlElement(name = "Age")
     private int age;
+
+    @XmlElement(name = "DateOfBirth")
+    @XmlJavaTypeAdapter(DateOfBirthAdapter.class)
+    private Date dateOfBirth;
 
     @XmlTransient
     public int getPetID() {
@@ -74,5 +84,14 @@ public class Pet {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @XmlTransient
+    public Date getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public void setDateOfBirth(Date dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
     }
 }

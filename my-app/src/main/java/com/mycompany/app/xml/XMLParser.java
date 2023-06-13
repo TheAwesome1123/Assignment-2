@@ -7,65 +7,61 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.File;
 
 public class XMLParser {
-    private static final Logger LOGGER = LogManager.getLogger(XMLMain.class);
+    private static final Logger LOGGER = LogManager.getLogger(XMLParser.class);
     private static Document document;
 
-    public static void doParsing(boolean fileHasOneElement) {
+    public static void doParsing(File file) {
         try {
             DocumentBuilderFactory documentBuilderFactory = XMLMain.getDocumentBuilderFactory();
-            documentBuilderFactory.setNamespaceAware(true);
-            documentBuilderFactory.setValidating(true);
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-            document = documentBuilder.parse(XMLMain.getPetFile());
+            document = documentBuilder.parse(file);
             document.getDocumentElement().normalize();
 
-            parse(fileHasOneElement);
+            parse();
         }
         catch(Exception e) {
-            LOGGER.info(e);
+            LOGGER.info(e.getMessage());
         }
     }
 
-    public static void parse(boolean fileHasOneElement) {
+    public static void parse() {
         Node root = document.getDocumentElement();
 
-        if(!(fileHasOneElement)) {
-            LOGGER.info("Main Element: " + root.getNodeName());
-        }
-        else {
-            LOGGER.info("Element: " + root.getNodeName() + "\n");
-        }
+        LOGGER.info("Root: " + root.getNodeName());
 
         // Elements in main one.
         NodeList listOfNodesInRoot = root.getChildNodes();
+        printElements(listOfNodesInRoot);
+    }
 
-        for(int j = 0; j < listOfNodesInRoot.getLength(); j++) {
-            Node currentElement = listOfNodesInRoot.item(j);
+    public static void printElements(NodeList list) {
+        for(int i = 0; i < list.getLength(); i++) {
+            Node currentElement = list.item(i);
 
-            if(currentElement.getNodeType() == Node.ELEMENT_NODE) {
-                if(!(fileHasOneElement)) {
-                    LOGGER.info("\nSecondary Element: " + currentElement.getNodeName());
-                }
-                else {
-                    LOGGER.info("Property Type: " + currentElement.getNodeName() +
-                            ", Property Value: " + currentElement.getTextContent());
-                }
+            if(currentElement.getNodeType() == Node.ELEMENT_NODE && getChildNodesThatAreElements(currentElement) > 0) {
+                LOGGER.info("Element: " + currentElement.getNodeName());
+            }
+            else if (currentElement.getNodeType() == Node.ELEMENT_NODE) {
+                LOGGER.info("Element: " + currentElement.getNodeName() + ", Value: " + currentElement.getTextContent());
             }
 
-            NodeList elementProperties = currentElement.getChildNodes();
+            printElements(currentElement.getChildNodes());
+        }
+    }
 
-            if(!(fileHasOneElement)) {
-                for(int k = 0; k < elementProperties.getLength(); k++) {
-                    Node property = elementProperties.item(k);
+    public static int getChildNodesThatAreElements(Node node) {
+        NodeList children = node.getChildNodes();
+        int numOfChildrenThatAreElements = 0;
 
-                    if(property.getNodeType() == Node.ELEMENT_NODE) {
-                        LOGGER.info("Property Type: " + property.getNodeName() +
-                                ", Property Value: " + property.getTextContent());
-                    }
-                }
+        for(int i = 0; i < children.getLength(); i++) {
+            if(children.item(i).getNodeType() == Node.ELEMENT_NODE) {
+                numOfChildrenThatAreElements++;
             }
         }
+
+        return numOfChildrenThatAreElements;
     }
 }

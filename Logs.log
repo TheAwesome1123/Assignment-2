@@ -9783,3 +9783,1396 @@ Animal ID: 5
 ID: 2
 Type: Wolf
 Animal ID: 2
+Found file Pet.xml
+Found file Pet.xsd
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Found file Pet.xml
+Found file Pet.xsd
+Element: HomeContinent
+
+Property Type: ID, Property Value: 1
+Property Type: HomeContinent, Property Value: Europe
+Property Type: WildAnimal_ID, Property Value: 2
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Found file Pet.xml
+Found file Pet.xsd
+Element: HomeContinent
+
+Property Type: ID, Property Value: 1
+Property Type: HomeContinent, Property Value: Europe
+Property Type: WildAnimal_ID, Property Value: 2
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Found file Pet.xml
+Found file Pet.xsd
+Element: HomeContinent
+
+Property Type: ID, Property Value: 1
+Property Type: HomeContinent, Property Value: Europe
+Property Type: WildAnimal_ID, Property Value: 2
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Found file Pet.xml
+Found file Pet.xsd
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Found file Pet.xml
+Found file Pet.xsd
+Valid file.
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Found file Pet.xml
+Found file Pet.xsd
+Valid file.
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Found file Pet.xml
+Found file Pet.xsd
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/dog/Dog.xml; lineNumber: 2; columnNumber: 6; cvc-elt.1.a: Cannot find the declaration of element 'Dog'.
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Found file Pet.xml
+Found file Pet.xsd
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/dog/Dog.xml; lineNumber: 2; columnNumber: 100; cvc-elt.1.a: Cannot find the declaration of element 'Dog'.
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Found file Pet.xml
+Found file Pet.xsd
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/homecontinent/HomeContinent.xml; lineNumber: 2; columnNumber: 16; cvc-elt.1.a: Cannot find the declaration of element 'HomeContinent'.
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Found file Pet.xml
+Found file Pet.xsd
+Valid file.
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Found file Pet.xml
+Found file Pet.xsd
+Valid file.
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Found file Pet.xml
+Found file Pet.xsd
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/dog/Dog.xml; lineNumber: 2; columnNumber: 100; cvc-elt.1.a: Cannot find the declaration of element 'Dog'.
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Found file Pet.xml
+Found file Pet.xsd
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/sdn49/OneDrive/Desktop/Solvd/Assignment-2/my-app/src/main/java/com/mycompany/app/xml/wildanimal/WildAnimal.xml; lineNumber: 2; columnNumber: 13; cvc-elt.1.a: Cannot find the declaration of element 'WildAnimal'.
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Found file Pet.xml
+Found file Pet.xsd
+Valid file.
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Valid file.
+Element: HomeContinent
+
+Property Type: ID, Property Value: 1
+Property Type: HomeContinent, Property Value: Europe
+Property Type: WildAnimal_ID, Property Value: 2
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Valid file.
+Element: HomeContinent
+
+Property Type: ID, Property Value: 1
+Property Type: HomeContinent, Property Value: Europe
+Property Type: WildAnimal_ID, Property Value: 2
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Valid file.
+Element: Pet
+
+Property Type: ID, Property Value: 1
+Property Type: Type, Property Value: Dog
+Property Type: Name, Property Value: Max
+Property Type: Owner_ID, Property Value: 2
+Property Type: Animal_ID, Property Value: 3
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Valid file.
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Valid file.
+Element: Pet
+
+Property Type: ID, Property Value: 1
+Property Type: Type, Property Value: Dog
+Property Type: Name, Property Value: Max
+Property Type: Owner_ID, Property Value: 2
+Property Type: Animal_ID, Property Value: 3
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Valid file.
+java.lang.NullPointerException
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Valid file.
+Element: Pet
+
+Property Type: ID, Property Value: 1
+Property Type: Type, Property Value: Dog
+Property Type: Name, Property Value: Max
+Property Type: Owner_ID, Property Value: 2
+Property Type: Animal_ID, Property Value: 3
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Valid file.
+java.lang.NullPointerException
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Valid file.
+Element: Pet
+
+Property Type: ID, Property Value: 1
+Property Type: Type, Property Value: Dog
+Property Type: Name, Property Value: Max
+Property Type: Owner_ID, Property Value: 2
+Property Type: Animal_ID, Property Value: 3
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Valid file.
+hi
+Element: Pet
+
+Property Type: ID, Property Value: 1
+Property Type: Type, Property Value: Dog
+Property Type: Name, Property Value: Max
+Property Type: Owner_ID, Property Value: 2
+Property Type: Animal_ID, Property Value: 3
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Valid file.
+Element: Pet
+
+Property Type: ID, Property Value: 1
+Property Type: Type, Property Value: Dog
+Property Type: Name, Property Value: Max
+Property Type: Owner_ID, Property Value: 2
+Property Type: Animal_ID, Property Value: 3
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Valid file.
+Element: AnimalsAndProperties
+
+Property Type: Pet, Property Value: 
+		1
+		Dog
+		Max
+		2
+		3
+	
+Property Type: Dog, Property Value: 
+		1
+		German Shepherd
+		1
+	
+Property Type: WildAnimal, Property Value: 
+		2
+		Wolf
+		2
+	
+Property Type: HomeContinent, Property Value: 
+		1
+		Europe
+		2
+	
+Property Type: DomesticOrWild, Property Value: 
+		4
+		Horse
+		True
+		5
+	
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Valid file.
+Element: AnimalsAndProperties
+
+Property Type: Pet, Property Value: 
+		1
+		Dog
+		Max
+		2
+		3
+	
+Property Type: Dog, Property Value: 
+		1
+		German Shepherd
+		1
+	
+Property Type: WildAnimal, Property Value: 
+		2
+		Wolf
+		2
+	
+Property Type: HomeContinent, Property Value: 
+		1
+		Europe
+		2
+	
+Property Type: DomesticOrWild, Property Value: 
+		4
+		Horse
+		True
+		5
+	
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Valid file.
+Main Element: AnimalsAndProperties
+
+Secondary Element: Pet
+Property Type: ID, Property Value: 1
+Property Type: Type, Property Value: Dog
+Property Type: Name, Property Value: Max
+Property Type: Owner_ID, Property Value: 2
+Property Type: Animal_ID, Property Value: 3
+
+Secondary Element: Dog
+Property Type: ID, Property Value: 1
+Property Type: Breed, Property Value: German Shepherd
+Property Type: Pet_ID, Property Value: 1
+
+Secondary Element: WildAnimal
+Property Type: ID, Property Value: 2
+Property Type: Type, Property Value: Wolf
+Property Type: Animal_ID, Property Value: 2
+
+Secondary Element: HomeContinent
+Property Type: ID, Property Value: 1
+Property Type: HomeContinent, Property Value: Europe
+Property Type: WildAnimal_ID, Property Value: 2
+
+Secondary Element: DomesticOrWild
+Property Type: ID, Property Value: 4
+Property Type: Type, Property Value: Horse
+Property Type: IsDomesticated, Property Value: True
+Property Type: Animal_ID, Property Value: 5
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Valid file.
+Main Element: AnimalsAndProperties
+
+Secondary Element: Animals
+Property Type: Pet, Property Value: 
+		1
+		Dog
+		Max
+		2
+		3
+	
+Property Type: Dog, Property Value: 
+		1
+		German Shepherd
+		1
+	
+Property Type: WildAnimal, Property Value: 
+		2
+		Wolf
+		2
+	
+Property Type: HomeContinent, Property Value: 
+		1
+		Europe
+		2
+	
+Property Type: DomesticOrWild, Property Value: 
+		4
+		Horse
+		True
+		5
+	
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+Valid file.
+Main Element: AnimalsAndProperties
+
+Secondary Element: Animals
+Property Type: Pet, Property Value: 
+		1
+		Dog
+		Max
+		2
+		3
+	
+Property Type: Dog, Property Value: 
+		1
+		German Shepherd
+		1
+	
+Property Type: WildAnimal, Property Value: 
+		2
+		Wolf
+		2
+	
+Property Type: HomeContinent, Property Value: 
+		1
+		Europe
+		2
+	
+Property Type: DomesticOrWild, Property Value: 
+		4
+		Horse
+		True
+		5
+	
+1
+[[Animals: null]]
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: Fri May 01 00:00:00 PDT 1970
+java.text.ParseException: Unparseable date: "05/25/15"
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: null
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: Sat May 25 00:00:00 PST 15
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: Mon May 25 00:00:00 PDT 2015
+java.text.ParseException: Unparseable date: "2015-05-25"
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: null
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: Mon May 25 00:00:00 PDT 2015
+com.sun.xml.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+Adapter com.mycompany.app.xml.pet.DateAdapter2 is not applicable to the field type java.util.Date. 
+	this problem is related to the following location:
+		at @javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter(type=javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter$DEFAULT.class, value=com.mycompany.app.xml.pet.DateAdapter2.class)
+		at private java.util.Date com.mycompany.app.models.Pet.dateOfBirth
+		at com.mycompany.app.models.Pet
+
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: null
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: null
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: null
+com.sun.xml.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+Adapter com.mycompany.app.xml.pet.DateAdapter2 is not applicable to the field type java.util.Date. 
+	this problem is related to the following location:
+		at @javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter(type=javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter$DEFAULT.class, value=com.mycompany.app.xml.pet.DateAdapter2.class)
+		at private java.util.Date com.mycompany.app.models.Pet.dateOfBirth
+		at com.mycompany.app.models.Pet
+
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: Sat May 25 00:00:00 PST 15
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: Sat May 25 00:00:00 PST 15
+null
+null
+null
+null
+null
+File not found; quitting.
+File not found; quitting.
+File not found; quitting.
+java.lang.NullPointerException
+null
+1
+com.mycompany.app.models.Dog@68f4865
+com.mycompany.app.models.WildAnimal@4816278d
+com.mycompany.app.models.HomeContinent@4eaf3684
+com.mycompany.app.models.DomesticOrWild@40317ba2
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: null
+com.mycompany.app.models.Dog@3c01cfa1
+com.mycompany.app.models.WildAnimal@45d2ade3
+com.mycompany.app.models.HomeContinent@727eb8cb
+com.mycompany.app.models.DomesticOrWild@39d9314d
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: null
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: false
+Animal ID: 5
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: null
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: false
+Animal ID: 5
+Valid file.
+Main Element: AnimalsAndProperties
+Valid file.
+Root: AnimalsAndProperties
+Element: Pet
+Element: ID
+Element: Type
+Element: Name
+Element: Owner_ID
+Element: Animal_ID
+Element: Dog
+Element: ID
+Element: Breed
+Element: Pet_ID
+Element: WildAnimal
+Element: ID
+Element: Type
+Element: Animal_ID
+Element: HomeContinent
+Element: ID
+Element: HomeContinent
+Element: WildAnimal_ID
+Element: DomesticOrWild
+Element: ID
+Element: Type
+Element: IsDomesticated
+Element: Animal_ID
+Valid file.
+Root: AnimalsAndProperties
+Element: Pet, Value: 
+		1
+		Dog
+		Max
+		2
+		3
+	
+Element: ID, Value: 1
+Element: Type, Value: Dog
+Element: Name, Value: Max
+Element: Owner_ID, Value: 2
+Element: Animal_ID, Value: 3
+Element: Dog, Value: 
+		1
+		German Shepherd
+		1
+	
+Element: ID, Value: 1
+Element: Breed, Value: German Shepherd
+Element: Pet_ID, Value: 1
+Element: WildAnimal, Value: 
+		2
+		Wolf
+		2
+	
+Element: ID, Value: 2
+Element: Type, Value: Wolf
+Element: Animal_ID, Value: 2
+Element: HomeContinent, Value: 
+		1
+		Europe
+		2
+	
+Element: ID, Value: 1
+Element: HomeContinent, Value: Europe
+Element: WildAnimal_ID, Value: 2
+Element: DomesticOrWild, Value: 
+		4
+		Horse
+		True
+		5
+	
+Element: ID, Value: 4
+Element: Type, Value: Horse
+Element: IsDomesticated, Value: True
+Element: Animal_ID, Value: 5
+Valid file.
+Root: AnimalsAndProperties
+Element: #text, Value: 
+	
+Element: Pet
+Element: #text, Value: 
+		
+Element: ID
+Element: #text, Value: 1
+Element: #text, Value: 
+		
+Element: Type
+Element: #text, Value: Dog
+Element: #text, Value: 
+		
+Element: Name
+Element: #text, Value: Max
+Element: #text, Value: 
+		
+Element: Owner_ID
+Element: #text, Value: 2
+Element: #text, Value: 
+		
+Element: Animal_ID
+Element: #text, Value: 3
+Element: #text, Value: 
+	
+Element: #text, Value: 
+	
+Element: Dog
+Element: #text, Value: 
+		
+Element: ID
+Element: #text, Value: 1
+Element: #text, Value: 
+		
+Element: Breed
+Element: #text, Value: German Shepherd
+Element: #text, Value: 
+		
+Element: Pet_ID
+Element: #text, Value: 1
+Element: #text, Value: 
+	
+Element: #text, Value: 
+	
+Element: WildAnimal
+Element: #text, Value: 
+		
+Element: ID
+Element: #text, Value: 2
+Element: #text, Value: 
+		
+Element: Type
+Element: #text, Value: Wolf
+Element: #text, Value: 
+		
+Element: Animal_ID
+Element: #text, Value: 2
+Element: #text, Value: 
+	
+Element: #text, Value: 
+	
+Element: HomeContinent
+Element: #text, Value: 
+		
+Element: ID
+Element: #text, Value: 1
+Element: #text, Value: 
+		
+Element: HomeContinent
+Element: #text, Value: Europe
+Element: #text, Value: 
+		
+Element: WildAnimal_ID
+Element: #text, Value: 2
+Element: #text, Value: 
+	
+Element: #text, Value: 
+	
+Element: DomesticOrWild
+Element: #text, Value: 
+		
+Element: ID
+Element: #text, Value: 4
+Element: #text, Value: 
+		
+Element: Type
+Element: #text, Value: Horse
+Element: #text, Value: 
+		
+Element: IsDomesticated
+Element: #text, Value: True
+Element: #text, Value: 
+		
+Element: Animal_ID
+Element: #text, Value: 5
+Element: #text, Value: 
+	
+Element: #text, Value: 
+
+Valid file.
+Root: AnimalsAndProperties
+Element: Pet
+Element: ID
+Element: Type
+Element: Name
+Element: Owner_ID
+Element: Animal_ID
+Element: Dog
+Element: ID
+Element: Breed
+Element: Pet_ID
+Element: WildAnimal
+Element: ID
+Element: Type
+Element: Animal_ID
+Element: HomeContinent
+Element: ID
+Element: HomeContinent
+Element: WildAnimal_ID
+Element: DomesticOrWild
+Element: ID
+Element: Type
+Element: IsDomesticated
+Element: Animal_ID
+Valid file.
+Root: AnimalsAndProperties
+Element: Pet
+Element: ID, Value: 1
+Element: Type, Value: Dog
+Element: Name, Value: Max
+Element: Owner_ID, Value: 2
+Element: Animal_ID, Value: 3
+Element: Dog
+Element: ID, Value: 1
+Element: Breed, Value: German Shepherd
+Element: Pet_ID, Value: 1
+Element: WildAnimal
+Element: ID, Value: 2
+Element: Type, Value: Wolf
+Element: Animal_ID, Value: 2
+Element: HomeContinent
+Element: ID, Value: 1
+Element: HomeContinent, Value: Europe
+Element: WildAnimal_ID, Value: 2
+Element: DomesticOrWild
+Element: ID, Value: 4
+Element: Type, Value: Horse
+Element: IsDomesticated, Value: True
+Element: Animal_ID, Value: 5
+Valid file.
+Root: Pet
+Element: ID, Value: 1
+Element: Type, Value: Dog
+Element: Name, Value: Max
+Element: Owner_ID, Value: 2
+Element: Animal_ID, Value: 3
+Element: DateOfBirth, Value: 05/25/15
+Valid file.
+Root: WildAnimal
+Element: ID, Value: 2
+Element: Type, Value: Wolf
+Element: Animal_ID, Value: 2
+Valid file.
+
+Root: WildAnimal
+Element: ID, Value: 2
+Element: Type, Value: Wolf
+Element: Animal_ID, Value: 2

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="AnimalsAndProperties">
+	<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Pet">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="ID" type="xs:string"/>
+									<xs:element name="Type" type="xs:string"/>
+									<xs:element name="Name" type="xs:string"/>
+									<xs:element name="Owner_ID" type="xs:string"/>
+									<xs:element name="Animal_ID" type="xs:string" />
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="Dog">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="ID" type="xs:string"/>
+									<xs:element name="Breed" type="xs:string"/>
+									<xs:element name="Pet_ID" type="xs:string"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="WildAnimal">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="ID" type="xs:string"/>
+									<xs:element name="Type" type="xs:string"/>
+									<xs:element name="Animal_ID" type="xs:string"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="HomeContinent">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="ID" type="xs:string"/>
+									<xs:element name="HomeContinent" type="xs:string"/>
+									<xs:element name="WildAnimal_ID" type="xs:string"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="DomesticOrWild">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="ID" type="xs:string"/>
+									<xs:element name="Type" type="xs:string"/>
+									<xs:element name="IsDomesticated" type="xs:string"/>
+									<xs:element name="Animal_ID" type="xs:string"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

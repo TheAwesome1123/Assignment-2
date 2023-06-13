@@ -35,5 +35,6 @@ public class PetUnmarshaller {
         LOGGER.info("Name: " + pet.getName());
         LOGGER.info("Owner ID: " + pet.getOwnerID());
         LOGGER.info("Animal ID: " + pet.getAnimalID());
+        LOGGER.info("Date of Birth: " + pet.getDateOfBirth());
     }
 }

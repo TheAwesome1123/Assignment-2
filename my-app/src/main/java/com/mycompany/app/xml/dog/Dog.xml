@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Dog>
-    <ID>1</ID>
-    <Breed>German Shepherd</Breed>
-    <Pet_ID>1</Pet_ID>
+<Dog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Dog.xsd">
+ <ID>1</ID>
+ <Breed>German Shepherd</Breed>
+ <Pet_ID>1</Pet_ID>
 </Dog>

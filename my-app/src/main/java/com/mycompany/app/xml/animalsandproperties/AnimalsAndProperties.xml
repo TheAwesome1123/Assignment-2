@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<AnimalsAndProperties>
+<AnimalsAndProperties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="AnimalsAndProperties.xsd">
 	<Pet>
 		<ID>1</ID>
 		<Type>Dog</Type>
