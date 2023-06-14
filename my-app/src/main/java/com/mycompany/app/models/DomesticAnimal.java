@@ -1,8 +1,20 @@
 package com.mycompany.app.models;
 
-public class DomesticAnimal extends DomesticOrWild {
-    private int domesticAnimalID, ownerID;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import java.util.Date;
+
+public class DomesticAnimal {
+    @JsonProperty("ID")
+    private int domesticAnimalID;
+    @JsonProperty("Owner ID")
+    private int ownerID;
+    @JsonProperty("Domestic or Wild Animal ID")
+    private int domesticOrWildID;
+    @JsonProperty("Name")
     private String name;
+    @JsonProperty("Date of Birth")
+    private Date dateOfBirth;
 
     public int getDomesticAnimalID() {
         return domesticAnimalID;
@@ -26,5 +38,21 @@ public class DomesticAnimal extends DomesticOrWild {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getDomesticOrWildID() {
+        return domesticOrWildID;
+    }
+
+    public void setDomesticOrWildID(int domesticOrWildID) {
+        this.domesticOrWildID = domesticOrWildID;
+    }
+
+    public Date getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public void setDateOfBirth(Date dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
     }
 }

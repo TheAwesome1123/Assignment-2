@@ -11176,3 +11176,1048 @@ Root: WildAnimal
 Element: ID, Value: 2
 Element: Type, Value: Wolf
 Element: Animal_ID, Value: 2
+Cat.json
+Unrecognized field "ID" (class com.mycompany.app.models.Cat), not marked as ignorable (3 known properties: "catID", "petID", "breed"])
+ at [Source: (byte[])"{
+  "ID": 1,
+  "Breed": "American Bobtail",
+  "Pet ID": 2
+}"; line: 2, column: 10] (through reference chain: com.mycompany.app.models.Cat["ID"])
+Unrecognized field "ID" (class com.mycompany.app.models.Cat), not marked as ignorable (3 known properties: "catID", "petID", "breed"])
+ at [Source: (byte[])"{
+  "ID": 1,
+  "Breed": "American Bobtail",
+  "Pet ID": 2
+}"; line: 2, column: 10] (through reference chain: com.mycompany.app.models.Cat["ID"])
+Unrecognized field "Pet ID" (class com.mycompany.app.models.Cat), not marked as ignorable (3 known properties: "ID", "Breed", "Pet_ID"])
+ at [Source: (byte[])"{
+  "ID": 1,
+  "Breed": "American Bobtail",
+  "Pet ID": 2
+}"; line: 4, column: 14] (through reference chain: com.mycompany.app.models.Cat["Pet ID"])
+com.mycompany.app.models.Cat@7e5c856f
+American Bobtail
+1
+American Bobtail
+2
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Domestic/Wild Animal ID: 2
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Domestic/Wild Animal ID: 2
+
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Domestic/Wild Animal ID: 2
+
+Unrecognized field "ID" (class com.mycompany.app.models.WildAnimalColor), not marked as ignorable (3 known properties: "color", "shade", "colorID"])
+ at [Source: (byte[])"{
+  "ID": 2,
+  "Color": "Grey",
+  "Shade": "Light"
+}"; line: 2, column: 10] (through reference chain: com.mycompany.app.models.WildAnimalColor["ID"])
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+my-app\src\main\java\com\mycompany\app\json\owner\Owner.json;
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+my-app\src\main\java\com\mycompany\app\json\owner\Owner.json;
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+Unrecognized field "FirstName" (class com.mycompany.app.models.Owner), not marked as ignorable (5 known properties: "ID", "Last Name", "Height", "First Name", "Cities visited"])
+ at [Source: (byte[])"{
+  "ID": 1,
+  "FirstName": "Bob",
+  "LastName": "Johnson",
+  "Height": 5.5,
+  "Cities visited": ["Washington, DC", "New York", "Philadelphia"]
+}"; line: 3, column: 17] (through reference chain: com.mycompany.app.models.Owner["FirstName"])
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+Owner
+ID: 1
+First Name: Bob
+Last Name: Johnson
+Height: 5.5
+Cities visited: [Washington, DC, New York, Philadelphia]
+
+Valid file.
+
+Root: WildAnimal
+Element: ID, Value: 2
+Element: Type, Value: Wolf
+Element: Animal_ID, Value: 2
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: Sat May 25 00:00:00 PST 15
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: null
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: false
+Animal ID: 5
+Valid file.
+
+Root: AnimalsAndProperties
+Element: Pet
+Element: ID, Value: 1
+Element: Type, Value: Dog
+Element: Name, Value: Max
+Element: Owner_ID, Value: 2
+Element: Animal_ID, Value: 3
+Element: Dog
+Element: ID, Value: 1
+Element: Breed, Value: German Shepherd
+Element: Pet_ID, Value: 1
+Element: WildAnimal
+Element: ID, Value: 2
+Element: Type, Value: Wolf
+Element: Animal_ID, Value: 2
+Element: HomeContinent
+Element: ID, Value: 1
+Element: HomeContinent, Value: Europe
+Element: WildAnimal_ID, Value: 2
+Element: DomesticOrWild
+Element: ID, Value: 4
+Element: Type, Value: Horse
+Element: IsDomesticated, Value: True
+Element: Animal_ID, Value: 5
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: Sat May 25 00:00:00 PST 15
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: null
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: false
+Animal ID: 5
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+Owner
+ID: 1
+First Name: Bob
+Last Name: Johnson
+Height: 5.5
+Cities visited: [Washington, DC, New York, Philadelphia]
+
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+Owner
+ID: 1
+First Name: Bob
+Last Name: Johnson
+Height: 5.5
+Cities visited: [Washington, DC, New York, Philadelphia]
+
+Unrecognized field "ID" (class com.mycompany.app.models.WildAnimalAndColorRelation), not marked as ignorable (3 known properties: "wildAnimalID", "colorID", "relationID"])
+ at [Source: (byte[])"[{"ID": 1, "WildAnimal_ID": 1, "Color_ID": 1},
+  {"ID": 2, "WildAnimal_ID": 1, "Color_ID": 2},
+  {"ID": 3, "WildAnimal_ID": 2, "Color_ID": 3}]"; line: 1, column: 10] (through reference chain: java.lang.Object[][0]->com.mycompany.app.models.WildAnimalAndColorRelation["ID"])
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+Owner
+ID: 1
+First Name: Bob
+Last Name: Johnson
+Height: 5.5
+Cities visited: [Washington, DC, New York, Philadelphia]
+
+Wild Animal and Color Relations
+[Lcom.mycompany.app.models.WildAnimalAndColorRelation;@8576fa0
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+Owner
+ID: 1
+First Name: Bob
+Last Name: Johnson
+Height: 5.5
+Cities visited: [Washington, DC, New York, Philadelphia]
+
+Wild Animal and Color Relations
+com.mycompany.app.models.WildAnimalAndColorRelation@8576fa0
+com.mycompany.app.models.WildAnimalAndColorRelation@7582ff54
+com.mycompany.app.models.WildAnimalAndColorRelation@67545b57
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+Owner
+ID: 1
+First Name: Bob
+Last Name: Johnson
+Height: 5.5
+Cities visited: [Washington, DC, New York, Philadelphia]
+
+Wild Animal and Color Relations
+ID: 1
+Wild Animal ID: 1
+Color ID: 1
+
+ID: 2
+Wild Animal ID: 1
+Color ID: 2
+
+ID: 3
+Wild Animal ID: 2
+Color ID: 3
+
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Date of Birth: Thu Aug 10 00:00:00 PST 19
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+Owner
+ID: 1
+First Name: Bob
+Last Name: Johnson
+Height: 5.5
+Cities visited: [Washington, DC, New York, Philadelphia]
+
+Wild Animal and Color Relations
+ID: 1
+Wild Animal ID: 1
+Color ID: 1
+
+ID: 2
+Wild Animal ID: 1
+Color ID: 2
+
+ID: 3
+Wild Animal ID: 2
+Color ID: 3
+
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Date of Birth: Thu Aug 10 00:00:00 PST 19
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+Owner
+ID: 1
+First Name: Bob
+Last Name: Johnson
+Height: 5.5
+Cities visited: [Washington, DC, New York, Philadelphia]
+
+Wild Animal and Color Relations
+ID: 1
+Wild Animal ID: 1
+Color ID: 1
+
+ID: 2
+Wild Animal ID: 1
+Color ID: 2
+
+ID: 3
+Wild Animal ID: 2
+Color ID: 3
+
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Date of Birth: -61548652800000
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+Owner
+ID: 1
+First Name: Bob
+Last Name: Johnson
+Height: 5.5
+Cities visited: [Washington, DC, New York, Philadelphia]
+
+Wild Animal and Color Relations
+ID: 1
+Wild Animal ID: 1
+Color ID: 1
+
+ID: 2
+Wild Animal ID: 1
+Color ID: 2
+
+ID: 3
+Wild Animal ID: 2
+Color ID: 3
+
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Date of Birth: Thu Aug 10 00:00:00 PST 19
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+Owner
+ID: 1
+First Name: Bob
+Last Name: Johnson
+Height: 5.5
+Cities visited: [Washington, DC, New York, Philadelphia]
+
+Wild Animal and Color Relations
+ID: 1
+Wild Animal ID: 1
+Color ID: 1
+
+ID: 2
+Wild Animal ID: 1
+Color ID: 2
+
+ID: 3
+Wild Animal ID: 2
+Color ID: 3
+
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Date of Birth: 08/10/0019
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+Owner
+ID: 1
+First Name: Bob
+Last Name: Johnson
+Height: 5.5
+Cities visited: [Washington, DC, New York, Philadelphia]
+
+Wild Animal and Color Relations
+ID: 1
+Wild Animal ID: 1
+Color ID: 1
+
+ID: 2
+Wild Animal ID: 1
+Color ID: 2
+
+ID: 3
+Wild Animal ID: 2
+Color ID: 3
+
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Date of Birth: 08/10/19
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+Owner
+ID: 1
+First Name: Bob
+Last Name: Johnson
+Height: 5.5
+Cities visited: [Washington, DC, New York, Philadelphia]
+
+Wild Animal and Color Relations
+ID: 1
+Wild Animal ID: 1
+Color ID: 1
+
+ID: 2
+Wild Animal ID: 1
+Color ID: 2
+
+ID: 3
+Wild Animal ID: 2
+Color ID: 3
+
+Valid file.
+
+Root: AnimalsAndProperties
+Element: Pet
+Element: ID, Value: 1
+Element: Type, Value: Dog
+Element: Name, Value: Max
+Element: Owner_ID, Value: 2
+Element: Animal_ID, Value: 3
+Element: Dog
+Element: ID, Value: 1
+Element: Breed, Value: German Shepherd
+Element: Pet_ID, Value: 1
+Element: WildAnimal
+Element: ID, Value: 2
+Element: Type, Value: Wolf
+Element: Animal_ID, Value: 2
+Element: HomeContinent
+Element: ID, Value: 1
+Element: HomeContinent, Value: Europe
+Element: WildAnimal_ID, Value: 2
+Element: DomesticOrWild
+Element: ID, Value: 4
+Element: Type, Value: Horse
+Element: IsDomesticated, Value: True
+Element: Animal_ID, Value: 5
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: Sat May 25 00:00:00 PST 15
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: null
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: false
+Animal ID: 5
+Valid file.
+
+Root: AnimalsAndProperties
+Element: Pet
+Element: ID, Value: 1
+Element: Type, Value: Dog
+Element: Name, Value: Max
+Element: Owner_ID, Value: 2
+Element: Animal_ID, Value: 3
+Element: Dog
+Element: ID, Value: 1
+Element: Breed, Value: German Shepherd
+Element: Pet_ID, Value: 1
+Element: WildAnimal
+Element: ID, Value: 2
+Element: Type, Value: Wolf
+Element: Animal_ID, Value: 2
+Element: HomeContinent
+Element: ID, Value: 1
+Element: HomeContinent, Value: Europe
+Element: WildAnimal_ID, Value: 2
+Element: DomesticOrWild
+Element: ID, Value: 4
+Element: Type, Value: Horse
+Element: IsDomesticated, Value: True
+Element: Animal_ID, Value: 5
+com.sun.xml.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+Adapter com.mycompany.app.xml.pet.DateAdapter2 is not applicable to the field type java.util.Date. 
+	this problem is related to the following location:
+		at @javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter(type=javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter$DEFAULT.class, value=com.mycompany.app.xml.pet.DateAdapter2.class)
+		at private java.util.Date com.mycompany.app.models.Pet.dateOfBirth
+		at com.mycompany.app.models.Pet
+
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+com.sun.xml.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+Adapter com.mycompany.app.xml.pet.DateAdapter2 is not applicable to the field type java.util.Date. 
+	this problem is related to the following location:
+		at @javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter(type=javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter$DEFAULT.class, value=com.mycompany.app.xml.pet.DateAdapter2.class)
+		at private java.util.Date com.mycompany.app.models.Pet.dateOfBirth
+		at com.mycompany.app.models.Pet
+		at private com.mycompany.app.models.Pet com.mycompany.app.xml.animalsandproperties.AnimalsAndProperties.pet
+		at com.mycompany.app.xml.animalsandproperties.AnimalsAndProperties
+
+Valid file.
+
+Root: AnimalsAndProperties
+Element: Pet
+Element: ID, Value: 1
+Element: Type, Value: Dog
+Element: Name, Value: Max
+Element: Owner_ID, Value: 2
+Element: Animal_ID, Value: 3
+Element: Dog
+Element: ID, Value: 1
+Element: Breed, Value: German Shepherd
+Element: Pet_ID, Value: 1
+Element: WildAnimal
+Element: ID, Value: 2
+Element: Type, Value: Wolf
+Element: Animal_ID, Value: 2
+Element: HomeContinent
+Element: ID, Value: 1
+Element: HomeContinent, Value: Europe
+Element: WildAnimal_ID, Value: 2
+Element: DomesticOrWild
+Element: ID, Value: 4
+Element: Type, Value: Horse
+Element: IsDomesticated, Value: True
+Element: Animal_ID, Value: 5
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: 05/25/0015
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+null
+Valid file.
+
+Root: AnimalsAndProperties
+Element: Pet
+Element: ID, Value: 1
+Element: Type, Value: Dog
+Element: Name, Value: Max
+Element: Owner_ID, Value: 2
+Element: Animal_ID, Value: 3
+Element: Dog
+Element: ID, Value: 1
+Element: Breed, Value: German Shepherd
+Element: Pet_ID, Value: 1
+Element: WildAnimal
+Element: ID, Value: 2
+Element: Type, Value: Wolf
+Element: Animal_ID, Value: 2
+Element: HomeContinent
+Element: ID, Value: 1
+Element: HomeContinent, Value: Europe
+Element: WildAnimal_ID, Value: 2
+Element: DomesticOrWild
+Element: ID, Value: 4
+Element: Type, Value: Horse
+Element: IsDomesticated, Value: True
+Element: Animal_ID, Value: 5
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: 05/25/15
+
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+ID: 2
+Type: Wolf
+Animal ID: 2
+
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+null
+Valid file.
+
+Root: AnimalsAndProperties
+Element: Pet
+Element: ID, Value: 1
+Element: Type, Value: Dog
+Element: Name, Value: Max
+Element: Owner_ID, Value: 2
+Element: Animal_ID, Value: 3
+Element: Dog
+Element: ID, Value: 1
+Element: Breed, Value: German Shepherd
+Element: Pet_ID, Value: 1
+Element: WildAnimal
+Element: ID, Value: 2
+Element: Type, Value: Wolf
+Element: Animal_ID, Value: 2
+Element: HomeContinent
+Element: ID, Value: 1
+Element: HomeContinent, Value: Europe
+Element: WildAnimal_ID, Value: 2
+Element: DomesticOrWild
+Element: ID, Value: 4
+Element: Type, Value: Horse
+Element: IsDomesticated, Value: True
+Element: Animal_ID, Value: 5
+
+Pet
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+Date of Birth: 05/25/15
+
+Dog
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+Home Continent
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+Domestic or Wild Animal
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+Wild Animal
+ID: 2
+Type: Wolf
+Animal ID: 2
+
+Pet
+ID: 1
+Type: Dog
+Name: Max
+Owner ID: 2
+Animal ID: 3
+null
+Valid file.
+
+Root: AnimalsAndProperties
+Element: Pet
+Element: ID, Value: 1
+Element: Type, Value: Dog
+Element: Name, Value: Max
+Element: DateOfBirth, Value: 01/05/20
+Element: Owner_ID, Value: 2
+Element: Animal_ID, Value: 3
+Element: Dog
+Element: ID, Value: 1
+Element: Breed, Value: German Shepherd
+Element: Pet_ID, Value: 1
+Element: WildAnimal
+Element: ID, Value: 2
+Element: Type, Value: Wolf
+Element: Animal_ID, Value: 2
+Element: HomeContinent
+Element: ID, Value: 1
+Element: HomeContinent, Value: Europe
+Element: WildAnimal_ID, Value: 2
+Element: DomesticOrWild
+Element: ID, Value: 4
+Element: Type, Value: Horse
+Element: IsDomesticated, Value: True
+Element: Animal_ID, Value: 5
+
+Pet
+ID: 1
+Type: Dog
+Name: Max
+Date of Birth: 05/25/15
+Owner ID: 2
+Animal ID: 3
+
+Dog
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+Home Continent
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+Domestic or Wild Animal
+ID: 4
+Type: Horse
+Is Domesticated: true
+Animal ID: 5
+
+Wild Animal
+ID: 2
+Type: Wolf
+Animal ID: 2
+
+Pet
+ID: 1
+Type: Dog
+Name: Max
+Date of Birth: 01/05/20
+Owner ID: 2
+Animal ID: 3
+
+Dog
+ID: 1
+Breed: German Shepherd
+Pet ID: 1
+
+Wild Animal
+ID: 2
+Type: Wolf
+Animal ID: 2
+
+Home Continent
+ID: 1
+Continent: Europe
+Wild Animal ID: 2
+
+Domestic or Wild Animal
+ID: 4
+Type: Horse
+Is Domesticated: false
+Animal ID: 5

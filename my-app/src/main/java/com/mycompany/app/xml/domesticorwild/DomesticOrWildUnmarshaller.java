@@ -30,7 +30,8 @@ public class DomesticOrWildUnmarshaller {
     }
 
     public static void printDomesticOrWildInfo(DomesticOrWild domesticOrWild) {
-        LOGGER.info("\nID: " + domesticOrWild.getDomesticOrWildID());
+        LOGGER.info("\nDomestic or Wild Animal");
+        LOGGER.info("ID: " + domesticOrWild.getDomesticOrWildID());
         LOGGER.info("Type: " + domesticOrWild.getDomesticOrWildType());
         LOGGER.info("Is Domesticated: " + domesticOrWild.isDomesticated());
         LOGGER.info("Animal ID: " + domesticOrWild.getAnimalID());

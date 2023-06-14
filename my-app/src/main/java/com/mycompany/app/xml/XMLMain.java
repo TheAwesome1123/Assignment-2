@@ -2,7 +2,6 @@ package com.mycompany.app.xml;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-
 import com.mycompany.app.xml.animalsandproperties.AnimalsAndPropertiesUnmarshaller;
 import com.mycompany.app.xml.dog.DogUnmarshaller;
 import com.mycompany.app.xml.domesticorwild.DomesticOrWildUnmarshaller;
@@ -48,14 +47,14 @@ public class XMLMain {
             "my-app/src/main/java/com/mycompany/app/xml/animalsandproperties/AnimalsAndProperties.xsd");
 
             XMLValidator.validate(wildAnimalSchema, wildAnimalFile);
-            XMLParser.doParsing(wildAnimalFile);
+            XMLParser.doParsing(animalsAndPropertiesFile);
 
-//            PetUnmarshaller.unmarshal(petFile);
-//            DogUnmarshaller.unmarshal(dogFile);
-//            HomeContinentUnmarshaller.unmarshal(homeContinentFile);
-//            DomesticOrWildUnmarshaller.unmarshal(domesticOrWildFile);
-//            WildAnimalUnmarshaller.unmarshal(wildAnimalFile);
-//            AnimalsAndPropertiesUnmarshaller.unmarshal(animalsAndPropertiesFile);
+            PetUnmarshaller.unmarshal(petFile);
+            DogUnmarshaller.unmarshal(dogFile);
+            HomeContinentUnmarshaller.unmarshal(homeContinentFile);
+            DomesticOrWildUnmarshaller.unmarshal(domesticOrWildFile);
+            WildAnimalUnmarshaller.unmarshal(wildAnimalFile);
+            AnimalsAndPropertiesUnmarshaller.unmarshal(animalsAndPropertiesFile);
         }
         catch(NullPointerException npe) {
             LOGGER.info(npe.getMessage());

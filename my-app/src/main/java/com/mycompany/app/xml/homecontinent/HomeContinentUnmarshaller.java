@@ -31,7 +31,8 @@ public class HomeContinentUnmarshaller {
     }
 
     public static void printHomeContinentInfo(HomeContinent homeContinent) {
-        LOGGER.info("\nID: " + homeContinent.getContinentID());
+        LOGGER.info("\nHome Continent");
+        LOGGER.info("ID: " + homeContinent.getContinentID());
         LOGGER.info("Continent: " + homeContinent.getContinent());
         LOGGER.info("Wild Animal ID: " + homeContinent.getWildAnimalID());
     }

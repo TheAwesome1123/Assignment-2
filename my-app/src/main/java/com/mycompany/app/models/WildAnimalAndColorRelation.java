@@ -1,7 +1,14 @@
 package com.mycompany.app.models;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class WildAnimalAndColorRelation {
-    private int relationID, wildAnimalID, colorID;
+    @JsonProperty("ID")
+    private int relationID;
+    @JsonProperty("WildAnimal ID")
+    private int  wildAnimalID;
+    @JsonProperty("Color ID")
+    private int colorID;
 
     public int getRelationID() {
         return this.relationID;

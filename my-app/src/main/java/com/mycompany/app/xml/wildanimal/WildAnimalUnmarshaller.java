@@ -30,7 +30,8 @@ public class WildAnimalUnmarshaller {
     }
 
     public static void printWildAnimalInfo(WildAnimal wildAnimal) {
-        LOGGER.info("\nID: " + wildAnimal.getWildAnimalID());
+        LOGGER.info("\nWild Animal");
+        LOGGER.info("ID: " + wildAnimal.getWildAnimalID());
         LOGGER.info("Type: " + wildAnimal.getWildAnimalType());
         LOGGER.info("Animal ID: " + wildAnimal.getAnimalID());
     }

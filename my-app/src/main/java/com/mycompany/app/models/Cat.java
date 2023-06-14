@@ -1,8 +1,13 @@
 package com.mycompany.app.models;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Cat {
+    @JsonProperty("ID")
     private int catID;
+    @JsonProperty("Pet ID")
     private int petID;
+    @JsonProperty("Breed")
     private String breed;
 
     public int getCatID() {

@@ -30,7 +30,8 @@ public class DogUnmarshaller {
     }
 
     public static void printDogInfo(Dog dog) {
-        LOGGER.info("\nID: " + dog.getDogID());
+        LOGGER.info("\nDog");
+        LOGGER.info("ID: " + dog.getDogID());
         LOGGER.info("Breed: " + dog.getBreed());
         LOGGER.info("Pet ID: " + dog.getPetID());
     }

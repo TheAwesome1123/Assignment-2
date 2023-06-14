@@ -10,6 +10,7 @@
 									<xs:element name="ID" type="xs:string"/>
 									<xs:element name="Type" type="xs:string"/>
 									<xs:element name="Name" type="xs:string"/>
+									<xs:element name="DateOfBirth" type="xs:string" />
 									<xs:element name="Owner_ID" type="xs:string"/>
 									<xs:element name="Animal_ID" type="xs:string" />
 								</xs:sequence>

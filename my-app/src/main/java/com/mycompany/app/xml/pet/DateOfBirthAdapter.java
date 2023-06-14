@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class DateOfBirthAdapter extends XmlAdapter<String, Date> {
-    private static final String format = "MM/dd/yyyy";
+    private static final String format = "MM/dd/yy";
     private static final Logger LOGGER = LogManager.getLogger(DateOfBirthAdapter.class);
 
     @Override

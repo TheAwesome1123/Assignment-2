@@ -30,11 +30,15 @@ public class PetUnmarshaller {
     }
 
     public static void printPetInfo(Pet pet) {
-        LOGGER.info("\nID: " + pet.getPetID());
+        LOGGER.info("\nPet");
+        LOGGER.info("ID: " + pet.getPetID());
         LOGGER.info("Type: " + pet.getPetType());
         LOGGER.info("Name: " + pet.getName());
+
+        String date = new DateOfBirthAdapter().marshal(pet.getDateOfBirth());
+        LOGGER.info("Date of Birth: " + date);
+
         LOGGER.info("Owner ID: " + pet.getOwnerID());
         LOGGER.info("Animal ID: " + pet.getAnimalID());
-        LOGGER.info("Date of Birth: " + pet.getDateOfBirth());
     }
 }

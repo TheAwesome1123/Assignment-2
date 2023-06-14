@@ -6,60 +6,55 @@ import com.mycompany.app.models.*;
 import java.sql.SQLException;
 
 public class GetterService {
-    private ConnectionPool connectionPool = ConnectionPool.getInstance();
-
     public Animal getAnimal(int id) {
-        return new AnimalDAO().getAnimal(id);
+        return DAOs.getAnimalDAO().getAnimal(id);
     }
 
     public Pet getPet(int id) {
-        return new PetDAO().getPet(id);
+        return DAOs.getPetDAO().getPet(id);
     }
 
     public WildAnimal getWildAnimal(int id) {
-        return new WildAnimalDAO().getWildAnimal(id);
+        return DAOs.getWildAnimalDAO().getWildAnimal(id);
     }
 
     public DomesticOrWild getDomesticOrWild(int id) {
-        return new DomesticOrWildDAO().getDomesticOrWildAnimal(id);
+        return DAOs.getDomesticOrWildDAO().getDomesticOrWildAnimal(id);
     }
 
     public Dog getDog(int id) {
-        return new DogDAO().getDog(id);
+        return DAOs.getDogDAO().getDog(id);
     }
 
     public Cat getCat(int id) {
-        return new CatDAO().getCat(id);
-
+        return DAOs.getCatDAO().getCat(id);
     }
 
     public Owner getOwner(int id) {
-        return new OwnerDAO().getOwner(id);
+        return DAOs.getOwnerDAO().getOwner(id);
     }
 
     public HomeContinent getHomeContinent(int id) {
-        return new HomeContinentDAO().getHomeContinent(id);
+        return DAOs.getHomeContinentDAO().getHomeContinent(id);
     }
 
     public WildAnimalColor getWildAnimalColor(int id) {
-        return new WildAnimalColorDAO().getWildAnimalColor(id);
-
+        return DAOs.getWildAnimalColorDAO().getWildAnimalColor(id);
     }
 
     public WildAnimalAndColorRelation getWildAnimalAndColorRelation(int id) {
-        return new WildAnimalsAndColorsDAO().getWildAnimalAndColorRelation(id);
+        return DAOs.getWildAnimalsAndColorsDAO().getWildAnimalAndColorRelation(id);
     }
 
     public DomesticAnimal getDomesticAnimal(int id) {
-        return new DomesticAnimalDAO().getDomesticAnimal(id);
+        return DAOs.getDomesticAnimalDAO().getDomesticAnimal(id);
     }
 
     public DomesticOrWildColor getDomesticOrWildColor(int id) {
-        return new DomesticOrWildColorDAO().getDomesticOrWildColor(id);
-
+        return DAOs.getDomesticOrWildColorDAO().getDomesticOrWildColor(id);
     }
 
     public DomesticOrWildAnimalAndColorRelation getDomesticOrWildAnimalAndColorRelation(int id) {
-        return new DomesticOrWildAnimalsAndColorsDAO().getDomesticOrWildAnimalAndColorRelation(id);
+        return DAOs.getDomesticOrWildAnimalsAndColorsDAO().getDomesticOrWildAnimalAndColorRelation(id);
     }
 }

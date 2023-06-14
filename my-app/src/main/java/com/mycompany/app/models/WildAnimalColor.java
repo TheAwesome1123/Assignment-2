@@ -1,8 +1,14 @@
 package com.mycompany.app.models;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class WildAnimalColor {
+    @JsonProperty("ID")
     private int colorID;
-    private String color, shade;
+    @JsonProperty("Color")
+    private String color;
+    @JsonProperty("Shade")
+    private String shade;
 
     public int getColorID() {
         return colorID;

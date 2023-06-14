@@ -1,0 +1,7 @@
+{
+  "ID": 1,
+  "FirstName": "Bob",
+  "LastName": "Johnson",
+  "Height": 5.5,
+  "CitiesVisited": ["Washington, DC", "New York", "Philadelphia"]
+}

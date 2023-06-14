@@ -1,11 +1,8 @@
 package com.mycompany.app.models;
 
-import com.mycompany.app.xml.pet.DateAdapter2;
 import com.mycompany.app.xml.pet.DateOfBirthAdapter;
-
 import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
-import java.time.LocalDateTime;
 import java.util.Date;
 
 @XmlRootElement(name = "Pet")
