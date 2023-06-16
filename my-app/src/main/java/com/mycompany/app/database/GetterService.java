@@ -1,9 +1,6 @@
 package com.mycompany.app.database;
 
-import com.mycompany.app.dao.*;
 import com.mycompany.app.models.*;
-
-import java.sql.SQLException;
 
 public class GetterService {
     public Animal getAnimal(int id) {

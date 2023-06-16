@@ -102,14 +102,18 @@ public class DomesticOrWildAnimalsAndColorsDAO {
             }
         }
     }
-    public void deleteDomesticOrWildAnimalAndColorRelation(int id) {
+    public void deleteDomesticOrWildAnimalAndColorRelation(int id, int domesticOrWildID, int colorID) {
         Connection connection = pool.retrieve();
-        String updateStatement = "delete from DomesticOrWildAnimalsAndColors where id = ?;";
+        String updateStatement =
+            "delete from DomesticOrWildAnimalsAndColors where id = ? and DomesticOrWildAnimal_ID = ? and Color_ID = ?;";
         PreparedStatement preparedStatement = null;
 
         try {
             preparedStatement = connection.prepareStatement(updateStatement);
             preparedStatement.setInt(1, id);
+            preparedStatement.setInt(2, domesticOrWildID);
+            preparedStatement.setInt(3, colorID);
+
             preparedStatement.executeUpdate();
         }
         catch (SQLException e) {

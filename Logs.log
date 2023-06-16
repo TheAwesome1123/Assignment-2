@@ -12221,3 +12221,673 @@ ID: 4
 Type: Horse
 Is Domesticated: false
 Animal ID: 5
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Date of Birth: 08/10/19
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+Owner
+ID: 1
+First Name: Bob
+Last Name: Johnson
+Height: 5.5
+Cities visited: [Washington, DC, New York, Philadelphia]
+
+Wild Animal and Color Relations
+ID: 1
+Wild Animal ID: 1
+Color ID: 1
+
+ID: 2
+Wild Animal ID: 1
+Color ID: 2
+
+ID: 3
+Wild Animal ID: 2
+Color ID: 3
+
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: db.driver
+java.lang.ClassNotFoundException: db.driver
+java.lang.ClassNotFoundException: db.driver
+java.lang.ClassNotFoundException: db.driver
+java.lang.ClassNotFoundException: db.driver
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.sql.SQLException: No suitable driver found for jdbc:mysql://127.0.0.1:3306/animals
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@704f1591
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5ddea849
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5ddea849

@@ -116,7 +116,7 @@ public class DomesticOrWildDAO {
         }
     }
 
-    public void deletedDomesticOrWildAnimal(int id) {
+    public void deleteDomesticOrWildAnimal(int id) {
         Connection connection = pool.retrieve();
         String updateStatement = "delete from DomesticOrWilds where id = ?;";
         PreparedStatement preparedStatement = null;

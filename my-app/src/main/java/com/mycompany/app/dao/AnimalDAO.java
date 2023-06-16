@@ -75,14 +75,15 @@ public class AnimalDAO {
 
         return animal;
     }
-    public void updateAnimal(int id, String sex) {
+    public void updateAnimal(int id, String type, String sex) {
         Connection connection = pool.retrieve();
-        String updateStatement = "update Animals set Sex = ? where ID = ?;";
+        String updateStatement = "update Animals set Type = ?, Sex = ? where ID = ?;";
         PreparedStatement preparedStatement = null;
         try {
             preparedStatement = connection.prepareStatement(updateStatement);
-            preparedStatement.setString(1, sex);
-            preparedStatement.setInt(2, id);
+            preparedStatement.setString(1, type);
+            preparedStatement.setString(2, sex);
+            preparedStatement.setInt(3, id);
             preparedStatement.executeUpdate();
         }
         catch (SQLException e) {

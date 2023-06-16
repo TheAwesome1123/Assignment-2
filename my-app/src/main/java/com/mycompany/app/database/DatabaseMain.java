@@ -19,11 +19,13 @@ public class DatabaseMain {
     private static int domesticOrWildID = 1;
     private static int wildAnimalColorID = 1;
     private static int domesticOrWildColorID = 1;
+
     public static void main(String[] args) {
         insertion();
         updateTables();
         updateEntries();
         DeleteService.deleteDog(1);
+        DeleteService.deleteWildAnimalAndColorRelation(1, 1, 1);
         //getStuff();
     }
 
@@ -85,16 +87,16 @@ public class DatabaseMain {
         double ownerHeight = 5.0;
 
         for(int i = 1; i < petID; i++) {
-            petDAO.updatePetAge(i, 5);
+            UpdateService.updatePet(i, 5);
         }
 
         for(int i = 1; i < ownerID; i++) {
-            ownerDAO.updateOwnerHeight(i, ownerHeight);
+            UpdateService.updateOwner(i, ownerHeight);
             ownerHeight += 0.5;
         }
 
         for(int i = 1; i < wildAnimalID; i++) {
-            wildAnimalDAO.updateWildAnimalWeight(i, 100);
+            UpdateService.updateWildAnimal(i, 100);
         }
     }
 

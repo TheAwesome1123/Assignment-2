@@ -11,9 +11,10 @@ public class ConnectionPool {
     private static final Logger LOGGER = LogManager.getLogger(ConnectionPool.class);
     private static final int CON_POOL_SIZE = 5;
     private static Properties p = new Properties();
-    private static String userName;
-    private static String url;
-    private static String password;
+    private static final String userName;
+    private static final String url;
+    private static final String password;
+    private static String driver;
     private Vector<Connection> conPool = new Vector<>(CON_POOL_SIZE, 1);
     private Vector<Connection> activeConnections = new Stack<>();
 
@@ -34,7 +35,8 @@ public class ConnectionPool {
             Connection connection = null;
 
             try {
-                Class.forName("com.mysql.cj.jdbc.Driver");
+                driver = p.getProperty("db.driver");
+                Class.forName(driver);
                 connection = DriverManager.getConnection(url, userName, password);
             }
             catch (Exception e) {
