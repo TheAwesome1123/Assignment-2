@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="AnimalMapper.xml">
+    <insert id="insertAnimal" parameterType="com.mycompany.app.models.Animal">
+        INSERT INTO Animals (Type, Sex) values (#{type}, #{sex})
+    </insert>
+    <select id="selectAnimal" parameterType="int" resultType="hashmap">
+        SELECT ID, Type, Sex FROM Animals WHERE ID = #{id}
+    </select>
+    <update id="updateAnimal" parameterType="com.mycompany.app.models.Animal">
+        UPDATE Animals set Sex = #{sex}, Type = #{type} WHERE ID = #{id}
+    </update>
+    <delete id="deleteAnimal" parameterType="int">
+        DELETE from Animals where ID = #{id}
+    </delete>
+</mapper>

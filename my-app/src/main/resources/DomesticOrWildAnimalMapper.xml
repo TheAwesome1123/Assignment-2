@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="DomesticOrWildAnimalMapper.xml">
+    <insert id="insertDomesticOrWildAnimal" parameterType="com.mycompany.app.models.DomesticOrWild">
+        INSERT INTO DomesticOrWilds (Type, IsDomesticated) values (#{domesticOrWildType}, #{isDomesticated})
+    </insert>
+    <select id="selectDomesticOrWildAnimal" parameterType="int" resultType="hashmap">
+        SELECT * FROM DomesticOrWildAnimals WHERE ID = #{id}
+    </select>
+    <update id="updateDomesticOrWildAnimal">
+        UPDATE DomesticOrWildAnimals set IsDomesticated = #{isDomesticated} WHERE ID = #{id}
+    </update>
+    <delete id="deleteDomesticOrWildAnimal" parameterType="int">
+        DELETE from DomesticOrWildAnimals where ID = #{id}
+    </delete>
+</mapper>

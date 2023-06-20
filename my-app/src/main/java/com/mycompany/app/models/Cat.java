@@ -6,7 +6,7 @@ public class Cat {
     @JsonProperty("ID")
     private int catID;
     @JsonProperty("Pet ID")
-    private int petID;
+    private Integer petID;
     @JsonProperty("Breed")
     private String breed;
 
@@ -26,11 +26,11 @@ public class Cat {
         this.breed = breed;
     }
 
-    public int getPetID() {
+    public Integer getPetID() {
         return petID;
     }
 
-    public void setPetID(int petID) {
+    public void setPetID(Integer petID) {
         this.petID = petID;
     }
 }

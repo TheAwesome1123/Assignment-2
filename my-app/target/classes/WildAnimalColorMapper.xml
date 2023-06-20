@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="WildAnimalColorMapper.xml">
+    <insert id="insertWildAnimalColor" parameterType="com.mycompany.app.models.WildAnimalColor">
+        INSERT INTO WildAnimalColors (Color, Shade) values (#{color}, #{shade})
+    </insert>
+    <select id="selectWildAnimalColor" parameterType="int" resultType="hashmap">
+        SELECT * FROM WildAnimalColors WHERE ID = #{id}
+    </select>
+    <update id="updateWildAnimalColor">
+        UPDATE WildAnimalColors set Color = #{color} WHERE ID = #{id}
+    </update>
+    <delete id="deleteWildAnimalColor" parameterType="int">
+        DELETE from WildAnimalColors where ID = #{id}
+    </delete>
+</mapper>

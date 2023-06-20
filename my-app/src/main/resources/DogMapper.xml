@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="DogMapper.xml">
+    <insert id="insertDog" parameterType="com.mycompany.app.models.Dog">
+        INSERT INTO Dogs (Breed, Pet_ID) values (#{breed}, #(petID))
+    </insert>
+    <select id="selectDog" parameterType="int" resultType="hashmap">
+        SELECT * FROM Dogs WHERE ID = #{id}
+    </select>
+    <update id="updateDog">
+        UPDATE Dogs set Breed = #{breed} WHERE ID = #{id}
+    </update>
+    <delete id="deleteDog" parameterType="int">
+        DELETE from Dogs where ID = #{id}
+    </delete>
+</mapper>

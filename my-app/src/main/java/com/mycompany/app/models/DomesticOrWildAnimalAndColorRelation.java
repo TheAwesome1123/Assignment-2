@@ -1,7 +1,8 @@
 package com.mycompany.app.models;
 
 public class DomesticOrWildAnimalAndColorRelation {
-    private int relationID, domesticOrWildAnimalID, colorID;
+    private int relationID;
+    private Integer domesticOrWildAnimalID, colorID;
 
     public int getRelationID() {
         return this.relationID;
@@ -11,19 +12,19 @@ public class DomesticOrWildAnimalAndColorRelation {
         this.relationID = newRelationID;
     }
 
-    public int getDomesticOrWildAnimalID() {
+    public Integer getDomesticOrWildAnimalID() {
         return this.domesticOrWildAnimalID;
     }
 
-    public void setDomesticOrWildAnimalID(int newWildAnimalID) {
+    public void setDomesticOrWildAnimalID(Integer newWildAnimalID) {
         this.domesticOrWildAnimalID = newWildAnimalID;
     }
 
-    public int getColorID() {
+    public Integer getColorID() {
         return this.colorID;
     }
 
-    public void setColorID(int newColorID) {
+    public void setColorID(Integer newColorID) {
         this.colorID = newColorID;
     }
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="OwnerMapper.xml">
+    <insert id="insertOwner" parameterType="com.mycompany.app.models.Owner">
+        INSERT INTO Owners (First_Name, Last_Name) values (#{firstName}, #{lastName})
+    </insert>
+    <select id="selectOwner" parameterType="int" resultType="hashmap">
+        SELECT ID, First_Name, Last_Name, Height FROM Owners WHERE ID = #{id}
+    </select>
+    <update id="updateOwner" parameterType="com.mycompany.app.models.Owner">
+        UPDATE Owners set First_Name = #{firstName}, Last_Name = #{lastName}, Height = #{height} WHERE ID = #{ownerID}
+    </update>
+    <delete id="deleteOwner" parameterType="int">
+        DELETE from Owners where ID = #{id}
+    </delete>
+</mapper>

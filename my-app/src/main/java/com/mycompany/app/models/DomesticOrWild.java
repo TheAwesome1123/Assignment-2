@@ -9,7 +9,7 @@ public class DomesticOrWild {
     @XmlElement(name = "ID")
     private int domesticOrWildID;
     @XmlElement(name = "Animal_ID")
-    private int animalID;
+    private Integer animalID;
     @XmlElement(name = "Type")
     private String domesticOrWildType;
     @XmlElement(name = "IsDomesticated")
@@ -25,12 +25,11 @@ public class DomesticOrWild {
     }
 
     @XmlTransient
-
-    public int getAnimalID() {
+    public Integer getAnimalID() {
         return animalID;
     }
 
-    public void setAnimalID(int animalID) {
+    public void setAnimalID(Integer animalID) {
         this.animalID = animalID;
     }
 

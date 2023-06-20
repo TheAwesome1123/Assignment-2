@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="HomeContinentMapper.xml">
+    <insert id="insertHomeContinent" parameterType="com.mycompany.app.models.HomeContinent">
+        INSERT INTO HomeContinents (HomeContinent) values (#{continent})
+    </insert>
+    <select id="selectHomeContinent" parameterType="int" resultType="hashmap">
+        SELECT * FROM HomeContinents WHERE ID = #{id}
+    </select>
+    <update id="updateHomeContinent">
+        UPDATE HomeContinents set HomeContinent = #{continent} WHERE ID = #{id}
+    </update>
+    <delete id="deleteHomeContinent" parameterType="int">
+        DELETE from HomeContinents where ID = #{id}
+    </delete>
+</mapper>

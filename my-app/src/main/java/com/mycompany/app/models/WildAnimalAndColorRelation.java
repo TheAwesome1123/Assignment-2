@@ -6,9 +6,9 @@ public class WildAnimalAndColorRelation {
     @JsonProperty("ID")
     private int relationID;
     @JsonProperty("WildAnimal ID")
-    private int  wildAnimalID;
+    private Integer wildAnimalID;
     @JsonProperty("Color ID")
-    private int colorID;
+    private Integer colorID;
 
     public int getRelationID() {
         return this.relationID;
@@ -18,19 +18,19 @@ public class WildAnimalAndColorRelation {
         this.relationID = newRelationID;
     }
 
-    public int getWildAnimalID() {
+    public Integer getWildAnimalID() {
         return this.wildAnimalID;
     }
 
-    public void setWildAnimalID(int newWildAnimalID) {
+    public void setWildAnimalID(Integer newWildAnimalID) {
         this.wildAnimalID = newWildAnimalID;
     }
 
-    public int getColorID() {
+    public Integer getColorID() {
         return this.colorID;
     }
 
-    public void setColorID(int newColorID) {
+    public void setColorID(Integer newColorID) {
         this.colorID = newColorID;
     }
 }

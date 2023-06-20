@@ -9,18 +9,18 @@ public class WildAnimal {
     @XmlElement(name = "ID")
     private int wildAnimalID;
     @XmlElement(name = "Animal_ID")
-    private int animalID;
+    private Integer animalID;
     @XmlTransient
-    private int weight;
+    private Integer weight;
     @XmlElement(name = "Type")
     private String wildAnimalType;
 
     @XmlTransient
-    public int getWildAnimalID() {
+    public Integer getWildAnimalID() {
         return wildAnimalID;
     }
 
-    public void setWildAnimalID(int wildAnimalID) {
+    public void setWildAnimalID(Integer wildAnimalID) {
         this.wildAnimalID = wildAnimalID;
     }
 

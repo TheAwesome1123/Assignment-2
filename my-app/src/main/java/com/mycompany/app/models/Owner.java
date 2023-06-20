@@ -8,7 +8,7 @@ public class Owner {
     @JsonProperty("ID")
     private int ownerID;
     @JsonProperty("Height")
-    private double height;
+    private Double height;
     @JsonProperty("FirstName")
     private String firstName;
     @JsonProperty("LastName")
@@ -40,11 +40,11 @@ public class Owner {
         this.lastName = newLastName;
     }
 
-    public double getHeight() {
+    public Double getHeight() {
         return height;
     }
 
-    public void setHeight(double height) {
+    public void setHeight(Double height) {
         this.height = height;
     }
 

@@ -9,7 +9,7 @@ public class Dog {
     @XmlElement(name = "ID")
     private int dogID;
     @XmlElement(name = "Pet_ID")
-    private int petID;
+    private Integer petID;
     @XmlElement(name = "Breed")
     private String breed;
 
@@ -32,11 +32,11 @@ public class Dog {
     }
 
     @XmlTransient
-    public int getPetID() {
+    public Integer getPetID() {
         return petID;
     }
 
-    public void setPetID(int petID) {
+    public void setPetID(Integer petID) {
         this.petID = petID;
     }
 }

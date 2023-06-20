@@ -11,10 +11,10 @@ public class Pet {
     private int petID;
 
     @XmlElement(name = "Owner_ID")
-    private int ownerID;
+    private Integer ownerID;
 
     @XmlElement(name = "Animal_ID")
-    private int animalID;
+    private Integer animalID;
 
     @XmlElement(name = "Type")
     private String petType;
@@ -23,36 +23,36 @@ public class Pet {
     private String name;
 
     @XmlElement(name = "Age")
-    private int age;
+    private Integer age;
 
     @XmlElement(name = "DateOfBirth")
     @XmlJavaTypeAdapter(DateOfBirthAdapter.class)
     private Date dateOfBirth;
 
     @XmlTransient
-    public int getPetID() {
+    public Integer getPetID() {
         return petID;
     }
 
-    public void setPetID(int petID) {
+    public void setPetID(Integer petID) {
         this.petID = petID;
     }
 
     @XmlTransient
-    public int getOwnerID() {
+    public Integer getOwnerID() {
         return ownerID;
     }
 
-    public void setOwnerID(int ownerID) {
+    public void setOwnerID(Integer ownerID) {
         this.ownerID = ownerID;
     }
 
     @XmlTransient
-    public int getAnimalID() {
+    public Integer getAnimalID() {
         return animalID;
     }
 
-    public void setAnimalID(int animalID) {
+    public void setAnimalID(Integer animalID) {
         this.animalID = animalID;
     }
 
@@ -75,7 +75,7 @@ public class Pet {
     }
 
     @XmlTransient
-    public int getAge() {
+    public Integer getAge() {
         return this.age;
     }
 

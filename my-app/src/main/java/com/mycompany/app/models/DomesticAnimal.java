@@ -8,9 +8,9 @@ public class DomesticAnimal {
     @JsonProperty("ID")
     private int domesticAnimalID;
     @JsonProperty("Owner ID")
-    private int ownerID;
+    private Integer ownerID;
     @JsonProperty("Domestic or Wild Animal ID")
-    private int domesticOrWildID;
+    private Integer domesticOrWildID;
     @JsonProperty("Name")
     private String name;
     @JsonProperty("Date of Birth")
@@ -24,11 +24,11 @@ public class DomesticAnimal {
         this.domesticAnimalID = domesticAnimalID;
     }
 
-    public int getOwnerID() {
+    public Integer getOwnerID() {
         return ownerID;
     }
 
-    public void setOwnerID(int ownerID) {
+    public void setOwnerID(Integer ownerID) {
         this.ownerID = ownerID;
     }
 
@@ -40,11 +40,11 @@ public class DomesticAnimal {
         this.name = name;
     }
 
-    public int getDomesticOrWildID() {
+    public Integer getDomesticOrWildID() {
         return domesticOrWildID;
     }
 
-    public void setDomesticOrWildID(int domesticOrWildID) {
+    public void setDomesticOrWildID(Integer domesticOrWildID) {
         this.domesticOrWildID = domesticOrWildID;
     }
 

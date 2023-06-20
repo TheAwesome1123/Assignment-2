@@ -9,7 +9,7 @@ public class HomeContinent {
     @XmlElement(name = "ID")
     private int continentID;
     @XmlElement(name = "WildAnimal_ID")
-    private int wildAnimalID;
+    private Integer wildAnimalID;
     @XmlElement(name = "HomeContinent")
     private String continent;
 
@@ -32,11 +32,11 @@ public class HomeContinent {
     }
 
     @XmlTransient
-    public int getWildAnimalID() {
+    public Integer getWildAnimalID() {
         return this.wildAnimalID;
     }
 
-    public void setWildAnimalID(int newWildAnimalID) {
+    public void setWildAnimalID(Integer newWildAnimalID) {
         this.wildAnimalID = newWildAnimalID;
     }
 }
