@@ -5,7 +5,6 @@ import com.mycompany.app.models.*;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
-import java.util.List;
 
 @XmlRootElement(name = "AnimalsAndProperties")
 public class AnimalsAndProperties {
@@ -16,7 +15,7 @@ public class AnimalsAndProperties {
     @XmlElement(name = "WildAnimal")
     private WildAnimal wildAnimal;
     @XmlElement(name = "DomesticOrWild")
-    private DomesticOrWild domesticOrWild;
+    private DomesticOrWildAnimal domesticOrWildAnimal;
     @XmlElement(name = "HomeContinent")
     private HomeContinent homeContinent;
 
@@ -48,12 +47,12 @@ public class AnimalsAndProperties {
     }
 
     @XmlTransient
-    public DomesticOrWild getDomesticOrWild() {
-        return domesticOrWild;
+    public DomesticOrWildAnimal getDomesticOrWild() {
+        return domesticOrWildAnimal;
     }
 
-    public void setDomesticOrWild(DomesticOrWild domesticOrWild) {
-        this.domesticOrWild = domesticOrWild;
+    public void setDomesticOrWild(DomesticOrWildAnimal domesticOrWildAnimal) {
+        this.domesticOrWildAnimal = domesticOrWildAnimal;
     }
 
     @XmlTransient

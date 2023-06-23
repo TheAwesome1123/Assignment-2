@@ -1,6 +1,6 @@
 package com.mycompany.app.models;
 
-public class DomesticOrWildColor {
+public class DomesticOrWildAnimalColor {
     private int colorID;
     private String color, shade;
 

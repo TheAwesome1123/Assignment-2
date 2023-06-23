@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="TableAltererMapper.xml">
+    <update id="updatePets">
+        ALTER Table Pets add Age int
+    </update>
+    <update id="updateOwners">
+        ALTER Table Owners add Height Double(2, 1)
+    </update>
+    <update id="updateWildAnimals">
+        ALTER Table WildAnimals add Weight int
+    </update>
+</mapper>

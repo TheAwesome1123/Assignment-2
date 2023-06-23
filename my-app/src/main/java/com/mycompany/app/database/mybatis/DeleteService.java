@@ -1,65 +1,112 @@
 package com.mycompany.app.database.mybatis;
 
-import com.mycompany.app.models.Pet;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 
 public class DeleteService {
     private static SqlSessionFactory factory = SqlSessionFactoryGetter.getFactory();
 
-    private static void deleteAnimal(int animalID) {
+    public static void deleteAnimal(int animalID) {
         try(SqlSession session = factory.openSession()) {
+            session.update("PetMapper.xml.updateAnimalForeignKey", animalID);
+            session.update("WildAnimalMapper.xml.updateAnimalForeignKey", animalID);
+            session.update("DomesticOrWildAnimalMapper.xml.updateAnimalForeignKey", animalID);
             session.delete("AnimalMapper.xml.deleteAnimal", animalID);
+            session.commit();
         }
-
-        // Find entries where Animal_ID = animalID and set to null
     }
 
-    private static void deletePet(int petID) {
+    public static void deletePet(int petID) {
         try(SqlSession session = factory.openSession()) {
+            session.update("CatMapper.xml.updatePetForeignKey", petID);
+            session.update("DogMapper.xml.updatePetForeignKey", petID);
             session.delete("PetMapper.xml.deletePet", petID);
+            session.commit();
         }
     }
 
-    private static void deleteCat(int catID) {
+    public static void deleteCat(int catID) {
         try(SqlSession session = factory.openSession()) {
             session.delete("CatMapper.xml.deleteCat", catID);
+            session.commit();
         }
     }
 
-    private static void deleteDog(int dogID) {
+    public static void deleteDog(int dogID) {
         try(SqlSession session = factory.openSession()) {
             session.delete("CatMapper.xml.deleteDog", dogID);
+            session.commit();
         }
     }
 
-    public static void deleteOwner(int ownerID, Pet pet) {
-        pet.setOwnerID(null);
-
+    public static void deleteOwner(int ownerID) {
         try(SqlSession session = factory.openSession()) {
-            session.update("PetMapper.xml.updatePet", pet);
+            session.update("PetMapper.xml.updateOwnerForeignKey", ownerID);
             session.delete("OwnerMapper.xml.deleteOwner", ownerID);
             session.commit();
         }
     }
 
-    private static void deleteWildAnimal(int wildAnimalID) {
+    public static void deleteWildAnimal(int wildAnimalID) {
         try(SqlSession session = factory.openSession()) {
+            session.update("HomeContinentMapper.xml.updateWildAnimalForeignKey", wildAnimalID);
+            session.update("WildAnimalsAndColorsMapper.xml.updateWildAnimalForeignKey",
+                wildAnimalID);
             session.delete("WildAnimalMapper.xml.deleteWildAnimal", wildAnimalID);
+            session.commit();
         }
     }
 
-    private static void deleteHomeContinent(int continentID) {
+    public static void deleteHomeContinent(int continentID) {
         try(SqlSession session = factory.openSession()) {
             session.delete("HomeContinentMapper.xml.deleteHomeContinent", continentID);
+            session.commit();
         }
     }
 
-    private static void deleteDomesticOrWildAnimal(int domesticOrWildAnimalID) {
+    public static void deleteWildAnimalColor(int colorID) {
         try(SqlSession session = factory.openSession()) {
-            session.delete("DomesticOrWildAnimalMapper.xml.deleteDomesticOrWildAnimal", domesticOrWildAnimalID);
+            session.delete("WildAnimalColorMapper.xml.deleteWildAnimalColor", colorID);
+            session.commit();
         }
     }
 
+    public static void deleteWildAnimalAndColorRelation(int relationID) {
+        try(SqlSession session = factory.openSession()) {
+            session.delete("WildAnimalsAndColorsMapper.xml.deleteWildAnimalsAndColors", relationID);
+            session.commit();
+        }
+    }
 
+    public static void deleteDomesticOrWildAnimal(int domesticOrWildAnimalID) {
+        try(SqlSession session = factory.openSession()) {
+            session.update("DomesticOrWildAnimalsAndColorsMapper.xml.updateDomesticOrWildAnimalForeignKey",
+                domesticOrWildAnimalID);
+            session.update("DomesticAnimalMapper.xml.updateDomesticOrWildAnimalForeignKey", domesticOrWildAnimalID);
+            session.delete("DomesticOrWildAnimalMapper.xml.deleteDomesticOrWildAnimal", domesticOrWildAnimalID);
+            session.commit();
+        }
+    }
+
+    public static void deleteDomesticAnimal(int domesticAnimalID) {
+        try(SqlSession session = factory.openSession()) {
+            session.delete("DomesticAnimalMapper.xml.deleteDomesticAnimal", domesticAnimalID);
+            session.commit();
+        }
+    }
+
+    public static void deleteDomesticOrWildAnimalColor(int colorID) {
+        try(SqlSession session = factory.openSession()) {
+            session.delete("DomesticOrWildAnimalColorMapper.xml.deleteDomesticOrWildAnimalColor", colorID);
+            session.commit();
+        }
+    }
+
+    public static void deleteDomesticOrWildAnimalAndColorRelation(int relationID) {
+        try(SqlSession session = factory.openSession()) {
+            session.delete("DomesticOrWildAnimalsAndColorsMapper.xml.deleteDomesticOrWildAnimalsAndColors",
+                relationID);
+            session.commit();
+        }
+    }
 }

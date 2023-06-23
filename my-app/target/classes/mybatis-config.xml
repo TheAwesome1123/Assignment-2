@@ -15,8 +15,19 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource="PetMapper.xml"/>
-        <mapper resource="OwnerMapper.xml"/>
         <mapper resource="AnimalMapper.xml"/>
+        <mapper resource="PetMapper.xml"/>
+        <mapper resource="DogMapper.xml"/>
+        <mapper resource="CatMapper.xml"/>
+        <mapper resource="OwnerMapper.xml"/>
+        <mapper resource="WildAnimalMapper.xml"/>
+        <mapper resource="HomeContinentMapper.xml"/>
+        <mapper resource="WildAnimalColorMapper.xml"/>
+        <mapper resource="WildAnimalsAndColorsMapper.xml"/>
+        <mapper resource="DomesticOrWildAnimalMapper.xml"/>
+        <mapper resource="DomesticAnimalMapper.xml"/>
+        <mapper resource="DomesticOrWildAnimalColorMapper.xml"/>
+        <mapper resource="DomesticOrWildAnimalsAndColorsMapper.xml"/>
+        <mapper resource="TableAltererMapper.xml"/>
     </mappers>
 </configuration>

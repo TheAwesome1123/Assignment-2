@@ -1,7 +1,6 @@
 package com.mycompany.app.xml.domesticorwild;
 
-import com.mycompany.app.models.Dog;
-import com.mycompany.app.models.DomesticOrWild;
+import com.mycompany.app.models.DomesticOrWildAnimal;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import javax.xml.bind.JAXBContext;
@@ -13,27 +12,27 @@ import java.io.FileReader;
 public class DomesticOrWildUnmarshaller {
     private static final Logger LOGGER = LogManager.getLogger(DomesticOrWildUnmarshaller.class);
 
-    public static DomesticOrWild unmarshal(File file) {
-        DomesticOrWild domesticOrWild = null;
+    public static DomesticOrWildAnimal unmarshal(File file) {
+        DomesticOrWildAnimal domesticOrWildAnimal = null;
 
         try {
-            JAXBContext context = JAXBContext.newInstance(DomesticOrWild.class);
-            domesticOrWild = (DomesticOrWild) context.createUnmarshaller().unmarshal(new FileReader(file));
+            JAXBContext context = JAXBContext.newInstance(DomesticOrWildAnimal.class);
+            domesticOrWildAnimal = (DomesticOrWildAnimal) context.createUnmarshaller().unmarshal(new FileReader(file));
 
-            printDomesticOrWildInfo(domesticOrWild);
+            printDomesticOrWildInfo(domesticOrWildAnimal);
         }
         catch (JAXBException | FileNotFoundException e) {
             LOGGER.info(e);
         }
 
-        return domesticOrWild;
+        return domesticOrWildAnimal;
     }
 
-    public static void printDomesticOrWildInfo(DomesticOrWild domesticOrWild) {
+    public static void printDomesticOrWildInfo(DomesticOrWildAnimal domesticOrWildAnimal) {
         LOGGER.info("\nDomestic or Wild Animal");
-        LOGGER.info("ID: " + domesticOrWild.getDomesticOrWildID());
-        LOGGER.info("Type: " + domesticOrWild.getDomesticOrWildType());
-        LOGGER.info("Is Domesticated: " + domesticOrWild.isDomesticated());
-        LOGGER.info("Animal ID: " + domesticOrWild.getAnimalID());
+        LOGGER.info("ID: " + domesticOrWildAnimal.getDomesticOrWildID());
+        LOGGER.info("Type: " + domesticOrWildAnimal.getDomesticOrWildType());
+        LOGGER.info("Is Domesticated: " + domesticOrWildAnimal.isDomesticated());
+        LOGGER.info("Animal ID: " + domesticOrWildAnimal.getAnimalID());
     }
 }

@@ -4,13 +4,20 @@
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="DomesticAnimalMapper.xml">
     <insert id="insertDomesticAnimal" parameterType="com.mycompany.app.models.DomesticAnimal">
-        INSERT INTO DomesticAnimals (Name, Owner_ID, DomesticOrWild_ID) values (#{name}, #(ownerID), #{domesticOrWildID})
+        INSERT INTO DomesticAnimals (Name, Owner_ID, DomesticOrWild_ID) values (#{name}, #{ownerID}, #{domesticOrWildID})
     </insert>
     <select id="selectDomesticAnimal" parameterType="int" resultType="hashmap">
-        SELECT * FROM DomesticAnimals WHERE ID = #{id}
+        SELECT ID, Name, Owner_ID, DomesticOrWild_ID FROM DomesticAnimals WHERE ID = #{id}
     </select>
-    <update id="updateDomesticAnimal">
-        UPDATE DomesticAnimals set Name = #{name} WHERE ID = #{id}
+    <update id="updateDomesticAnimal" parameterType="com.mycompany.app.models.DomesticAnimal">
+        UPDATE DomesticAnimals set Name = #{name}, Owner_ID = #{ownerID}, DomesticOrWild_ID = #{domesticOrWildID}
+        WHERE ID = #{domesticAnimalID}
+    </update>
+    <update id="updateOwnerForeignKey" parameterType="int">
+        UPDATE DomesticAnimals set Owner_ID = NULL WHERE Owner_ID = #{id}
+    </update>
+    <update id="updateDomesticOrWildAnimalForeignKey" parameterType="int">
+        UPDATE DomesticAnimals set DomesticOrWild_ID = NULL WHERE DomesticOrWild_ID = #{id}
     </update>
     <delete id="deleteDomesticAnimal" parameterType="int">
         DELETE from DomesticAnimals where ID = #{id}

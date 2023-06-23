@@ -15,7 +15,7 @@ public class GetterService {
         return DAOs.getWildAnimalDAO().getWildAnimal(id);
     }
 
-    public DomesticOrWild getDomesticOrWild(int id) {
+    public DomesticOrWildAnimal getDomesticOrWild(int id) {
         return DAOs.getDomesticOrWildDAO().getDomesticOrWildAnimal(id);
     }
 
@@ -47,7 +47,7 @@ public class GetterService {
         return DAOs.getDomesticAnimalDAO().getDomesticAnimal(id);
     }
 
-    public DomesticOrWildColor getDomesticOrWildColor(int id) {
+    public DomesticOrWildAnimalColor getDomesticOrWildColor(int id) {
         return DAOs.getDomesticOrWildColorDAO().getDomesticOrWildColor(id);
     }
 

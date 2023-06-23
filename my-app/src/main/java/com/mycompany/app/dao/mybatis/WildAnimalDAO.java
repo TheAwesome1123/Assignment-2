@@ -13,9 +13,14 @@ public class WildAnimalDAO {
     private static SqlSessionFactory factory = SqlSessionFactoryGetter.getFactory();
     private static final Logger LOGGER = LogManager.getLogger(WildAnimalDAO.class);
 
-    public void createWildAnimal(String type, boolean isDomesticated, String name, int ownerID, int animalID) {
+    public void createWildAnimal(String type, int animalID) {
         try(SqlSession session = factory.openSession()) {
-            session.insert("WildAnimalMapper.xml.insertWildAnimal");
+            WildAnimal wildAnimal = new WildAnimal();
+            wildAnimal.setAnimalID(animalID);
+            wildAnimal.setWildAnimalType(type);
+
+            session.insert("WildAnimalMapper.xml.insertWildAnimal", wildAnimal);
+            session.commit();
         }
     }
 
@@ -27,20 +32,23 @@ public class WildAnimalDAO {
             wildAnimal.setWildAnimalID((Integer) results.get("ID"));
             wildAnimal.setWildAnimalType((String) results.get("Type"));
             wildAnimal.setAnimalID((Integer) results.get("Animal_ID"));
+            session.commit();
         }
 
         return wildAnimal;
     }
 
-    public void updateWildAnimal(int id, String isDomesticated) {
+    public void updateWildAnimal(WildAnimal wildAnimal) {
         try(SqlSession session = factory.openSession()) {
-            session.update("WildAnimalMapper.xml.updateWildAnimal");
+            session.update("WildAnimalMapper.xml.updateWildAnimal", wildAnimal);
+            session.commit();
         }
     }
 
     public void deleteWildAnimal(int id) {
         try(SqlSession session = factory.openSession()) {
             session.delete("WildAnimalMapper.xml.deleteWildAnimal", id);
+            session.commit();
         }
     }
 }

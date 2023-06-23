@@ -7,10 +7,13 @@
         INSERT INTO WildAnimals (Type, Animal_ID) values (#{wildAnimalType}, #{animalID})
     </insert>
     <select id="selectWildAnimal" parameterType="int" resultType="hashmap">
-        SELECT * FROM WildAnimals WHERE ID = #{id}
+        SELECT ID, Type, WildAnimal_ID FROM WildAnimals WHERE ID = #{id}
     </select>
-    <update id="updateWildAnimal">
-        UPDATE WildAnimals set Weight = #{weight} WHERE ID = #{id}
+    <update id="updateWildAnimal" parameterType="com.mycompany.app.models.WildAnimal">
+        UPDATE WildAnimals set Type = #{wildAnimalType}, Weight = #{weight} WHERE ID = #{wildAnimalID}
+    </update>
+    <update id="updateAnimalForeignKey" parameterType="int">
+        UPDATE WildAnimals set Animal_ID = NULL where Animal_ID = #{id}
     </update>
     <delete id="deleteWildAnimal" parameterType="int">
         DELETE from WildAnimals where ID = #{id}

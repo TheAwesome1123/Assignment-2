@@ -13,9 +13,14 @@ public class CatDAO {
     private static SqlSessionFactory factory = SqlSessionFactoryGetter.getFactory();
     private static final Logger LOGGER = LogManager.getLogger(CatDAO.class);
 
-    public void createCat(String breed) {
+    public void createCat(String breed, int petID) {
         try(SqlSession session = factory.openSession()) {
-            session.insert("CatMapper.xml.createCat");
+            Cat cat = new Cat();
+            cat.setBreed(breed);
+            cat.setPetID(petID);
+
+            session.insert("CatMapper.xml.insertCat", cat);
+            session.commit();
         }
     }
 
@@ -23,22 +28,26 @@ public class CatDAO {
         Cat cat = new Cat();
 
         try(SqlSession session = factory.openSession()) {
-            HashMap catResults = session.selectOne("CatMapper.xml.selectCat");
+            HashMap catResults = session.selectOne("CatMapper.xml.selectCat", id);
             cat.setCatID((Integer) catResults.get("ID"));
             cat.setBreed((String) catResults.get("Breed"));
             cat.setPetID((Integer) catResults.get("Pet_ID"));
+
+            session.commit();
         }
 
         return cat;
     }
-    public void updateCat(int id) {
+    public void updateCat(Cat cat) {
         try(SqlSession session = factory.openSession()) {
-            session.update("CatMapper.xml.updateCat");
+            session.update("CatMapper.xml.updateCat", cat);
+            session.commit();
         }
     }
     public void deleteCat(int id) {
         try (SqlSession session = factory.openSession()) {
             session.delete("CatMapper.xml.deleteCat", id);
+            session.commit();
         }
     }
 }

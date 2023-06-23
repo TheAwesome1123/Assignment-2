@@ -5,7 +5,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 
 @XmlRootElement(name = "DomesticOrWild")
-public class DomesticOrWild {
+public class DomesticOrWildAnimal {
     @XmlElement(name = "ID")
     private int domesticOrWildID;
     @XmlElement(name = "Animal_ID")

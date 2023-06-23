@@ -13,9 +13,14 @@ public class DogDAO {
     private static SqlSessionFactory factory = SqlSessionFactoryGetter.getFactory();
     private static final Logger LOGGER = LogManager.getLogger(DogDAO.class);
 
-    public void createDog(String breed) {
+    public void createDog(String breed, int petID) {
         try(SqlSession session = factory.openSession()) {
-            session.insert("DogMapper.xml.createDog");
+            Dog dog = new Dog();
+            dog.setBreed(breed);
+            dog.setPetID(petID);
+
+            session.insert("DogMapper.xml.insertDog", dog);
+            session.commit();
         }
     }
 
@@ -27,18 +32,21 @@ public class DogDAO {
             dog.setDogID((Integer) dogResults.get("ID"));
             dog.setBreed((String) dogResults.get("Breed"));
             dog.setPetID((Integer) dogResults.get("Pet_ID"));
+            session.commit();
         }
 
         return dog;
     }
-    public void updateDog(int id) {
+    public void updateDog(Dog dog) {
         try(SqlSession session = factory.openSession()) {
-            session.update("DogMapper.xml.updateDog");
+            session.update("DogMapper.xml.updateDog", dog);
+            session.commit();
         }
     }
     public void deleteDog(int id) {
         try (SqlSession session = factory.openSession()) {
             session.delete("DogMapper.xml.deleteDog", id);
+            session.commit();
         }
     }
 }

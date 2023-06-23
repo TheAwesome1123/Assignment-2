@@ -1,6 +1,6 @@
 package com.mycompany.app.dao.jdbc;
 
-import com.mycompany.app.models.DomesticOrWild;
+import com.mycompany.app.models.DomesticOrWildAnimal;
 import com.mycompany.app.database.jdbc.ConnectionPool;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,9 +10,9 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class DomesticOrWildDAO {
+public class DomesticOrWildAnimalDAO {
     ConnectionPool pool = ConnectionPool.getInstance();
-    private static final Logger LOGGER = LogManager.getLogger(DomesticOrWildDAO.class);
+    private static final Logger LOGGER = LogManager.getLogger(DomesticOrWildAnimalDAO.class);
 
     public void createDomesticOrWildAnimal(String type, boolean isDomesticated, String name, int ownerID, int animalID) {
         String isDomesticatedColumnVal;
@@ -50,9 +50,9 @@ public class DomesticOrWildDAO {
         }
     }
 
-    public DomesticOrWild getDomesticOrWildAnimal(int id) {
+    public DomesticOrWildAnimal getDomesticOrWildAnimal(int id) {
         Connection connection = pool.retrieve();
-        DomesticOrWild domesticatedOrWild = new DomesticOrWild();
+        DomesticOrWildAnimal domesticatedOrWild = new DomesticOrWildAnimal();
         ResultSet resultSet = null;
         String selectStatement = "select ? from DomesticOrWilds where id = ?;";
         PreparedStatement preparedStatement = null;

@@ -15,7 +15,12 @@ public class WildAnimalsAndColorsDAO {
 
     public void createWildAnimalAndColorRelation(int wildAnimalID, int colorID) {
         try(SqlSession session = factory.openSession()) {
-            session.insert("WildAnimalsAndColorsMapper.xml.insertWildAnimalsAndColors");
+            WildAnimalAndColorRelation relation = new WildAnimalAndColorRelation();
+            relation.setColorID(colorID);
+            relation.setWildAnimalID(wildAnimalID);
+
+            session.insert("WildAnimalsAndColorsMapper.xml.insertWildAnimalsAndColors", relation);
+            session.commit();
         }
     }
 
@@ -27,19 +32,22 @@ public class WildAnimalsAndColorsDAO {
             relation.setRelationID((Integer) results.get("ID"));
             relation.setColorID((Integer) results.get("Color_ID"));
             relation.setWildAnimalID((Integer) results.get("WildAnimal_ID"));
+            session.commit();
         }
 
         return relation;
     }
 
-    public void updateWildAnimalAndColorRelation(int id, int wildAnimalID, int colorID) {
+    public void updateWildAnimalAndColorRelation(WildAnimalAndColorRelation relation) {
         try(SqlSession session = factory.openSession()) {
-            session.update("WildAnimalsAndColorsMapper.xml.updateWildAnimalsAndColors");
+            session.update("WildAnimalsAndColorsMapper.xml.updateWildAnimalsAndColors", relation);
+            session.commit();
         }
     }
     public void deleteWildAnimalAndColorRelation(int id) {
         try (SqlSession session = factory.openSession()) {
             session.delete("WildAnimalsAndColorsMapper.xml.deleteWildAnimalsAndColors", id);
+            session.commit();
         }
     }
 }

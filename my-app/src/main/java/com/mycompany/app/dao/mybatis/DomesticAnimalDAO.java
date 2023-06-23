@@ -15,7 +15,13 @@ public class DomesticAnimalDAO {
 
     public void createDomesticAnimal(String name, int ownerID, int domesticOrWildAnimalID) {
         try(SqlSession session = factory.openSession()) {
-            session.insert("DomesticAnimalMapper.xml.createDomesticAnimal");
+            DomesticAnimal domesticAnimal = new DomesticAnimal();
+            domesticAnimal.setOwnerID(ownerID);
+            domesticAnimal.setName(name);
+            domesticAnimal.setDomesticOrWildID(domesticOrWildAnimalID);
+
+            session.insert("DomesticAnimalMapper.xml.insertDomesticAnimal", domesticAnimal);
+            session.commit();
         }
     }
 
@@ -28,18 +34,21 @@ public class DomesticAnimalDAO {
             domesticAnimal.setName((String) domesticAnimalResults.get("Name"));
             domesticAnimal.setOwnerID((Integer) domesticAnimalResults.get("Owner_ID"));
             domesticAnimal.setDomesticOrWildID((Integer) domesticAnimalResults.get("DomesticOrWild_ID"));
+            session.commit();
         }
 
         return domesticAnimal;
     }
-    public void updateDomesticAnimal(int id) {
+    public void updateDomesticAnimal(DomesticAnimal domesticAnimal) {
         try(SqlSession session = factory.openSession()) {
-            session.update("DomesticAnimalMapper.xml.updateDomesticAnimal");
+            session.update("DomesticAnimalMapper.xml.updateDomesticAnimal", domesticAnimal);
+            session.commit();
         }
     }
     public void deleteDomesticAnimal(int id) {
         try (SqlSession session = factory.openSession()) {
             session.delete("DomesticAnimalMapper.xml.deleteDomesticAnimal", id);
+            session.commit();
         }
     }
 }

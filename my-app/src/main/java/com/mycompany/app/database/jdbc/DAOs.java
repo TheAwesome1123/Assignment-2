@@ -6,7 +6,7 @@ public class DAOs {
     private static final AnimalDAO animalDAO = new AnimalDAO();
     private static final PetDAO petDAO = new PetDAO();
     private static final WildAnimalDAO wildAnimalDAO = new WildAnimalDAO();
-    private static final DomesticOrWildDAO domesticOrWildDAO = new DomesticOrWildDAO();
+    private static final DomesticOrWildAnimalDAO DOMESTIC_OR_WILD_ANIMAL_DAO = new DomesticOrWildAnimalDAO();
     private static final CatDAO catDAO = new CatDAO();
     private static final DogDAO dogDAO = new DogDAO();
     private static final OwnerDAO ownerDAO = new OwnerDAO();
@@ -30,8 +30,8 @@ public class DAOs {
         return wildAnimalDAO;
     }
 
-    public static DomesticOrWildDAO getDomesticOrWildDAO() {
-        return domesticOrWildDAO;
+    public static DomesticOrWildAnimalDAO getDomesticOrWildDAO() {
+        return DOMESTIC_OR_WILD_ANIMAL_DAO;
     }
 
     public static CatDAO getCatDAO() {

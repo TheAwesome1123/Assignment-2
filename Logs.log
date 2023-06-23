@@ -10871,7 +10871,7 @@ null
 com.mycompany.app.models.Dog@68f4865
 com.mycompany.app.models.WildAnimal@4816278d
 com.mycompany.app.models.HomeContinent@4eaf3684
-com.mycompany.app.models.DomesticOrWild@40317ba2
+com.mycompany.app.models.DomesticOrWildAnimal@40317ba2
 
 ID: 1
 Type: Dog
@@ -10882,7 +10882,7 @@ Date of Birth: null
 com.mycompany.app.models.Dog@3c01cfa1
 com.mycompany.app.models.WildAnimal@45d2ade3
 com.mycompany.app.models.HomeContinent@727eb8cb
-com.mycompany.app.models.DomesticOrWild@39d9314d
+com.mycompany.app.models.DomesticOrWildAnimal@39d9314d
 
 ID: 1
 Type: Dog
@@ -14056,4 +14056,414 @@ Max
 Bob
 Johnson
 5.0
+
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5398edd0
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5398edd0
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5398edd0
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5398edd0
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5398edd0
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5398edd0
+Dog
+Max
+1
+1
+
+Bob
+Johnson
+Dog
+Max
+4
+1
+1
+
+Bob
+Johnson
+5.0
+
+
+### Error updating database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for DogMapper.xml.createDog
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for DogMapper.xml.createDog
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@73511076
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@73511076
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@73511076
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@73511076
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@73511076
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@73511076
+Dog
+Max
+1
+1
+
+Bob
+Johnson
+Dog
+Max
+4
+1
+1
+
+Bob
+Johnson
+5.0
+
+
+### Error updating database.  Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for DogMapper.xml.insertDog
+### Cause: java.lang.IllegalArgumentException: Mapped Statements collection does not contain value for DogMapper.xml.insertDog
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@73511076
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@73511076
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@73511076
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@73511076
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@73511076
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@73511076
+Dog
+Max
+1
+1
+
+Bob
+Johnson
+Dog
+Max
+4
+1
+1
+
+Bob
+Johnson
+5.0
+
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+Dog
+Max
+1
+1
+
+Bob
+Johnson
+Dog
+Max
+4
+1
+1
+
+Bob
+Johnson
+5.0
+
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+Pet type: Dog
+Pet name: Max
+Pet owner ID: 1
+Pet animal ID: 1
+
+Owner first name: Bob
+Owner last name: Johnson
+Pet type: Dog
+Pet name: Max
+Pet age: 4
+Pet owner ID: 1
+Pet animal ID: 1
+
+Owner first name: Bob
+Owner last name: Johnson
+Owner height: 5.0
+
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+Pet type: Dog
+Pet name: Max
+
+Pet owner ID: 1
+Pet animal ID: 1
+
+Owner first name: Bob
+Owner last name: Johnson
+
+Pet type: Dog
+Pet name: Max
+Pet age: 4
+
+Pet owner ID: 1
+Pet animal ID: 1
+
+Owner first name: Bob
+Owner last name: Johnson
+Owner height: 5.0
+
+
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@7d61eccf
+Pet type: Dog
+Pet name: Max
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+
+Pet type: Dog
+Pet name: Max
+Pet age: 4
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+Owner height: 5.0
+
+
+
+### Error updating database.  Cause: java.lang.NullPointerException
+### The error may exist in WildAnimalMapper.xml
+### The error may involve WildAnimalMapper.xml.insertWildAnimal-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO WildAnimals (Type, Animal_ID) values (?, ?)
+### Cause: java.lang.NullPointerException
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5489c777
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5489c777
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5489c777
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5489c777
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@5489c777
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@5489c777
+Pet type: Dog
+Pet name: Max
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+
+Pet type: Dog
+Pet name: Max
+Pet age: 4
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+Owner height: 5.0
+
+
+
+### Error updating database.  Cause: java.lang.NullPointerException
+### The error may exist in WildAnimalMapper.xml
+### The error may involve WildAnimalMapper.xml.insertWildAnimal-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO WildAnimals (Type, Animal_ID) values (?, ?)
+### Cause: java.lang.NullPointerException
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@62f87c44
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@62f87c44
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@62f87c44
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@62f87c44
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@62f87c44
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@62f87c44
+Pet type: Dog
+Pet name: Max
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+
+Pet type: Dog
+Pet name: Max
+Pet age: 4
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+Owner height: 5.0
+
+
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+Pet type: Dog
+Pet name: Max
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+
+Pet type: Dog
+Pet name: Max
+Pet age: 4
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+Owner height: 5.0
+
+
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+Pet type: Dog
+Pet name: Max
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+
+Pet type: Dog
+Pet name: Max
+Pet age: 4
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+Owner height: 5.0
+
+
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@241a53ef
+Pet type: Dog
+Pet name: Max
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+
+Pet type: Dog
+Pet name: Max
+Pet age: 4
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+Owner height: 5.0
+
+
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c1fca1e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c1fca1e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c1fca1e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c1fca1e
+The connection was retrieved: com.mysql.cj.jdbc.ConnectionImpl@c1fca1e
+Putting the connection back to Connection pool: com.mysql.cj.jdbc.ConnectionImpl@c1fca1e
+Pet type: Dog
+Pet name: Max
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+
+Pet type: Dog
+Pet name: Max
+Pet age: 4
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+Owner height: 5.0
+
+
+Pet type: Dog
+Pet name: Max
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+
+Pet type: Dog
+Pet name: Max
+Pet age: 4
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+Owner height: 5.0
+
+
+Pet type: Dog
+Pet name: Max
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+
+null
+Pet type: Dog
+Pet name: Max
+Pet owner ID: 1
+Pet animal ID: 1
+
+
+Owner first name: Bob
+Owner last name: Johnson
+
+Pet type: Dog
+Pet name: Max
+Pet owner ID: 1
+Pet animal ID: 1
+
+Owner first name: Bob
+Owner last name: Johnson
+
+Pet type: Dog
+Pet name: Max
+Pet age: 4
+Pet owner ID: 1
+Pet animal ID: 1
+
+Owner first name: Bob
+Owner last name: Johnson
+Owner height: 5.0
+
 

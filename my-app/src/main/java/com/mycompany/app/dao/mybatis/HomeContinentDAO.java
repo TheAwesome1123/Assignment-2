@@ -13,9 +13,14 @@ public class HomeContinentDAO {
     private static SqlSessionFactory factory = SqlSessionFactoryGetter.getFactory();
     private static final Logger LOGGER = LogManager.getLogger(HomeContinentDAO.class);
 
-    public void createHomeContinent(String homeContinent, int wildAnimalID) {
+    public void createHomeContinent(String continent, int wildAnimalID) {
         try(SqlSession session = factory.openSession()) {
-            session.insert("HomeContinentMapper.xml.insertHomeContinent");
+            HomeContinent homeContinent = new HomeContinent();
+            homeContinent.setContinent(continent);
+            homeContinent.setWildAnimalID(wildAnimalID);
+
+            session.insert("HomeContinentMapper.xml.insertHomeContinent", homeContinent);
+            session.commit();
         }
     }
 
@@ -27,19 +32,22 @@ public class HomeContinentDAO {
             newHomeContinent.setContinentID((Integer) results.get("ID"));
             newHomeContinent.setContinent((String) results.get("HomeContinent"));
             newHomeContinent.setWildAnimalID((Integer) results.get("WildAnimal_ID"));
+            session.commit();
         }
 
         return newHomeContinent;
     }
 
-    public void updateHomeContinent(int id, String homeContinent) {
+    public void updateHomeContinent(HomeContinent homeContinent) {
         try(SqlSession session = factory.openSession()) {
-            session.update("HomeContinentMapper.xml.updateHomeContinent");
+            session.update("HomeContinentMapper.xml.updateHomeContinent", homeContinent);
+            session.commit();
         }
     }
     public void deleteHomeContinent(int id) {
         try(SqlSession session = factory.openSession()) {
             session.delete("HomeContinentMapper.xml.deleteHomeContinent", id);
+            session.commit();
         }
     }
 }

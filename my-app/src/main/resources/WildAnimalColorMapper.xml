@@ -7,10 +7,10 @@
         INSERT INTO WildAnimalColors (Color, Shade) values (#{color}, #{shade})
     </insert>
     <select id="selectWildAnimalColor" parameterType="int" resultType="hashmap">
-        SELECT * FROM WildAnimalColors WHERE ID = #{id}
+        SELECT ID, Color, Shade FROM WildAnimalColors WHERE ID = #{id}
     </select>
-    <update id="updateWildAnimalColor">
-        UPDATE WildAnimalColors set Color = #{color} WHERE ID = #{id}
+    <update id="updateWildAnimalColor" parameterType="com.mycompany.app.models.WildAnimalColor">
+        UPDATE WildAnimalColors set Color = #{color}, Shade = #{shade} WHERE ID = #{colorID}
     </update>
     <delete id="deleteWildAnimalColor" parameterType="int">
         DELETE from WildAnimalColors where ID = #{id}

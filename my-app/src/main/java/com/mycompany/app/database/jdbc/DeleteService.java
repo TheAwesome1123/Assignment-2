@@ -13,7 +13,7 @@ public class DeleteService {
     public static final WildAnimalDAO wildAnimalDAO = DAOs.getWildAnimalDAO();
     public static final WildAnimalColorDAO wildAnimalColorDAO = DAOs.getWildAnimalColorDAO();
     public static final WildAnimalsAndColorsDAO wildAnimalsAndColorsDAO = DAOs.getWildAnimalsAndColorsDAO();
-    public static final DomesticOrWildDAO domesticOrWildDAO = DAOs.getDomesticOrWildDAO();
+    public static final DomesticOrWildAnimalDAO DOMESTIC_OR_WILD_ANIMAL_DAO = DAOs.getDomesticOrWildDAO();
     public static final DomesticAnimalDAO domesticAnimalDAO = DAOs.getDomesticAnimalDAO();
     public static final DomesticOrWildColorDAO domesticOrWildColorDAO = DAOs.getDomesticOrWildColorDAO();
     public static final DomesticOrWildAnimalsAndColorsDAO domesticOrWildAnimalsAndColorsDAO =
@@ -40,10 +40,10 @@ public class DeleteService {
     }
 
     public static void deleteDomesticOrWildAnimal(int domesticOrWildID) {
-        DomesticOrWild domesticOrWild = domesticOrWildDAO.getDomesticOrWildAnimal(domesticOrWildID);
-        int animalID = domesticOrWild.getAnimalID();
+        DomesticOrWildAnimal domesticOrWildAnimal = DOMESTIC_OR_WILD_ANIMAL_DAO.getDomesticOrWildAnimal(domesticOrWildID);
+        int animalID = domesticOrWildAnimal.getAnimalID();
 
-        domesticOrWildDAO.deleteDomesticOrWildAnimal(domesticOrWildID);
+        DOMESTIC_OR_WILD_ANIMAL_DAO.deleteDomesticOrWildAnimal(domesticOrWildID);
         deleteAnimal(animalID);
     }
 

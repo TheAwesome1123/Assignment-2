@@ -1,6 +1,5 @@
 package com.mycompany.app.xml.wildanimal;
 
-import com.mycompany.app.models.DomesticOrWild;
 import com.mycompany.app.models.WildAnimal;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

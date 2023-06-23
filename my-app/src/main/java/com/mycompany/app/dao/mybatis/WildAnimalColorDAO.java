@@ -13,9 +13,14 @@ public class WildAnimalColorDAO {
     private static SqlSessionFactory factory = SqlSessionFactoryGetter.getFactory();
     private static final Logger LOGGER = LogManager.getLogger(WildAnimalColorDAO.class);
 
-    public void createWildAnimalColor(int wildAnimalID, int colorID) {
+    public void createWildAnimalColor(String color, String shade) {
         try(SqlSession session = factory.openSession()) {
-            session.insert("WildAnimalColorMapper.xml.insertWildAnimalColor");
+            WildAnimalColor wildAnimalColor = new WildAnimalColor();
+            wildAnimalColor.setShade(shade);
+            wildAnimalColor.setColor(color);
+
+            session.insert("WildAnimalColorMapper.xml.insertWildAnimalColor", wildAnimalColor);
+            session.commit();
         }
     }
 
@@ -27,19 +32,22 @@ public class WildAnimalColorDAO {
             wildAnimalColor.setColorID((Integer) colorResults.get("ID"));
             wildAnimalColor.setColor((String) colorResults.get("Color"));
             wildAnimalColor.setShade((String) colorResults.get("Shade"));
+            session.commit();
         }
 
         return wildAnimalColor;
     }
 
-    public void updateWildAnimalColor(int id) {
+    public void updateWildAnimalColor(WildAnimalColor wildAnimalColor) {
         try(SqlSession session = factory.openSession()) {
-            session.update("WildAnimalColorMapper.xml.updateWildAnimalColor");
+            session.update("WildAnimalColorMapper.xml.updateWildAnimalColor", wildAnimalColor);
+            session.commit();
         }
     }
     public void deleteWildAnimalColor(int id) {
         try (SqlSession session = factory.openSession()) {
             session.delete("WildAnimalColorMapper.xml.deleteWildAnimalColor", id);
+            session.commit();
         }
     }
 }

@@ -13,6 +13,12 @@
         UPDATE Pets set Type = #{petType}, Name = #{name}, Owner_ID = #{ownerID}, Animal_ID = #{animalID},
         Age = #{age} WHERE ID = #{petID}
     </update>
+    <update id="updateAnimalForeignKey" parameterType="int">
+        UPDATE Pets set Animal_ID = NULL where Animal_ID = #{id}
+    </update>
+    <update id="updateOwnerForeignKey" parameterType="int">
+        UPDATE Pets set Owner_ID = NULL where Owner_ID = #{id}
+    </update>
     <delete id="deletePet" parameterType="int">
         DELETE from Pets where ID = #{id}
     </delete>

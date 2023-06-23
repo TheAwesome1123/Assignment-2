@@ -5,13 +5,20 @@
 <mapper namespace="DomesticOrWildAnimalsAndColorsMapper.xml">
     <insert id="insertDomesticOrWildAnimalsAndColors" parameterType="com.mycompany.app.models.DomesticOrWildAnimalAndColorRelation">
         INSERT INTO DomesticOrWildAnimalsAndColors (DomesticOrWildAnimal_ID, Color_ID) values
-        (#{domesticOrWildAnimalID}, #(colorID))
+        (#{domesticOrWildAnimalID}, #{colorID})
     </insert>
     <select id="selectDomesticOrWildAnimalsAndColors" parameterType="int" resultType="hashmap">
-        SELECT * FROM DomesticOrWildAnimalsAndColors WHERE ID = #{id}
+        SELECT ID, DomesticOrWildAnimal_ID, Color_ID FROM DomesticOrWildAnimalsAndColors WHERE ID = #{id}
     </select>
-    <update id="updateDomesticOrWildAnimalsAndColors">
-        UPDATE DomesticOrWildAnimalsAndColors set Color_ID = #{colorID} WHERE ID = #{id}
+    <update id="updateDomesticOrWildAnimalsAndColors" parameterType="com.mycompany.app.models.DomesticOrWildAnimalAndColorRelation">
+        UPDATE DomesticOrWildAnimalsAndColors set Color_ID = #{colorID}, DomesticOrWildAnimal_ID = #{domesticOrWildAnimalID}
+        WHERE ID = #{relationID}
+    </update>
+    <update id="updateDomesticOrWildAnimalForeignKey" parameterType="int">
+        UPDATE DomesticOrWildAnimalsAndColors set DomesticOrWildAnimal_ID = NULL WHERE DomesticOrWildAnimal_ID = #{id}
+    </update>
+    <update id="updateColorForeignKey" parameterType="int">
+        UPDATE DomesticOrWildAnimalsAndColors set Color_ID = NULL WHERE Color_ID = #{id}
     </update>
     <delete id="deleteDomesticOrWildAnimalsAndColors" parameterType="int">
         DELETE from DomesticOrWildAnimalsAndColors where ID = #{id}

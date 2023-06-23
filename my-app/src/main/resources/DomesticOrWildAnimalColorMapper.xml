@@ -3,16 +3,16 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="DomesticOrWildAnimalColorMapper.xml">
-    <insert id="insertDomesticOrWildAnimalColor" parameterType="com.mycompany.app.models.DomesticOrWildColor">
-        INSERT INTO DomesticOrWildAnimalColors (Color, Shade) values (#{color}, #{shade})
+    <insert id="insertDomesticOrWildAnimalColor" parameterType="com.mycompany.app.models.DomesticOrWildAnimalColor">
+        INSERT INTO DomesticOrWildColors (Color, Shade) values (#{color}, #{shade})
     </insert>
     <select id="selectDomesticOrWildAnimalColor" parameterType="int" resultType="hashmap">
-        SELECT * FROM DomesticOrWildAnimalColors WHERE ID = #{id}
+        SELECT ID, Color, Shade FROM DomesticOrWildColors WHERE ID = #{id}
     </select>
-    <update id="updateDomesticOrWildAnimalColor">
-        UPDATE DomesticOrWildAnimalColors set Color = #{color} WHERE ID = #{id}
+    <update id="updateDomesticOrWildAnimalColor" parameterType="com.mycompany.app.models.DomesticOrWildAnimalColor">
+        UPDATE DomesticOrWildColors set Color = #{color}, Shade = #{shade} WHERE ID = #{colorID}
     </update>
     <delete id="deleteDomesticOrWildAnimalColor" parameterType="int">
-        DELETE from DomesticOrWildAnimalColors where ID = #{id}
+        DELETE from DomesticOrWildColors where ID = #{id}
     </delete>
 </mapper>

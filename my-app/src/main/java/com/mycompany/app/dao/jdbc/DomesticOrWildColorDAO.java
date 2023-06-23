@@ -1,7 +1,7 @@
 package com.mycompany.app.dao.jdbc;
 
 import com.mycompany.app.database.jdbc.ConnectionPool;
-import com.mycompany.app.models.DomesticOrWildColor;
+import com.mycompany.app.models.DomesticOrWildAnimalColor;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -37,9 +37,9 @@ public class DomesticOrWildColorDAO {
         }
     }
 
-    public DomesticOrWildColor getDomesticOrWildColor(int id) {
+    public DomesticOrWildAnimalColor getDomesticOrWildColor(int id) {
         Connection connection = pool.retrieve();
-        DomesticOrWildColor domesticOrWildColor = new DomesticOrWildColor();
+        DomesticOrWildAnimalColor domesticOrWildAnimalColor = new DomesticOrWildAnimalColor();
         ResultSet resultSet = null;
         String selectStatement = "select ? from DomesticOrWildColors where id = ?;";
         PreparedStatement preparedStatement = null;
@@ -55,9 +55,9 @@ public class DomesticOrWildColorDAO {
             String color = resultSet.getString("Color");
             String shade = resultSet.getString("Shade");
 
-            domesticOrWildColor.setColorID(resultID);
-            domesticOrWildColor.setColor(color);
-            domesticOrWildColor.setShade(shade);
+            domesticOrWildAnimalColor.setColorID(resultID);
+            domesticOrWildAnimalColor.setColor(color);
+            domesticOrWildAnimalColor.setShade(shade);
         }
         catch (SQLException e) {
             throw new RuntimeException(e);
@@ -73,7 +73,7 @@ public class DomesticOrWildColorDAO {
             }
         }
 
-        return domesticOrWildColor;
+        return domesticOrWildAnimalColor;
     }
 
     public void updateDomesticOrWildColor(int id, String color, String shade) {
