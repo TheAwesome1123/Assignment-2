@@ -1,6 +1,8 @@
 package com.mycompany.app.models;
 
-public class DomesticOrWildAnimalAndColorRelation {
+import com.mycompany.app.models.designpattern.Model;
+
+public class DomesticOrWildAnimalAndColorRelation extends Model {
     private int relationID;
     private Integer domesticOrWildAnimalID, colorID;
 

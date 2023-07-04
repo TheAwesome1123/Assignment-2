@@ -1,10 +1,11 @@
 package com.mycompany.app.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.mycompany.app.models.designpattern.Model;
 
 import java.util.List;
 
-public class Owner {
+public class Owner extends Model {
     @JsonProperty("ID")
     private int ownerID;
     @JsonProperty("Height")

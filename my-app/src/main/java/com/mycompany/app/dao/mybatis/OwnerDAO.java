@@ -1,6 +1,8 @@
 package com.mycompany.app.dao.mybatis;
 
 import com.mycompany.app.database.mybatis.SqlSessionFactoryGetter;
+import com.mycompany.app.models.designpattern.ModelFactory;
+
 import com.mycompany.app.models.Owner;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -10,12 +12,13 @@ import org.apache.logging.log4j.Logger;
 import java.util.HashMap;
 
 public class OwnerDAO {
+    private static final ModelFactory modelFactory = ModelFactory.getModelFactory();
     private static SqlSessionFactory factory = SqlSessionFactoryGetter.getFactory();
     private static final Logger LOGGER = LogManager.getLogger(OwnerDAO.class);
 
     public void createOwner(String firstName, String lastName) {
         try(SqlSession session = factory.openSession()) {
-            Owner owner = new Owner();
+            Owner owner = (Owner) modelFactory.createModel("Owner");
             owner.setFirstName(firstName);
             owner.setLastName(lastName);
 
@@ -25,7 +28,7 @@ public class OwnerDAO {
     }
 
     public Owner getOwner(int id) {
-        Owner owner = new Owner();
+        Owner owner = (Owner) modelFactory.createModel("Owner");
 
         try(SqlSession session = factory.openSession()) {
             HashMap ownerResults = session.selectOne("OwnerMapper.xml.selectOwner", id);

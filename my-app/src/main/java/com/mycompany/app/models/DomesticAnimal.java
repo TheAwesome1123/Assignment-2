@@ -1,10 +1,11 @@
 package com.mycompany.app.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.mycompany.app.models.designpattern.Model;
 
 import java.util.Date;
 
-public class DomesticAnimal {
+public class DomesticAnimal extends Model {
     @JsonProperty("ID")
     private int domesticAnimalID;
     @JsonProperty("Owner ID")

@@ -1,6 +1,8 @@
 package com.mycompany.app.dao.mybatis;
 
 import com.mycompany.app.database.mybatis.SqlSessionFactoryGetter;
+import com.mycompany.app.models.designpattern.ModelFactory;
+
 import com.mycompany.app.models.WildAnimalColor;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -10,12 +12,13 @@ import org.apache.logging.log4j.Logger;
 import java.util.HashMap;
 
 public class WildAnimalColorDAO {
+    private static final ModelFactory modelFactory = ModelFactory.getModelFactory();
     private static SqlSessionFactory factory = SqlSessionFactoryGetter.getFactory();
     private static final Logger LOGGER = LogManager.getLogger(WildAnimalColorDAO.class);
 
     public void createWildAnimalColor(String color, String shade) {
         try(SqlSession session = factory.openSession()) {
-            WildAnimalColor wildAnimalColor = new WildAnimalColor();
+            WildAnimalColor wildAnimalColor = (WildAnimalColor) modelFactory.createModel("WildAnimalColor");
             wildAnimalColor.setShade(shade);
             wildAnimalColor.setColor(color);
 
@@ -25,7 +28,7 @@ public class WildAnimalColorDAO {
     }
 
     public WildAnimalColor getWildAnimalColor(int id) {
-        WildAnimalColor wildAnimalColor = new WildAnimalColor();
+        WildAnimalColor wildAnimalColor = (WildAnimalColor) modelFactory.createModel("WildAnimalColor");
 
         try(SqlSession session = factory.openSession()) {
             HashMap colorResults = session.selectOne("WildAnimalColorMapper.xml.selectWildAnimalColor", id);

@@ -1,11 +1,13 @@
 package com.mycompany.app.models;
 
+import com.mycompany.app.models.designpattern.Model;
+
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 
 @XmlRootElement(name = "HomeContinent")
-public class HomeContinent {
+public class HomeContinent extends Model {
     @XmlElement(name = "ID")
     private int continentID;
     @XmlElement(name = "WildAnimal_ID")

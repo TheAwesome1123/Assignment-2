@@ -1,12 +1,13 @@
 package com.mycompany.app.models;
 
+import com.mycompany.app.models.designpattern.Model;
 import com.mycompany.app.xml.pet.DateOfBirthAdapter;
 import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.util.Date;
 
 @XmlRootElement(name = "Pet")
-public class Pet {
+public class Pet extends Model {
     @XmlElement(name = "ID")
     private int petID;
 
@@ -79,7 +80,7 @@ public class Pet {
         return this.age;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 

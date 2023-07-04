@@ -2,6 +2,8 @@ package com.mycompany.app.dao.mybatis;
 
 import com.mycompany.app.database.mybatis.SqlSessionFactoryGetter;
 import com.mycompany.app.models.DomesticOrWildAnimal;
+import com.mycompany.app.models.designpattern.ModelFactory;
+
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.logging.log4j.LogManager;
@@ -10,12 +12,14 @@ import org.apache.logging.log4j.Logger;
 import java.util.HashMap;
 
 public class DomesticOrWildAnimalDAO {
+    private static final ModelFactory modelFactory = ModelFactory.getModelFactory();
     private static SqlSessionFactory factory = SqlSessionFactoryGetter.getFactory();
     private static final Logger LOGGER = LogManager.getLogger(DomesticOrWildAnimalDAO.class);
 
     public void createDomesticOrWildAnimal(String type, boolean isDomesticated, int animalID) {
         try(SqlSession session = factory.openSession()) {
-            DomesticOrWildAnimal domesticOrWildAnimal = new DomesticOrWildAnimal();
+            DomesticOrWildAnimal domesticOrWildAnimal =
+                (DomesticOrWildAnimal) modelFactory.createModel("DomesticOrWildAnimal");
             domesticOrWildAnimal.setDomesticOrWildType(type);
             domesticOrWildAnimal.setDomesticated(isDomesticated);
 
@@ -27,7 +31,8 @@ public class DomesticOrWildAnimalDAO {
     }
 
     public DomesticOrWildAnimal getDomesticOrWildAnimal(int id) {
-        DomesticOrWildAnimal domesticatedOrWild = new DomesticOrWildAnimal();
+        DomesticOrWildAnimal domesticatedOrWild =
+            (DomesticOrWildAnimal) modelFactory.createModel("DomesticOrWildAnimal");
 
         try(SqlSession session = factory.openSession()) {
             HashMap results = session.selectOne("DomesticOrWildAnimalMapper.xml.selectDomesticOrWildAnimal", id);

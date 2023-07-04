@@ -1,6 +1,8 @@
 package com.mycompany.app.models;
 
-public class DomesticOrWildAnimalColor {
+import com.mycompany.app.models.designpattern.Model;
+
+public class DomesticOrWildAnimalColor extends Model {
     private int colorID;
     private String color, shade;
 

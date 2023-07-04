@@ -2,6 +2,8 @@ package com.mycompany.app.dao.mybatis;
 
 import com.mycompany.app.database.mybatis.SqlSessionFactoryGetter;
 import com.mycompany.app.models.DomesticAnimal;
+import com.mycompany.app.models.designpattern.ModelFactory;
+
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.logging.log4j.LogManager;
@@ -10,12 +12,13 @@ import org.apache.logging.log4j.Logger;
 import java.util.HashMap;
 
 public class DomesticAnimalDAO {
+    private static final ModelFactory modelFactory = ModelFactory.getModelFactory();
     private static SqlSessionFactory factory = SqlSessionFactoryGetter.getFactory();
     private static final Logger LOGGER = LogManager.getLogger(DomesticAnimalDAO.class);
 
     public void createDomesticAnimal(String name, int ownerID, int domesticOrWildAnimalID) {
         try(SqlSession session = factory.openSession()) {
-            DomesticAnimal domesticAnimal = new DomesticAnimal();
+            DomesticAnimal domesticAnimal = (DomesticAnimal) modelFactory.createModel("DomesticAnimal");
             domesticAnimal.setOwnerID(ownerID);
             domesticAnimal.setName(name);
             domesticAnimal.setDomesticOrWildID(domesticOrWildAnimalID);
@@ -26,7 +29,7 @@ public class DomesticAnimalDAO {
     }
 
     public DomesticAnimal getDomesticAnimal(int id) {
-        DomesticAnimal domesticAnimal = new DomesticAnimal();
+        DomesticAnimal domesticAnimal = (DomesticAnimal) modelFactory.createModel("DomesticAnimal");
 
         try(SqlSession session = factory.openSession()) {
             HashMap domesticAnimalResults = session.selectOne("DomesticAnimalMapper.xml.selectDomesticAnimal");

@@ -1,8 +1,21 @@
 package com.mycompany.app.models;
 
-public class Animal {
+import com.mycompany.app.models.designpattern.AnimalBuilder;
+import com.mycompany.app.models.designpattern.Model;
+
+public class Animal extends Model {
     private int id;
     private String type, sex;
+
+    public Animal(AnimalBuilder builder) {
+        this.id = builder.getId();
+        this.sex = builder.getSex();
+        this.type = builder.getType();
+    }
+
+    public Animal() {
+
+    }
 
     public int getID() {
         return this.id;

@@ -1,6 +1,8 @@
 package com.mycompany.app.dao.mybatis;
 
 import com.mycompany.app.database.mybatis.SqlSessionFactoryGetter;
+import com.mycompany.app.models.designpattern.ModelFactory;
+
 import com.mycompany.app.models.WildAnimal;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -10,12 +12,13 @@ import org.apache.logging.log4j.Logger;
 import java.util.HashMap;
 
 public class WildAnimalDAO {
+    private static final ModelFactory modelFactory = ModelFactory.getModelFactory();
     private static SqlSessionFactory factory = SqlSessionFactoryGetter.getFactory();
     private static final Logger LOGGER = LogManager.getLogger(WildAnimalDAO.class);
 
     public void createWildAnimal(String type, int animalID) {
         try(SqlSession session = factory.openSession()) {
-            WildAnimal wildAnimal = new WildAnimal();
+            WildAnimal wildAnimal = (WildAnimal) modelFactory.createModel("WildAnimal");
             wildAnimal.setAnimalID(animalID);
             wildAnimal.setWildAnimalType(type);
 
@@ -25,7 +28,7 @@ public class WildAnimalDAO {
     }
 
     public WildAnimal getWildAnimal(int id) {
-        WildAnimal wildAnimal = new WildAnimal();
+        WildAnimal wildAnimal = (WildAnimal) modelFactory.createModel("WildAnimal");
 
         try(SqlSession session = factory.openSession()) {
             HashMap results = session.selectOne("WildAnimalMapper.xml.selectWildAnimal", id);

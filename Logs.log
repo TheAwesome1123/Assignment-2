@@ -14467,3 +14467,47 @@ Owner last name: Johnson
 Owner height: 5.0
 
 
+
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`animals`.`pets`, CONSTRAINT `Pet_Animal_ID` FOREIGN KEY (`Animal_ID`) REFERENCES `animals` (`ID`))
+### The error may exist in PetMapper.xml
+### The error may involve PetMapper.xml.insertPet-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO Pets (Type, Name, Owner_ID, Animal_ID) values (?, ?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`animals`.`pets`, CONSTRAINT `Pet_Animal_ID` FOREIGN KEY (`Animal_ID`) REFERENCES `animals` (`ID`))
+Pet type: Dog
+Pet name: Max
+Pet owner ID: 1
+Pet animal ID: 1
+
+Owner first name: Bob
+Owner last name: Johnson
+
+Pet type: Dog
+Pet name: Max
+Pet age: 4
+Pet owner ID: 1
+Pet animal ID: 1
+
+Owner first name: Bob
+Owner last name: Johnson
+Owner height: 5.0
+
+
+0
+null
+null
+0
+null
+null
+5
+Pet
+Male
+5
+Pet
+Male
+Pet type: Dog
+Pet name: Bob
+Pet age: null
+Pet type: Dog
+Pet name: Bob
+Pet age: 3

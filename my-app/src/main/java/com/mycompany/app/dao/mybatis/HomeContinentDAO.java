@@ -2,6 +2,8 @@ package com.mycompany.app.dao.mybatis;
 
 import com.mycompany.app.database.mybatis.SqlSessionFactoryGetter;
 import com.mycompany.app.models.HomeContinent;
+import com.mycompany.app.models.designpattern.ModelFactory;
+
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.logging.log4j.LogManager;
@@ -10,12 +12,13 @@ import org.apache.logging.log4j.Logger;
 import java.util.HashMap;
 
 public class HomeContinentDAO {
+    private static final ModelFactory modelFactory = ModelFactory.getModelFactory();
     private static SqlSessionFactory factory = SqlSessionFactoryGetter.getFactory();
     private static final Logger LOGGER = LogManager.getLogger(HomeContinentDAO.class);
 
     public void createHomeContinent(String continent, int wildAnimalID) {
         try(SqlSession session = factory.openSession()) {
-            HomeContinent homeContinent = new HomeContinent();
+            HomeContinent homeContinent = (HomeContinent) modelFactory.createModel("HomeContinent");
             homeContinent.setContinent(continent);
             homeContinent.setWildAnimalID(wildAnimalID);
 
@@ -25,7 +28,7 @@ public class HomeContinentDAO {
     }
 
     public HomeContinent getHomeContinent(int id) {
-        HomeContinent newHomeContinent = new HomeContinent();
+        HomeContinent newHomeContinent = (HomeContinent) modelFactory.createModel("HomeContinent");
 
         try(SqlSession session = factory.openSession()) {
             HashMap results = session.selectOne("HomeContinentMapper.xml.selectHomeContinent", id);
