@@ -1,4 +1,4 @@
-package com.mycompany.app.database.mybatis;
+package com.mycompany.app.services.mybatis;
 
 public class DeleteMethods {
     public static void deleteStuff() {

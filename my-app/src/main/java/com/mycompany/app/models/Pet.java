@@ -1,6 +1,6 @@
 package com.mycompany.app.models;
 
-import com.mycompany.app.models.designpattern.Model;
+import com.mycompany.app.designpattern.Model;
 import com.mycompany.app.xml.pet.DateOfBirthAdapter;
 import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;

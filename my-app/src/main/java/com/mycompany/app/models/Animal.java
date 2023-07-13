@@ -1,7 +1,7 @@
 package com.mycompany.app.models;
 
-import com.mycompany.app.models.designpattern.AnimalBuilder;
-import com.mycompany.app.models.designpattern.Model;
+import com.mycompany.app.designpattern.AnimalBuilder;
+import com.mycompany.app.designpattern.Model;
 
 public class Animal extends Model {
     private int id;

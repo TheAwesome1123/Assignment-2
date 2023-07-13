@@ -1,4 +1,4 @@
-package com.mycompany.app.database.jdbc;
+package com.mycompany.app.services.jdbc;
 
 public class UpdateService {
     public static void updateAnimal(int id, String type, String sex) {

@@ -1,4 +1,4 @@
-package com.mycompany.app.database.mybatis;
+package com.mycompany.app.services.mybatis;
 
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

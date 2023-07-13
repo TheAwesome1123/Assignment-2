@@ -1,4 +1,4 @@
-package com.mycompany.app.database.mybatis;
+package com.mycompany.app.services.mybatis;
 
 import com.mycompany.app.dao.mybatis.*;
 

@@ -1,8 +1,8 @@
 package com.mycompany.app.dao.mybatis;
 
-import com.mycompany.app.database.mybatis.SqlSessionFactoryGetter;
+import com.mycompany.app.services.mybatis.SqlSessionFactoryGetter;
 import com.mycompany.app.models.DomesticOrWildAnimal;
-import com.mycompany.app.models.designpattern.ModelFactory;
+import com.mycompany.app.designpattern.ModelFactory;
 
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

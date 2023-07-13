@@ -1,4 +1,4 @@
-package com.mycompany.app.database.jdbc;
+package com.mycompany.app.services.jdbc;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

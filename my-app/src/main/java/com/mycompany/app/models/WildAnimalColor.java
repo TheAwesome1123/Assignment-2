@@ -1,7 +1,7 @@
 package com.mycompany.app.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.mycompany.app.models.designpattern.Model;
+import com.mycompany.app.designpattern.Model;
 
 public class WildAnimalColor extends Model {
     @JsonProperty("ID")

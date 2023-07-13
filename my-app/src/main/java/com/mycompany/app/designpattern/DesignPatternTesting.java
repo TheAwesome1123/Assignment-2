@@ -1,4 +1,4 @@
-package com.mycompany.app.models.designpattern;
+package com.mycompany.app.designpattern;
 
 import com.mycompany.app.models.Animal;
 import com.mycompany.app.models.Pet;

@@ -1,6 +1,6 @@
 package com.mycompany.app.dao.jdbc;
 
-import com.mycompany.app.database.jdbc.ConnectionPool;
+import com.mycompany.app.services.jdbc.ConnectionPool;
 import com.mycompany.app.models.WildAnimalAndColorRelation;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
