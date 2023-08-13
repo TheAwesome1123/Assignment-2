@@ -14511,3 +14511,126 @@ Pet age: null
 Pet type: Dog
 Pet name: Bob
 Pet age: 3
+Cat
+ID: 1
+Breed: American Bobtail
+Pet ID: 2
+
+Domestic Animal
+ID: 3
+Name: Jack
+Owner ID: 1
+Date of Birth: 08/10/19
+Domestic/Wild Animal ID: 2
+
+Wild Animal Color
+ID: 2
+Color: Grey
+Shade: Light
+
+Owner
+ID: 1
+First Name: Bob
+Last Name: Johnson
+Height: 5.5
+Cities visited: [Washington, DC, New York, Philadelphia]
+
+Wild Animal and Color Relations
+ID: 1
+Wild Animal ID: 1
+Color ID: 1
+
+ID: 2
+Wild Animal ID: 1
+Color ID: 2
+
+ID: 3
+Wild Animal ID: 2
+Color ID: 3
+
+Field: fightsWithCats, Modifier(s): private
+Field: breed, Modifier(s): private
+Field: numOfLegs, Modifier(s): private static final
+
+Constructor parameter types: 
+java.lang.String
+com.mycompany.app.enums.DogBreed
+com.mycompany.app.enums.Sex
+int
+java.lang.String
+boolean
+
+Method name: getName, Return Type: java.lang.String
+Method name: equals, Return Type: boolean
+Method name: toString, Return Type: java.lang.String
+Method name: hashCode, Return Type: int
+Method name: setName, Return Type: void
+Method name: makeNoise, Return Type: void
+Method name: eat, Return Type: void
+Method name: getNumOfLegs, Return Type: int
+Method name: adopt, Return Type: void
+Method name: getBreed, Return Type: com.mycompany.app.enums.DogBreed
+Method name: setAge, Return Type: void
+Method name: getAge, Return Type: int
+Method name: setBreed, Return Type: void
+Method name: pet, Return Type: void
+Method name: getFightingWithCatsHabit, Return Type: boolean
+Method name: setFightingWithCatsHabit, Return Type: void
+Getting animal info...
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: N/A, Fights with cats: true
+Getting animal info...
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false
+Getting animal info...
+Elephant Sex: MALE, Home Continent: AFRICA, Color: Grey, Height in feet: 10, Sex: MALE
+Getting animal info...
+Wolf Sex: FEMALE, Home Continent: NORTHAMERICA, Color: Light grey, Pack Size: 3
+Getting animal info...
+Squirrel Sex: FEMALE, Home Continent: EUROPE, Color: Brown, Number of Visits to a House per Day: 2
+Getting animal info...
+Bird Is Domesticated: false, Sex: MALE, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Getting animal info...
+Horse Is Domesticated: true, Sex: FEMALE, Name: Emma, Breed: American Belgian Draft, Age: 3, Owner/Rider: Robert
+
+Getting animal info...
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: N/A, Fights with cats: true
+Getting animal info...
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false
+Getting animal info...
+Elephant Sex: MALE, Home Continent: AFRICA, Color: Grey, Height in feet: 10, Sex: MALE
+Getting animal info...
+Wolf Sex: FEMALE, Home Continent: NORTHAMERICA, Color: Light grey, Pack Size: 3
+Getting animal info...
+Squirrel Sex: FEMALE, Home Continent: EUROPE, Color: Brown, Number of Visits to a House per Day: 2
+Getting animal info...
+Bird Is Domesticated: false, Sex: MALE, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Getting animal info...
+Horse Is Domesticated: true, Sex: FEMALE, Name: Emma, Breed: American Belgian Draft, Age: 3, Owner/Rider: Robert
+Getting animal info...
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: N/A, Fights with cats: true
+Getting animal info...
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false
+Getting animal info...
+Elephant Sex: MALE, Home Continent: AFRICA, Color: Grey, Height in feet: 10, Sex: MALE
+Getting animal info...
+Wolf Sex: FEMALE, Home Continent: NORTHAMERICA, Color: Light grey, Pack Size: 3
+Getting animal info...
+Squirrel Sex: FEMALE, Home Continent: EUROPE, Color: Brown, Number of Visits to a House per Day: 2
+Getting animal info...
+Bird Is Domesticated: false, Sex: MALE, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Getting animal info...
+Horse Is Domesticated: true, Sex: FEMALE, Name: Emma, Breed: American Belgian Draft, Age: 3, Owner/Rider: Robert
+
+Getting animal info...
+Dog Name: Sam, Breed: BEAGLE, Sex: MALE, Age: 5, Owner: N/A, Fights with cats: true
+Getting animal info...
+Dog Name: Max, Breed: GOLDENRETRIEVER, Sex: MALE, Age: 2, Owner: Robert, Fights with cats: false
+Getting animal info...
+Elephant Sex: MALE, Home Continent: AFRICA, Color: Grey, Height in feet: 10, Sex: MALE
+Getting animal info...
+Wolf Sex: FEMALE, Home Continent: NORTHAMERICA, Color: Light grey, Pack Size: 3
+Getting animal info...
+Squirrel Sex: FEMALE, Home Continent: EUROPE, Color: Brown, Number of Visits to a House per Day: 2
+Getting animal info...
+Bird Is Domesticated: false, Sex: MALE, Name: N/A, Breed: Bald Eagle, Age: 4, Owner: N/A
+Getting animal info...
+Horse Is Domesticated: true, Sex: FEMALE, Name: Emma, Breed: American Belgian Draft, Age: 3, Owner/Rider: Robert
